@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--    <script src="Chart.min.js"></script>-->
+<!--    <script src="../js/Chart.bundle.j"></script>-->
+<!--    <script src="angular-chart.js"></script>-->
+<!--    <script src="../bower_components/Chart.js"></script>-->
+<!--    <script src="../bower_components/angular-chart.js"></script>-->
+<!---->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>-->
+<!--  <script src="http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js"></script>-->
+
+
+    <script src="node_modules/angular-chart.js/dist/angular-chart.js"></script>
+  <script src="node_modules/chart.js/dist/Chart.js"></script>
+
+</head>
+<body>
+<div >
+  <canvas id="doughnut" class="chart chart-doughnut"
+          chart-data="data" chart-labels="labels" >
+  </canvas>
+<!--  <canvas id="doughnut-chart" style="width: 250px; height: 100px" ></canvas>-->
+</div>
+
+
+
+<p>HellO World</p>
+<div>
+  {{firstName + " " + lastName }}
+</div>
+
+
+<!--<script>-->
+<!--  var sampleApp = angular.module('myApp',[]);-->
+<!--  sampleApp.controller('DemoController', function($scope) {-->
+<!--    $scope.firstName="Shahed";-->
+<!--    $scope.lastName="Sabab";-->
+<!--  });-->
+<!--</script>-->
+
+<!--<script>-->
+<!--  angular.module('myApp',[])-->
+<!--    .config(['ChartJsProvider', function (ChartJsProvider) {-->
+<!--      // Configure all charts-->
+<!--      ChartJsProvider.setOptions({-->
+<!--        //animation: false,-->
+<!--        //responsive: false-->
+<!--      });-->
+<!--    }])-->
+<!--    .controller('wowController', wowController);-->
+
+<!--  function wowController($scope, $timeout) {-->
+
+<!--    $scope.firstName = "Shahed";-->
+<!--    $scope.lastName = "Sabab";-->
+<!--    var vm = this;-->
+
+<!--    vm.labels = ["Download Sales", "In-Store Sales", "Mail-Order Sales"];-->
+<!--    vm.data = [300, 500, 100];-->
+<!--    vm.options = {-->
+<!--      legend: {-->
+<!--        display: true,-->
+<!--        position: 'bottom'-->
+<!--      },-->
+<!--      cutoutPercentage: 60,-->
+<!--      tooltipEvents: [],-->
+<!--      tooltipCaretSize: 0,-->
+<!--      showTooltips: true,-->
+<!--      onAnimationComplete: function() {-->
+<!--        self.showTooltip(self.segments, true);-->
+<!--      }-->
+<!--    }-->
+
+<!--  }-->
+
+<!--  wowController.$inject = ['$scope', '$timeout'];-->
+<!--</script>-->
+
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop-%2Dpsd-16660 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./150_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./150_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./150_files/27851e2035"></script><script src="./150_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./150_files/linkid.js.download"></script><script type="text/javascript" async="" src="./150_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":157,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>Create a Snowy Landscape From Desert Photography in Photoshop</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./150_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./150_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./150_files/fuse.js.download"></script><script async="async" src="./150_files/analytics.js.download"></script><script src="./150_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="yA1VzonbUYv/72d+0XQeMaqrgbUTRNmjXQe6VQ9asCSCQvv776UyI6T3WCXUT0Y4p6V/Jo1Al5GszMDlKxn69w=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="Create a Snowy Landscape From Desert Photography in Photoshop" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="Photoshop is a great tool because it allows us to be creative and produce imagery that would be impossible to create otherwise. In this tutorial, we will create a snowy landscape from desert..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660" property="og:url"><meta content="true" property="native:billable"><meta content="4057" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660" hreflang="en" rel="alternate"><link href="https://design.tutsplus.com/id/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660" hreflang="id" rel="alternate"><meta content="https://cdn.tutsplus.com/psd/uploads/legacy/Premium_159_Snow/preview.jpg" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="Create a Snowy Landscape From Desert Photography in Photoshop" name="twitter:title"><meta content="Photoshop is a great tool because it allows us to be creative and produce imagery that would be impossible to create otherwise. In this tutorial, we will create a snowy landscape from desert..." name="twitter:description"><meta content="https://cdn.tutsplus.com/psd/uploads/legacy/Premium_159_Snow/preview.jpg" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./150_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script type="text/javascript" async="" src="./150_files/embed.js.download"></script><script async="" type="text/javascript" src="./150_files/count.js.download"></script><script src="./150_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fcreate-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">Create a Snowy Landscape From Desert Photography in Photoshop</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="content-heading"></div><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./150_files/widgets.js.download"></script><div class="post-body__content"><figure class="final-product final-product--image"><img data-src="https://cdn.tutsplus.com/psd/uploads/legacy/Premium_159_Snow/final.jpg" alt="" class="loaded" src="./150_files/final.jpg" data-was-processed="true"></figure><p>Photoshop is a great tool because it allows us to be creative and produce imagery that would be impossible to create otherwise. In this tutorial, we will create a snowy landscape from desert photography and photos of sand. Let's get started!</p>
+<p><!--more--></p>
+<hr>
+<h2 class="nolinks">Tutorial Assets</h2>
+<p>You will need the following assets to complete this tutorial. If they are no longer available, you may need to find alternatives.</p>
+<ul>
+<li><a href="http://www.cgtextures.com/texview.php?id=22066&amp;PHPSESSID=vi3edj8s609jsl0bbo48abhl46">Landscapes0143</a></li>
+<li><a href="http://www.sxc.hu/photo/1261310">Sahara Dunes</a></li>
+<li><a href="http://www.sxc.hu/photo/1243012">Life's a Journey, Enjoy the Ride</a></li>
+<li><a href="http://www.sxc.hu/photo/326705">Desert Sand</a></li>
+<li><a href="http://night-fate-stock.deviantart.com/art/endless-sand-hills-281060400">Endless Sand Hills by Night Fate Stock<br>
+</a></li>
+<li><a href="http://night-fate-stock.deviantart.com/art/desolate-escape-267928658">Desolate Escape by Night Fate Stock<br>
+</a></li>
+<li><a href="http://night-fate-stock.deviantart.com/art/quiet-dunes-284574710?q=boost%3Apopular%20in%3Aresources%20sand%20dunes&amp;qo=2">Quiet Dunes by Night Fate Stock<br>
+</a></li>
+<li><a href="http://joannastar-stock.deviantart.com/art/Landscape-14-80587214">Landscape 14 by Joannastar<br>
+</a></li>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=1383680">Sunset 2</a></li>
+<li><a href="http://www.flickr.com/photos/alex1961/334527322/">IMG_0198 by Alex1961<br>
+</a></li>
+<li><a href="http://www.flickr.com/photos/free-zee/4745756234/">Untitled by Chris Friese<br>
+</a></li>
+<li><a href="http://evelivesey.deviantart.com/art/Castle-211631961?q=gallery%3Aevelivesey%2F26662881&amp;qo=216">Castle by EveLivesey<br>
+</a></li>
+<li><a href="http://grinmir-stock.deviantart.com/art/Tower-VI-Blandy-155070485?q=boost%3Apopular%20in%3Aresources%2Fstockart%20tower&amp;qo=43">Tower VI by Grinmir-stock<br>
+</a></li>
+<li><a href="http://c-and-n-stock.deviantart.com/gallery/11007947#/d23ukjh">Sandsation Stock VI by C-and-N Stock<br>
+</a></li>
+<li><a href="http://www.sxc.hu/photo/1123182">Snow Path</a></li>
+<li>
+<a href="http://wchild.deviantart.com/art/Snowing-texture-117096416">Snowfall by Wchild</a> (Optional)</li>
+<li><a href="http://www.shutterstock.com/pic.mhtml?id=93462343">Happy Little Kids Running<br>
+</a></li>
+<li><a href="http://www.istockphoto.com/stock-photo-5542115-cute-little-girl-running-and-playing.php">Cute Little Girl Running<br>
+</a></li>
+<li><a href="http://www.istockphoto.com/stock-photo-15914902-children-playing-outside-in-winter-runing.php">Children Playing Outside<br>
+</a></li>
+<li><a href="http://www.shutterstock.com/pic-2136980/stock-photo-happy-winter-day-flying-girl-on-the-blue-sky.html">Happy Winter Day<br>
+</a></li>
+<li><a href="http://browse.deviantart.com/resources/?q=casper#/d4imujg">Casper 1 by xTaboo<br>
+</a></li>
+</ul>
+<hr>
+<h2 class="nolinks">
+Before Getting Started<br>
+</h2>
+<p>
+The image we're going to create is inspired by <a href="http://www.lovelybones.com/#concept_art/7">a scene</a> from the movie Lovely Bones, by Peter Jackson. If you have an interest in photo manipulations I strongly recommend that you see the movie as it contains fantastic pieces of art by Michael Pangrazio. In the scene, we see two girls sliding down a hill in a world made of snow. This kind of world not only is a fantastic visual concept, but it is also a nice technical challenge to learn the powerful possibilities of Photoshop.</p>
+<p>
+Since we're going for a fantasy world, I planned to use images of desert dunes to create the snow-scape. This will allow us to have the kind of surreal wavy lines in our landscape that would be impossible to obtain from <a href="http://browse.deviantart.com/resources/?q=snowscape">real pictures of snow</a>.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/0a.jpg" border="0" class="loaded" src="./150_files/0a.jpg" data-was-processed="true"></div>
+<p>
+I'm also planning to have some kind of colorful sunset sky to add to the fantasy of our image. Now, those kinds of sky generally imply strong shadows, so the first thing to do is to collect some photo references to understand how lights and shadows work with snow. From these photo references, we can understand that the shadows on the snow are not black, but more of a very saturated blue. We can also notice that the shadow usually take the tint of the sky, be it cyan or a darker blue. These elements will be very important to remember in order to get a believable render while color correcting the desert photos later on.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/0b.jpg" border="0" class="loaded" src="./150_files/0b.jpg" data-was-processed="true"></div>
+<hr>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h2 class="nolinks">
+Step 1 – Setting up the scene<br>
+</h2>
+<p>
+In Photoshop, create a new file. Make the file 4500 by 2750 pixels.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1a.jpg" border="0" class="loaded" src="./150_files/1a.jpg" data-was-processed="true"></div>
+<p>
+Place <a href="http://www.cgtextures.com/texview.php?id=22066&amp;PHPSESSID=vi3edj8s609jsl0bbo48abhl46">Landscapes0143</a> (File &gt; Place) into your canvas and stretch it so it fits the lenght of your canvas. Name the layer "Background Mountains."</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1b.jpg" border="0" class="loaded" src="./150_files/1b.jpg" data-was-processed="true"></div>
+<p>
+Usually I don't recommend stretching photo elements because it usually breaks the realism. However, since this is a background element, it will most likely go unnoticed. Now, give  your layer a mask (Layer &gt; Layer Mask &gt; Reveal All) and paint out the sky.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1c.jpg" border="0" class="loaded" src="./150_files/1c.jpg" data-was-processed="true"></div>
+<p>
+Import <a href="http://www.sxc.hu/photo/1261310">Sahara Dunes</a> and name the layer "Background Dunes". Stretch the layer 245% in width and 135% in height and place it like in the example.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1d.jpg" border="0" class="loaded" src="./150_files/1d.jpg" data-was-processed="true"></div>
+<p>
+Duplicate the layer (Command/Ctrl + J while having the layer selected), flip it (Edit &gt; Transform &gt; Flip Horizontal) and place it more to the left and under the original layer.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1e.jpg" border="0" class="loaded" src="./150_files/1e.jpg" data-was-processed="true"></div>
+<p>
+Grab the Rectangular Marquee Tool (M), select the left part of the layer and mask it.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1f.jpg" border="0" class="loaded" src="./150_files/1f.jpg" data-was-processed="true"></div>
+<p>
+Place <a href="http://www.sxc.hu/photo/1243012">Lifes a Journey, Enjoy the ride</a> and <a href="http://www.sxc.hu/photo/326705">Desert Sand</a>. Place Desert Sand to the left and the other one to the right, and name them respectively "Dunes Left" and "Dunes Right". Now, "Dunes Right" is a little bit small so we'll have to scale it. Place it to the bottom right corner, hit Command/Ctrl + T, and by clicking the top left corner, scale it up until it reach the left part (should be around 195%). Make sure you hold shift to keep the proportions while scaling. Finally, move down "Dunes Left" until the two fit together.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/1g.jpg" border="0" class="loaded" src="./150_files/1g.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 2 – Masking the skies<br>
+</h2>
+<p>
+Give both "Dunes Left" and "Dunes Right" a mask. Using your favorite method, remove the sky for both images.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/2a.jpg" border="0" class="loaded" src="./150_files/2a.jpg" data-was-processed="true"></div>
+<p>
+Let's do the same process for the two "Background Dune" layers. Now, since one of them already have a mask, we are going to group them and give the group a mask. This will allow us to manage both masks individually if we ever want to make some changes further on.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/2b.jpg" border="0" class="loaded" src="./150_files/2b.jpg" data-was-processed="true"></div>
+<p>
+Finally, let's give our white background a cold sky color. This will make our whole image easier to work with until we add the clouds. Give your first Swatch the color #8098D8 and your second swatch the color #D1D9E6. Click the Gradient Tool (G), select the Radial Gradient mode, and drag a gradient across the screen as shown in the example.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/2c.jpg" border="0" class="loaded" src="./150_files/2c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 3 – Turning the sand into snow<br>
+</h2>
+<p>
+To color correct the sand, we'll use the Gradient Map adjustment. Gradient Map is a very powerful feature that is often overlooked. It basically uses the luminosity of the image to apply color based on the gradient you create. In other words, this mean that if you apply a red to blue gradient on a black and white image, the blacks will become red, the whites will become blue, and everything in between will become a mix of both depending on their level of gray.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/3a.jpg" border="0" class="loaded" src="./150_files/3a.jpg" data-was-processed="true"></div>
+<p>
+However, the gradient adjustment layer can't do it all on its own, that's why we'll also need a Curves and a Color Balance adjustment. On the top of everything, add the following:</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/3b.jpg" border="0" class="loaded" src="./150_files/3b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 4 – Some adjustments<br>
+</h2>
+<p>
+Now, while this technically looks like snow, there are a few issues we can notice. First, the sky is affected by the adjustments. Secondly, the left and the right part of the dunes don't have the same contrast. And finally, the distant dunes and mountains are kind of washed out.</p>
+<p>
+First, let's block our sky. To do this, we will get the selection from our already extracted dunes layers, and use this selection as a mask for our adjustment layers. Select your three layer adjustments along with the dunes layers (holding Shift or Command/Ctrl) and group them (Command/Ctrl + G). Name the group "Dunes", duplicate the group (Command/Ctrl + J) and merge it.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/4a.jpg" border="0" class="loaded" src="./150_files/4a.jpg" data-was-processed="true"></div>
+<p>
+Command/Ctrl + Click on the "Dunes copy" vignette to create a selection from it, then select your "Dunes" folder and create a mask. Now, the previous adjustments won't affect our sky.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/4b.jpg" border="0" class="loaded" src="./150_files/4b.jpg" data-was-processed="true"></div>
+<p>
+You can now delete the "Dunes copy" layer as we won't need it anymore.</p>
+<p>
+Next, give both the "Dunes right" and "Dunes left" the following Curve adjustment layer. Make sure they are clipped to the layer so they won't affect anything else.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/4c.jpg" border="0" class="loaded" src="./150_files/4c.jpg" data-was-processed="true"></div>
+<p>
+Add the following curves adjustments inside the "Background Dunes" folder. There is no need to clip it since the "Dunes" folder's mask will prevent it from affecting the sky and the mountain below anyway.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/4d.jpg" border="0" class="loaded" src="./150_files/4d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 5 – Blending &amp; Cleaning<br>
+</h2>
+<p>
+This is starting to look good. In this step, we'll remove the unwanted plants and car in the right part of our image. Also, we'll blend the middle together. We can either do this under or over the color adjustments. I choose to do them under because this will give me the flexibility to change the adjustments later if I ever want to, without having to repaint everything over.</p>
+<p>
+First, hide the three adjustment layers used to create the snow. Then, using your favorite tools, paint over the car and the plants.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/5a.jpg" border="0" class="loaded" src="./150_files/5a.jpg" data-was-processed="true"></div>
+<p>
+Let's improve the composition by adding a small ledge on the right part. Grab the Pen Tool (P) and draw a shape according to the example. In the Path Panel, click the load Path as selection button. Create a new layer, and paint the ledge within the selection. Name the layer "Ledge".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/5b.jpg" border="0" class="loaded" src="./150_files/5b.jpg" data-was-processed="true"></div>
+<p>
+To make the ledge blend softly with the left part, you can gently erase or mask its side with a large soft brush.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/5c.jpg" border="0" class="loaded" src="./150_files/5c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 6 – Texturing the snow<br>
+</h2>
+<p>
+In the "Dunes" folder, place <a href="http://night-fate-stock.deviantart.com/art/endless-sand-hills-281060400">Endless Sand Hills</a>. Hit Command/Ctrl + T to enter Free Transform mode and give it a shape that fits with the hills underneath. Add a Curves and a Gradient Map adjustment so the colors fit the scene. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/6a.jpg" border="0" class="loaded" src="./150_files/6a.jpg" data-was-processed="true"></div>
+<p>
+Give the layer a Layer Mask and mask out the top left and the right part of the layer with a soft brush.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/6b.jpg" border="0" class="loaded" src="./150_files/6b.jpg" data-was-processed="true"></div>
+<p>
+Repeat the same process with <a href="http://night-fate-stock.deviantart.com/art/desolate-escape-267928658">Desolate Escape</a>. This time, you will also need to use the Wrap transform mode to get the desired transformation. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/6c.jpg" border="0" class="loaded" src="./150_files/6c.jpg" data-was-processed="true"></div>
+<p>
+For the rightmost dunes, do the same process once again only this time with <a href="http://night-fate-stock.deviantart.com/art/quiet-dunes-284574710?q=boost%3Apopular%20in%3Aresources%20sand%20dunes&amp;qo=2">Quiet Dunes</a>. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/6d.jpg" border="0" class="loaded" src="./150_files/6d.jpg" data-was-processed="true"></div>
+<p>
+Finally, import <a href="http://night-fate-stock.deviantart.com/art/desolate-escape-267928658">Desolate Escape</a> once again and this time give it the following transformations. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/6e.jpg" border="0" class="loaded" src="./150_files/6e.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 7 – Adding the clouds<br>
+</h2>
+<p>
+Above your "Background" layer, place <a href="http://joannastar-stock.deviantart.com/art/Landscape-14-80587214">Landscape 14</a> and stretch it so it fits the canvas. Name it "Sky1".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7a.jpg" border="0" class="loaded" src="./150_files/7a.jpg" data-was-processed="true"></div>
+<p>
+Above, open up <a href="http://www.sxc.hu/browse.phtml?f=download&amp;id=1383680">Sunset 2</a>, stretch it according to the example, and set it to screen. Name it "Sky2".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7b.jpg" border="0" class="loaded" src="./150_files/7b.jpg" data-was-processed="true"></div>
+<p>
+Now we'll add the pink clouds. This effect was achieved after a lot of playing around by me. It's kind of a complex process so I'll try to resume it the best way possible for you.</p>
+<p>
+Open <a href="http://www.flickr.com/photos/parksdh/5147430827/">Nov 4 Sunset</a> and place it into your composition. Stretch it so it fits your canvas. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7c.jpg" border="0" class="loaded" src="./150_files/7c.jpg" data-was-processed="true"></div>
+<p>
+You can remove parts of the sky you don't want using the Blend If tool in the Layer Styles. To unlock the two handles, hold Alt before clicking and dragging them.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7d.jpg" border="0" class="loaded" src="./150_files/7d.jpg" data-was-processed="true"></div>
+<p>
+Now I want to do some color corrections adjustment on the layer, but I can't do it right now because it will mess with the blue pixels we've just hidden. To avoid this, merge the layer with a new blank layer. Now, you can Command/Ctrl + Click on the vignette to convert it into a selection.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7e.jpg" border="0" class="loaded" src="./150_files/7e.jpg" data-was-processed="true"></div>
+<p>
+Import the clouds layer once more, and use the selection to give the layer a mask. This will allow to mask out the dark blues without using the Blend If method.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7f.jpg" border="0" class="loaded" src="./150_files/7f.jpg" data-was-processed="true"></div>
+<p>
+With the Hue/Saturation adjustment (Command/Ctrl + U), remove the yellowish areas by altering the Reds and the Yellows.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7g.jpg" border="0" class="loaded" src="./150_files/7g.jpg" data-was-processed="true"></div>
+<p>
+Now, we can distort the layer to give it a little bit more movements. Go to Edit &gt; Transform &gt; Wrap and distort it according to the example.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7h.jpg" border="0" class="loaded" src="./150_files/7h.jpg" data-was-processed="true"></div>
+<p>
+The Blues still looks kind of too intense to me. We can correct this by playing with the Blend If once again.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7i.jpg" border="0" class="loaded" src="./150_files/7i.jpg" data-was-processed="true"></div>
+<p>
+Finally, to give the light pink tone to the clouds, you can add the following two adjustment layers. Don't forget to name the layer "Pink Clouds".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7j.jpg" border="0" class="loaded" src="./150_files/7j.jpg" data-was-processed="true"></div>
+<p>
+Once you are done, group everything into a folder and name it "Sky".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/7k.jpg" border="0" class="loaded" src="./150_files/7k.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 8 – Adding haze<br>
+</h2>
+<p>
+One of the key to achieve realism is to add haze over the distance. It is important to remember that because of the density of the air and other things like dust and mist, objects tend to lose contrast and saturation as they get further away from us. They also tend to get a blue tint. To create this effect, pick up a large soft brush and the color #C0C0DC. Create a new layer directly above the "Dunes" folder, and draw a straight line along the horizon. Set the layer to 30% opacity and name it "Haze".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/8a.jpg" border="0" class="loaded" src="./150_files/8a.jpg" data-was-processed="true"></div>
+<p>
+Duplicate the layer, increase its luminosity (Command/Ctrl + U), scale it down vertically, and set it to 45% opacity. Name the layer "Haze2".</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/8b.jpg" border="0" class="loaded" src="./150_files/8b.jpg" data-was-processed="true"></div>
+<p>
+Now, the mountains in the back are a little bit to bright to my tastes. Create a new layer above "Background Mountains", fill it with #C0C9E0 (Edit &gt; Fill &gt; Color...) and set the layer to the Darker Color blending mode.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/8c.jpg" border="0" class="loaded" src="./150_files/8c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 9 – Adding the castle<br>
+</h2>
+<p>
+Now that our plate is done we can get ourselves started with the real stuff! For the main part of the castle, I will use <a href="http://www.shutterstock.com/pic-1757483/stock-photo-sand-castle.html">Sand Castle 4</a>. However, if you don't want to pay for the stock image, you can use <a href="http://misskayastock.deviantart.com/art/sand-castle-3-82119802">this image </a> from DeviantArt instead. In fact, I strongly recommend that you use this one instead as it has more contrast and more volume, which is what we are aiming for. Using your favorite tool, extract the upper part of the castle from the picture. Place the image inside your working file and give it a Gradient Map using colors sampled from your scene. Name the layer "Castle" and place it in a group of the same name.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/9a.jpg" border="0" class="loaded" src="./150_files/9a.jpg" data-was-processed="true"></div>
+<p>
+Open up <a href="http://www.flickr.com/photos/free-zee/4745756234/">Untitled</a> and this time extract the right part with the door and the two towers. Place it in your document and flip it. Scale it down, and using the Distort transform mode, distort it so the towers to the left and the right are vertical. In this step, I also used the Wrap transform mode to adjust the lower right part so it is straight. I also moved the castle a little bit more to the right so it fits better with the gate. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/9b.jpg" border="0" class="loaded" src="./150_files/9b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 10 – Drawing the bridge<br>
+</h2>
+<p>
+Using the Pen Tool (P), we'll draw the bridge. Make sure your pen is in Path mode and draw the shape of the ledges of the bridge on your canvas, convert it into a selection, and fill it with any color.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/10a.jpg" border="0" class="loaded" src="./150_files/10a.jpg" data-was-processed="true"></div>
+<p>
+Repeat the same process until the bridge is completed. Make sure that every part is on a different layer and place them all in a folder named "Bridge"</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/10b.jpg" border="0" class="loaded" src="./150_files/10b.jpg" data-was-processed="true"></div>
+<p>
+Lock the transparency of each layer, and using a soft brush (B), sample colors from your scene and paint inside your layer so they fit with the rest of the castle.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/10c.jpg" border="0" class="loaded" src="./150_files/10c.jpg" data-was-processed="true"></div>
+<p>
+Using the same technique, add two new layer under the "Castle" group, and give them the appropriate light and colors.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/10d.jpg" border="0" class="loaded" src="./150_files/10d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 11 – More castle parts<br>
+</h2>
+<p>
+Open up <a href="http://evelivesey.deviantart.com/art/Castle-211631961?q=gallery%3Aevelivesey%2F26662881&amp;qo=216">Castle</a> in a new window and extract it from the background, leaving out the flags. Don't forget to clean the middle window with the people in it. To do so, you can easily sample the one of the other window and paste it over. I also went ahead and cleaned out the people and the grassy areas in the bottom using the Clone Stamp Tool (S) inside a selection. Save this file as we are going to need it twice. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/11a.jpg" border="0" class="loaded" src="./150_files/11a.jpg" data-was-processed="true"></div>
+<p>
+Merge everything and bring the right part of the castle into your composition. Scale it down to about 38%, select the left part and distort it a little so it to give it a little bit of perspective. Finally, give it the following gradient:</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/11b.jpg" border="0" class="loaded" src="./150_files/11b.jpg" data-was-processed="true"></div>
+<p>
+Name the layer "Right Part" and place it into a folder of the same name.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/11c.jpg" border="0" class="loaded" src="./150_files/11c.jpg" data-was-processed="true"></div>
+<p>
+By duplicating the layer and using the Clone Stamp Tool (S), draw the rest of the wall. Be careful to follow the perspective to maintain realism.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/11d.jpg" border="0" class="loaded" src="./150_files/11d.jpg" data-was-processed="true"></div>
+<p>
+Let's do the same for the left part. Place to the left and scale it down. Since the light would be blocked by the snow castle, this part should logically be in full shadow. To do so, create a Curves adjustment layer, clip it to the layer and drop the highlights. Mask out the darker part so the overall light is even.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/11e.jpg" border="0" class="loaded" src="./150_files/11e.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 12 – The tower<br>
+</h2>
+<p>
+Open <a href="http://grinmir-stock.deviantart.com/art/Tower-VI-Blandy-155070485?q=boost%3Apopular%20in%3Aresources%2Fstockart%20tower&amp;qo=43">Tower VI</a> and extract the sky. Select the middle part of the tower and bring it into your work area. Scale it up until it reaches the ground. Give the layer a black to white Gradient Overlay layer style in the soft light blending mode and merge it with a new layer to apply the layer style (this is important otherwise the next part won't work). Clip a Gradient Map to it sampling colors from the upper castle so it fits the upper part of the tower.  Finally, create a circular selection at the bottom using the Elliptical Marquee Tool (M), invert it (Shift + Command/Ctrl + I) and mask out the bottom of the tower. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/12a.jpg" border="0" class="loaded" src="./150_files/12a.jpg" data-was-processed="true"></div>
+<p>
+Also, name your layer "Tower" and place it in a folder of the same name. Make sure that the folder is on top of everything. Once you are done, group every part of the castle together and name the folder "Castle Group"</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/12b.jpg" border="0" class="loaded" src="./150_files/12b.jpg" data-was-processed="true"></div>
+<p>
+In case you missed anything, here is what your composition should look like.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/12c.jpg" border="0" class="loaded" src="./150_files/12c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 13 – More stuff<br>
+</h2>
+<p>
+Open <a href="http://c-and-n-stock.deviantart.com/gallery/11007947#/d23ukjh">Sandsation Stock VI</a> and extract it from the background. Place the layer between "Castle Group" and "Dunes". Give it a Gradient Map adjustment, name it "Elephant" and place it in a folder of the same name. You can also clip a new layer on top of it and give it a little bit more of white on to top right (by simply painting with a soft white brush).</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/13a.jpg" border="0" class="loaded" src="./150_files/13a.jpg" data-was-processed="true"></div>
+<p>
+Open <a href="http://www.flickr.com/photos/alex1961/334527322/">IMG_0198</a> and once again, go through the same process for the three pillars. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/13b.jpg" border="0" class="loaded" src="./150_files/13b.jpg" data-was-processed="true"></div>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/13c.jpg" border="0" class="loaded" src="./150_files/13c.jpg" data-was-processed="true"></div>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/13d.jpg" border="0" class="loaded" src="./150_files/13d.jpg" data-was-processed="true"></div>
+<p>
+Group every pillars in a folder and name them according to their positions.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/13e.jpg" border="0" class="loaded" src="./150_files/13e.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 14 – Shadows<br>
+</h2>
+<p>
+In order to create a shadow for the castle, we'll need to first have a selection of its shape. Duplicate your "Castle" folder and merge it (Right-Click &gt; Merge Group). Command/Ctrl + Click on its vignette to get the selection and fill it with a dark saturated blue. Using the Distort transform mode, give it the appropriate angle and perspective. You can also use Wrap to give it the rounded shape of the hill. The key for realistic shadows is to have a layer set to Multiply (for the darker tone) and one set to Normal (to diminish the detail), both with low opacity. Once you are done, you can group the layers and mask out the part of the shadow that cross the top of the hill, because logically it wouldn't be seen.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/14a.jpg" border="0" class="loaded" src="./150_files/14a.jpg" data-was-processed="true"></div>
+<p>
+In the same folder, create a new layer, and with a soft brush, paint the shadow in front of the castle.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/14b.jpg" border="0" class="loaded" src="./150_files/14b.jpg" data-was-processed="true"></div>
+<p>
+Do the same process for the rightmost pillar. Since the object is very close to the screen, give the shadow a little bit of Motion Blur to increase the realism. Also, because the object is close to us, the shadow should be a darker. Set the Normal layer to 40% opacity and the Multiply layer to 20%</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/14c.jpg" border="0" class="loaded" src="./150_files/14c.jpg" data-was-processed="true"></div>
+<p>
+Group the two layers and gently mask out the shadows as it goes away from the pillar.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/14d.jpg" border="0" class="loaded" src="./150_files/14d.jpg" data-was-processed="true"></div>
+<p>
+You can now use the same technique to create the shadows for the two other pillars and the elephant.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/14e.jpg" border="0" class="loaded" src="./150_files/14e.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 15 – Adding the children</h2>
+<p>
+Adding people to your artwork is often a really good idea, as it help establish the scale of the objects as well as adding some life to it. However, I couldn't find good enough stocks from the free websites. I had to resign myself to buy the stock from paying websites. If you do not want to do so, feel free to skip this step. Otherwise, open <a href="http://www.shutterstock.com/pic.mhtml?id=93462343">Happy Little Kids Running</a> and extract them from their background. Separate the two children and place them so it looks like they are holding their hands. You can adjust the color of their coats with a Hue/Saturation layer set to colorize, using the mask layer to block the other areas. In the end, give both layers a Photo Filter adjustment. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15a.jpg" border="0" class="loaded" src="./150_files/15a.jpg" data-was-processed="true"></div>
+<p>
+Open <a href="http://www.istockphoto.com/stock-photo-5542115-cute-little-girl-running-and-playing.php">Cute Little Girl Running</a> and do the same process, only this time, use the curves to soften the contrast. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15b.jpg" border="0" class="loaded" src="./150_files/15b.jpg" data-was-processed="true"></div>
+<p>
+Do the same process once again with <a href="http://www.istockphoto.com/stock-photo-15914902-children-playing-outside-in-winter-runing.php">Children Playing Outside</a>. Since this image doesn't have prominent light direction, we'll add more shadow on the left using the Inner Shadow layer style. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15c.jpg" border="0" class="loaded" src="./150_files/15c.jpg" data-was-processed="true"></div>
+<p>
+We'll add another Inner Shadow adjustment, only this time to increase the light on the right side. To do so without removing the already in place Inner Shadow, duplicate the layer, and add the Layer style. Make sure that the layer's Fill is set to 0% so it won't hide the underlying one.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15d.jpg" border="0" class="loaded" src="./150_files/15d.jpg" data-was-processed="true"></div>
+<p>
+Open <a href="http://www.shutterstock.com/pic-2136980/stock-photo-happy-winter-day-flying-girl-on-the-blue-sky.html">Happy Winter Day</a> and place it on the Elephant like he is sliding down it. This helps convey the reader toward the center of the image. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15e.jpg" border="0" class="loaded" src="./150_files/15e.jpg" data-was-processed="true"></div>
+<p>
+Open <a href="http://browse.deviantart.com/resources/?q=casper#/d4imujg">Casper 1</a> and do the same process for the dog as well. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/15f.jpg" border="0" class="loaded" src="./150_files/15f.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 16 – Children's shadows<br>
+</h2>
+<p>
+Using the same technique as in step 14, create a shadow for every child.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/16a.jpg" border="0" class="loaded" src="./150_files/16a.jpg" data-was-processed="true"></div>
+<p>
+By grouping the layers and giving the group a mask, we can attenuate the shadows a little bit as they get further away from their subject.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/16b.jpg" border="0" class="loaded" src="./150_files/16b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 17 – Castle's bricks<br>
+</h2>
+<p>
+When we zoom in into the castle, we can see these big bricks coming out of the wall. These small details help selling the fact that the castle is made of snow and give the image a fantasy feels. We'll add the same bricks to the rest of the castle's walls. On a new layer, create a black rectangular shape. Select it, and go to Edit &gt; Define Brush Preset. Now, using our new brush shape, draw a bunch of rectangles according to the example. Select them, and using the Distort transformation mode, place them in perspective.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/17a.jpg" border="0" class="loaded" src="./150_files/17a.jpg" data-was-processed="true"></div>
+<p>
+Duplicate the layer. Move the one underneath (in red in the example) a little bit upward and toward the left. Give it a dark blue color and apply the following layer styles to the layer above.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/17b.jpg" border="0" class="loaded" src="./150_files/17b.jpg" data-was-processed="true"></div>
+<p>
+With the same technique, you can do the front part of the castle as well.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/17c.jpg" border="0" class="loaded" src="./150_files/17c.jpg" data-was-processed="true"></div>
+<p>
+Once again, with the same technique, draw a bunch of flattened circles on the bridge, and give them the following layer styles.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/17d.jpg" border="0" class="loaded" src="./150_files/17d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 18 – Snow traces<br>
+</h2>
+<p>
+Open <a href="http://www.sxc.hu/photo/1123182">Snow Path</a> and place it in perspective according to your example. Make sure the layer is under the "Castle Group", "Childrens" and all these layers, but over the "Dunes" folder. You can hide most of the layer using the Blend If method, and hide the rest with a mask.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/18a.jpg" border="0" class="loaded" src="./150_files/18a.jpg" data-was-processed="true"></div>
+<p>
+At this point, you can merge the layer with a blank one to apply the Blend If, then give it the following adjustment.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/18ab.jpg" border="0" class="loaded" src="./150_files/18ab.jpg" data-was-processed="true"></div>
+<p>
+Using yet another mask, you can draw out some parts of the path to make it look less stretched.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/18b.jpg" border="0" class="loaded" src="./150_files/18b.jpg" data-was-processed="true"></div>
+<p>
+With the Photoshop default's chalk brushes, paint traces on the snow behind the dog and give it the following layer styles.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/18c.jpg" border="0" class="loaded" src="./150_files/18c.jpg" data-was-processed="true"></div>
+<p>
+You can use the same technique to create more traces where the children are.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/18d.jpg" border="0" class="loaded" src="./150_files/18d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 19 – Texture and small details<br>
+</h2>
+<p>
+You can also apply some <a href="http://www.cgtextures.com/texview.php?id=8537&amp;PHPSESSID=kmmflrmvpr3npo8pbe24lpgab1">snow texture</a> in the Soft Light blending mode to give your castle a more convincing look. The key here is to place the texture in perspective using the Distort transformation mode. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/19a.jpg" border="0" class="loaded" src="./150_files/19a.jpg" data-was-processed="true"></div>
+<p>
+You can proceed to do the rest of the bridge using this technique.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/19b.jpg" border="0" class="loaded" src="./150_files/19b.jpg" data-was-processed="true"></div>
+<p>
+On a new layer, you can paint over the part of the image that don't blend well together. In this example, all of the painting was made with the default Chalk brush sampling colors from the image.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/19c.jpg" border="0" class="loaded" src="./150_files/19c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Step 20 – Color correction and final adjustments<br>
+</h2>
+<p>
+Another way to bring the whole image together is to add Gradient Map adjustments set to low opacity and different blending modes. These two Gradient Maps will also give a warmer tone to our image's highlights.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20a.jpg" border="0" class="loaded" src="./150_files/20a.jpg" data-was-processed="true"></div>
+<p>
+We can also create a more dense and convincing light by drawing a huge soft circle in the upper right corner. For a convincing effect, it is important that you let the layer in the Normal blending mode. Lower the layer's opacity to 20%.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20b.jpg" border="0" class="loaded" src="./150_files/20b.jpg" data-was-processed="true"></div>
+<p>
+Once you are done, duplicate every layer and merge them together. Give them the following Smart Sharpen and Add Noise effects. These two effects will help bringing he whole image together as well as making it pop-out a little bit more.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20c.jpg" border="0" class="loaded" src="./150_files/20c.jpg" data-was-processed="true"></div>
+<p>
+For a little touch of realism, we can also add some gentle falling snow. Place <a href="http://wchild.deviantart.com/art/Snowing-texture-117096416">Snowfall</a> into your canvas. Now, we could simply set the layer to the Screen blending mode, but there's a way to get a more convincing snow. First, mask out the black using the Blend If technique. </p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20d.jpg" border="0" class="loaded" src="./150_files/20d.jpg" data-was-processed="true"></div>
+<p>
+Duplicate the layer a few times, and scale them down according to the example.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20e.jpg" border="0" class="loaded" src="./150_files/20e.jpg" data-was-processed="true"></div>
+<p>
+Hit Command/Ctrl + U to enter the Hue/Saturation adjustment. Check the Colorize icon and give the layer a blue tint. Set the layer to Soft Light.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/20f.jpg" border="0" class="loaded" src="./150_files/20f.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">
+Conclusion<br>
+</h2>
+<p>
+We're done! The big idea of this tutorial was to show how we can change the stock photography nature to get a completely different result that what it was made for. When creating an artwork, it is important to try to see beyond the stock colors and shapes. Photoshop is really a powerful application, and all combined, its tools really make for endless possibilities. It's up to you to find them. In case you missed something, here's your final layer setup.</p>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/21.jpg" border="0" class="loaded" src="./150_files/21.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Final Image</h2>
+<div class="tutorial_image"><img data-src="https://cdn.tutsplus.com/psd/uploads/2013/11/final.jpg" border="0" class="loaded" src="./150_files/final(1).jpg" data-was-processed="true"></div>
+</div></div></div></div></article></main></div><div class="quick-links view quick-links__collapsed view--loaded"><div class="quick-links__container"><div class="quick-links__content"><ul class="quick-links__list"><li class="quick-links__list-title">Web Themes &amp; Templates</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/wordpress">WP Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/site-templates">HTML Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/ecommerce/shopify">Shopify Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/tags/bootstrap">Bootstrap Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/free/wordpress-themes">Free WordPress Themes</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/after-effects-project-files">After Effects Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/apple-motion-templates">Apple Motion Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/tags/effects">Video Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/motion-graphics/lower-thirds">Lower Thirds</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/stock-footage">Stock Footage</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Audio</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/music">Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/sound">Sound Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/popular_item/by_category?category=music">Best Selling Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/source-files/logic-pro">Logic Pro Files</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/tags/background">Background Music</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Code</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/wordpress">WordPress Plugins</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/php-scripts">PHP Script</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/javascript">JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/css">CSS Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/plugins/prestashop">PrestaShop Plugins</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Graphics</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/logo-templates">Logo Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/print-templates/business-cards">Business Card Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/add-ons/lightroom-presets">Lightroom Presets</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/serif">Serif Fonts</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/sans-serif">Sans-serif Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Photos</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/food">Food Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/animals">Animal Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/technology">Tech Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/fitness,sports#content">Fitness Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/nature,travel#content">Nature Stock Photos</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Design Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/logos?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=logo_quick-links">Logo Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=business%20card%20maker&amp;h=36&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=buscard_quick-links">Business Card Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=t-shirt%20design&amp;h=35&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=tshirt-maker_quick-links">T-Shirt Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/banner-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=banner_maker_quick-links">Banner Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/flyer-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=flyer_maker_quick-links">Flyer Maker</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/intro-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=intro_maker_quick_links">Intro Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/slideshow-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=slideshow_video_maker_quick_links">Slideshow Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/instagram-story-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=instagram_story_videomaker_quick_links">Instagram Story Video Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_devices=Offers%20%2F%20Sales&amp;h=117&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=offer_sales_quick-links">Offer / Sales</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_tags=Content%20Teaser&amp;h=120&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=content_teaser_quick-links">Content Teaser</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Elements</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/wordpress/themes">WordPress Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/photos">Stock Images</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/web-templates/site-templates">Website Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/graphic-templates/logos">Logos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/fonts">Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Tuts+</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://code.tutsplus.com/series/learn-javascript-the-complete-guide--cms-1112">Learn JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/series/learn-adobe-photoshop--cms-1098">Photoshop Tutorials</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/articles/how-to-draw--cms-25787">How to Draw</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://webdesign.tutsplus.com/series/learn-how-to-use-wordpress--cms-1074">How to Use WordPress</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://business.tutsplus.com/series/how-to-use-powerpoint-ultimate-tutorial-guide--cms-1207">How to Use PowerPoint</a></li></ul></div></div></div><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./150_files/f(1).txt">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-abutted tether-out-of-bounds tether-element-attached-top tether-element-attached-left tether-target-attached-top tether-target-attached-left tether-abutted-top tether-out-of-bounds-left tether-abutted-left tether-out-of-bounds-top" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight purple"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/create-a-snowy-landscape-from-desert-photography-in-photoshop--psd-16660"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./150_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./150_files/saved_resource.html"></iframe></body></html>

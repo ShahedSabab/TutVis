@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation-%2Dpsd-16421 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./151_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./151_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./151_files/27851e2035"></script><script src="./151_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./151_files/linkid.js.download"></script><script type="text/javascript" async="" src="./151_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":167,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>Create an Unexpected Photo Manipulation</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./151_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./151_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./151_files/fuse.js.download"></script><script async="async" src="./151_files/analytics.js.download"></script><script src="./151_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="qua2a/RgJDSanDhrjYlhFzK6jAF0aRpdHcU4BOpvhaTgqRhekh5HnMGEBzCIsjkeP7RykuptVG/sDkK0zizPdw=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="Create an Unexpected Photo Manipulation" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="A good photo manipulation depends on two primary factors, the creativity behind the piece, and the techniques that were used to accomplish it. In this tutorial we will combine several unrelated..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421" property="og:url"><meta content="false" property="native:billable"><meta content="2150" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421" hreflang="en" rel="alternate"><link href="https://design.tutsplus.com/es/tutorials/create-an-unexpected-photo-manipulation--psd-16421" hreflang="es" rel="alternate"><meta content="https://cms-assets.tutsplus.com/legacy-premium-tutorials/default-preview-images/design-and-illustration.png" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="Create an Unexpected Photo Manipulation" name="twitter:title"><meta content="A good photo manipulation depends on two primary factors, the creativity behind the piece, and the techniques that were used to accomplish it. In this tutorial we will combine several unrelated..." name="twitter:description"><meta content="https://cms-assets.tutsplus.com/legacy-premium-tutorials/default-preview-images/design-and-illustration.png" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./151_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script type="text/javascript" async="" src="./151_files/embed.js.download"></script><script async="" type="text/javascript" src="./151_files/count.js.download"></script><script src="./151_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fcreate-an-unexpected-photo-manipulation--psd-16421">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design" style="height: auto;"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">Create an Unexpected Photo Manipulation</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="content-heading"></div><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./151_files/widgets.js.download"></script><div class="post-body__content"><p>A good photo manipulation depends on two primary factors, the creativity behind the piece, and the techniques that were used to accomplish it. <!--more-->In this tutorial we will combine several unrelated photos and combine them to create a baby pig that is being hatched from an egg. Let's get started!</p>
+<hr>
+<h2 class="nolinks">Tutorial Assets</h2>
+<p>The following assets were used during the production of this tutorial.</p>
+<ul>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=939149">Egg Carton</a></li>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=1153431">Cracked Egg</a></li>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=1323164">Monkey</a></li>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=1362213">Elephant</a></li>
+<li><a href="http://www.sxc.hu/browse.phtml?f=view&amp;id=1291786">Pig</a></li>
+</ul>
+<hr>
+<h2 class="nolinks">Step 1</h2>
+<p>Start by opening the image of the egg carton.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_280662acc63edac3e140cc84e701da24.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_01.jpg" class="loaded" src="./151_files/29542_280662acc63edac3e140cc84e701da24.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h2 class="nolinks">Step 2</h2>
+<p>We need to remove the smiley face from the egg. Select the Patch Tool and make sure the Patch Source is set to Source.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_242e074e9017e0d20e229ed6d1de0b9e.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_02.jpg" class="loaded" src="./151_files/29542_242e074e9017e0d20e229ed6d1de0b9e.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 3</h2>
+<p>Using the Patch Tool, make a selection around any part of the drawing. Move the selection to a similar colored area of the image. The Patch Tool gives us a live preview of the patch so it is easy to tell if the colors match.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_d98f6710392c650f407e0e520579a2bc.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_03a.jpg" class="loaded" src="./151_files/29542_d98f6710392c650f407e0e520579a2bc.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Sometimes it may not be possible to completely fix our target area with one patch. Just repeat the process until the target area is acceptable.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_ab8f4f6f8183037371a4225641a2ae64.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_03b.jpg" class="loaded" src="./151_files/29542_ab8f4f6f8183037371a4225641a2ae64.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 4</h2>
+<p>Continue using the Patch Tool to remove the rest of the smiley face.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_e0e2d38ae3ec039c4fe874487d5e23e9.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_04.jpg" class="loaded" src="./151_files/29542_e0e2d38ae3ec039c4fe874487d5e23e9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 5</h2>
+<p>Next, open up the image of the cracked egg and use the Pen Tool to make a selection around the cracked part of the egg. Depending on your image, this may be one of the rare times, which you don’t need to utilize Bezier curves.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_629452807f81827acaaba83b2a9e3f2d.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_05.jpg" class="loaded" src="./151_files/29542_629452807f81827acaaba83b2a9e3f2d.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 6</h2>
+<p>After you’ve completed the path, right click and choose Make Selection with the Feather Radius set to 1 px.  </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_86572be317213fe8955e0f5bb35f8513.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_06.jpg" class="loaded" src="./151_files/29542_86572be317213fe8955e0f5bb35f8513.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 7</h2>
+<p>Copy (Command/Ctrl + C) and Paste (Command/Ctrl + V) your selection into the original scene and rename the layer "Cracked Egg."</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_0e10a89600cb300a108451c2704d33ca.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_07.jpg" class="loaded" src="./151_files/29542_0e10a89600cb300a108451c2704d33ca.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 8</h2>
+<p>Right Click this layer in the Layers Panel and select Convert to Smart Object. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_db94a9c543270f455838b332ec29010a.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_08.jpg" class="loaded" src="./151_files/29542_db94a9c543270f455838b332ec29010a.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 9</h2>
+<p>Transform (Command/Ctrl + T) the Smart Object to a desired position. Don’t worry if it doesn’t fit perfectly into place, we will correct this in the next step.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_c52b058d10a24ecfa0ad495b24793240.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_09.jpg" class="loaded" src="./151_files/29542_c52b058d10a24ecfa0ad495b24793240.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 10</h2>
+<p>To fix any parts that might be sticking out, create a new Layer Mask to mask out these pieces. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_ab96eed326bdff39f44e0545819322d6.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_10.jpg" class="loaded" src="./151_files/29542_ab96eed326bdff39f44e0545819322d6.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 11</h2>
+<p>As of now, our new layer does not match the depth-of-field in our scene. To fix this, we first need to add a Gaussian Blur to our Smart Object with a setting of 1.1 px. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_07d0fc6073df14ed799f5f4c9ab010a3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_11a.jpg" class="loaded" src="./151_files/29542_07d0fc6073df14ed799f5f4c9ab010a3.jpg" data-was-processed="true"><br>
+        </figure>
+<p>The Gaussian Blur filter becomes a Smart Filter since it was applied to a Smart Object. That means we can adjust the values at any time. It also means that a Layer Mask was automatically created that will directly affect the filter. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_f125d4e0a56bda6dd0fec43641013b2b.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_11b.jpg" class="loaded" src="./151_files/29542_f125d4e0a56bda6dd0fec43641013b2b.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Click on the Smart Filter’s Layer Mask to activate it and using a black brush, paint over the areas of the cracked egg that should be in focus. This will mask out the blur in these areas.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_53c36c66c8dba0e0eecbcee52142892a.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_11c.jpg" class="loaded" src="./151_files/29542_53c36c66c8dba0e0eecbcee52142892a.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 12</h2>
+<p>Go back to the image of the cracked egg and take a look at the hairline fractures running down the egg. We want to emulate this in our scene.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_20f405dcae912a84255c9cb9ccc99cc4.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_12a.jpg" class="loaded" src="./151_files/29542_20f405dcae912a84255c9cb9ccc99cc4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Go back to our scene and create a new layer called "Fractures."  Sample the color from inside the egg and, using a brush set to 1 px, draw these fractures.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_1bf775818b364db63c8bd66edc0f2db0.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_12b.jpg" class="loaded" src="./151_files/29542_1bf775818b364db63c8bd66edc0f2db0.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 13</h2>
+<p>It may appear that the 1 px brush is producing lines that are too thick. We can create the illusion of a thinner line by adjusting the layer’s Opacity. This can be demonstrated with the following graphic.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_f500c790448054c748fc4d303517ae0b.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_13a.jpg" class="loaded" src="./151_files/29542_f500c790448054c748fc4d303517ae0b.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Go ahead and reduce the "Fracture" layer’s Opacity to 41%.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_c89a7d3ee16bd746592daf7d3dcb67e3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_13b.jpg" class="loaded" src="./151_files/29542_c89a7d3ee16bd746592daf7d3dcb67e3.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 14</h2>
+<p>With the cracked egg in place, we still have some of the original egg showing through in the background. We will need to rebuild the background so that it appears as if there was no egg there. Take note of the other eggs in the background that we will have to rebuild—there are about four.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_57475813b19a968a3646e5c8a547cd25.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14a.jpg" class="loaded" src="./151_files/29542_57475813b19a968a3646e5c8a547cd25.jpg" data-was-processed="true"><br>
+        </figure>
+<p>To start rebuilding the background, hide the "Cracked Egg" layer and the "Fractures" layer so we have a clean egg to work with. Use the Elliptical Marquee Tool to select the egg and Copy (Command/Ctrl + C) and Paste (Command/Ctrl + V) the selection to a new layer. We will use this egg to rebuild the background.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_0632993616617cf8a05f2c4648df6a95.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14b.jpg" class="loaded" src="./151_files/29542_0632993616617cf8a05f2c4648df6a95.jpg" data-was-processed="true"><br>
+        </figure>
+<p>We need to get this egg to match the same blurring as the background egg. Go to Filter &gt; Blur &gt; Gaussian Blur to set the Radius to a setting that matches one of the background eggs. In this case, I am going to rebuild the egg immediately behind the front egg (Egg number one according to our diagram), which has a Gaussian Blur Radius of about 6 px. Position this layer so that it covers the egg we are working on (egg number one).</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_a87d4c6b76679d89d48ff07b24587235.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14c.jpg" class="loaded" src="./151_files/29542_a87d4c6b76679d89d48ff07b24587235.jpg" data-was-processed="true"><br>
+        </figure>
+<p>We need to blend this egg with the existing background. Add a Layer Mask and unhide the "Cracked Egg" layer so we can see what we are working with. Click the Mask in the layer's panel to activate it and use a soft, black brush to hide parts of our new layer so that it blends with the background.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_0a20420655d1612e443fc65ae5f22673.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14d.jpg" class="loaded" src="./151_files/29542_0a20420655d1612e443fc65ae5f22673.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Zooming in, we can see that the noise from the original image does not match our masked layer. To resolve this, add the Noise Filter (Filter &gt; Noise &gt; Add Noise) with a very low Amount (I used 0.58%).</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_c2d38750bce76f05c533d0a8e9e8fec4.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14e.jpg" class="loaded" src="./151_files/29542_c2d38750bce76f05c533d0a8e9e8fec4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Continue the technique of rebuilding an egg on the other three background eggs. Your image should resemble the following:.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_4c2b23904b6b4c75212a66f951a60ddb.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_14f.jpg" class="loaded" src="./151_files/29542_4c2b23904b6b4c75212a66f951a60ddb.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 15</h2>
+<p>Next, open the image of the Pig. Before we start to extract the pig from the background, we want to remove the nail on wood post. Using the Clone Tool, clone out the nail.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_3d7f1437771a17caa10d14015d4e71db.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_15.jpg" class="loaded" src="./151_files/29542_3d7f1437771a17caa10d14015d4e71db.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 16</h2>
+<p>It’s important to note that our original scene has a high depth-of-field and, because of this, we will be blurring the edges of the pig in our scene. Therefore, we will not be spending a lot of time trying to perfect our selection.</p>
+<p>
+To start our selection, go to the Channels Panel and make a copy of the Red Channel. We are starting with this channel because it appears to have the most contrast.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_57d14768417ab6555032db26908f5e27.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_16.jpg" class="loaded" src="./151_files/29542_57d14768417ab6555032db26908f5e27.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 17</h2>
+<p>Using a soft brush set to Overlay, paint with black around the edges of the Pig to enhance the contrast.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_73dd77204a73dda5cc0cb167fff02b44.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_17.jpg" class="loaded" src="./151_files/29542_73dd77204a73dda5cc0cb167fff02b44.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 18</h2>
+<p>Adjust the levels to bring out more contrast. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_e5ec70ef56b2cab5e23de7c39180ba21.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_18a.jpg" class="loaded" src="./151_files/29542_e5ec70ef56b2cab5e23de7c39180ba21.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Change the Brush’s Mode back to Normal, and use white and black colors to clean up the image so that we are left with black and white mask. You may need to manually add in the feet.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_bfe5676053a64ce074b405090c54947b.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_18b.jpg" class="loaded" src="./151_files/29542_bfe5676053a64ce074b405090c54947b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 19</h2>
+<p>Invert (Command/Ctrl + I) this channel and then Command/Ctrl-click the channel to make a selection. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_1a588a6ad5831bbf02c9bfd85ebc31c7.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_19.jpg" class="loaded" src="./151_files/29542_1a588a6ad5831bbf02c9bfd85ebc31c7.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 20</h2>
+<p>Select the RGB Channel and go back to Layer’s Panel and select the full color layer. Copy (Command/Ctrl + C) and Paste (Command/Ctrl + V) the selection onto a new layer. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_6882bd90de1c5ff2efebc434d399a6f3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_20.jpg" class="loaded" src="./151_files/29542_6882bd90de1c5ff2efebc434d399a6f3.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 21</h2>
+<p>You can quickly test to see how clean your Mask is by applying a stroke to your new layer. If you see any stray areas, just erase them. When you’re done, copy this layer (without the stroke) into our original scene and name it "Pig."</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_ced9effbca85600f5b653008219ffbc9.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_21.jpg" class="loaded" src="./151_files/29542_ced9effbca85600f5b653008219ffbc9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 22</h2>
+<p>Transform (Command/Ctrl + T) the layer so that it fits nicely over the egg.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_3b01a48466c7ebbaa1ac9b1c580e13ba.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_22a.jpg" class="loaded" src="./151_files/29542_3b01a48466c7ebbaa1ac9b1c580e13ba.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Use the Clone Tool to continue the body of the pig. so that it completely overlaps the opening of the egg. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_93663ef37f535254536d6eb51a427e89.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_22b.jpg" class="loaded" src="./151_files/29542_93663ef37f535254536d6eb51a427e89.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 23</h2>
+<p>To make the pig appear to be inside the egg, we need to add a layer mask. Using a small brush, mask out the pig so that the egg shell shows through. It helps to zoom in. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_7f2e16a4f2518ef6a0515a904c14c668.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_23.jpg" class="loaded" src="./151_files/29542_7f2e16a4f2518ef6a0515a904c14c668.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 24</h2>
+<p>Currently, the pig does not blend well with the rest of the scene. We are going to use an Adjustment Layer to fix this. Add a Levels Adjustment layer as a clipping layer and adjust the setting so the pig appears to match the warmth of the scene better. Your settings may vary.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_cd9abf2f209aa745e8c452a8cbffbefe.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_24.jpg" class="loaded" src="./151_files/29542_cd9abf2f209aa745e8c452a8cbffbefe.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 25</h2>
+<p>We are going to add some quick highlights and shadows. One method that I sometimes like is an old method that Scott Kelby used to use. Create a new clipping layer to the "Pig" layer and fill it with 50% gray. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_29c41919990d7918f39ffbc20e8a42b3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_25a.jpg" class="loaded" src="./151_files/29542_29c41919990d7918f39ffbc20e8a42b3.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Set this layer’s Blending Mode to Soft Light and with a large, soft brush with a low opacity, start painting shadows with black and highlights with white. By keeping the brush’s opacity low, we can gradually build up realistic shadows.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_f0ec655d723bf8cfbba147b3f64ea063.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_25b.jpg" class="loaded" src="./151_files/29542_f0ec655d723bf8cfbba147b3f64ea063.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 26</h2>
+<p>Our next step is to give the pig more character. To do this we are going to change its expression. Start by opening the image of the monkey.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_13a618bcff02fa482f6a1fb54fa3855e.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_26.jpg" class="loaded" src="./151_files/29542_13a618bcff02fa482f6a1fb54fa3855e.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 27</h2>
+<p>Select the Elliptical Marquee Tool and set the Feather to 5 px. Now, select the monkey’s eye.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_d5f1ddf6987fd900570d47c1d6e1a174.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_27.jpg" class="loaded" src="./151_files/29542_d5f1ddf6987fd900570d47c1d6e1a174.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 28</h2>
+<p>Copy and Paste the eye into our scene.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_09b5872b9baeb2609a14320620bac487.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_28.jpg" class="loaded" src="./151_files/29542_09b5872b9baeb2609a14320620bac487.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 29</h2>
+<p>Currently, the eye is not shaped as round as it could be. To reshape the eye, open the Liquify Filter (Filter &gt; Liquify).</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_c4eea89083e6912833a788464fe4efb7.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_29.jpg" class="loaded" src="./151_files/29542_c4eea89083e6912833a788464fe4efb7.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 30</h2>
+<p>Select the Bloat Tool and click a few times in the middle of the eye to force some roundness to the eye.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_677da08d6142f0f5a9ca0263be99202b.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_30.jpg" class="loaded" src="./151_files/29542_677da08d6142f0f5a9ca0263be99202b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 31</h2>
+<p>Next, select the Forward Warp Tool (with the settings 148, 57, 64) and ‘push’ the edges of the eye outward until it forms a circle.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_6d2eb129fc7d104a59a518f12dba8133.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_31.jpg" class="loaded" src="./151_files/29542_6d2eb129fc7d104a59a518f12dba8133.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 32</h2>
+<p>Now that our eye has the shape we are looking for, go ahead and resize it and place it into position. If necessary, create a new Layer Mask to clean up around the eye.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_f2060196ee3bcbcd03257b8fae56f0ad.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_32.jpg" class="loaded" src="./151_files/29542_f2060196ee3bcbcd03257b8fae56f0ad.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 33</h2>
+<p>Make a copy of this eye and move the layer below the "Pig" layer in the Layers Panel. Position this new eye so that it’s barely peeking out from behind the pig.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_10f1e449b7531b644f9b1e2f6fe9f4e3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_33.jpg" class="loaded" src="./151_files/29542_10f1e449b7531b644f9b1e2f6fe9f4e3.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 34</h2>
+<p>The back eye appears a little flat. Using a small white brush, add a couple dots of highlight to give the eye more life.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_0d3c3ed0f27a02173849ae5dabaf8c34.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_34.jpg" class="loaded" src="./151_files/29542_0d3c3ed0f27a02173849ae5dabaf8c34.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 35</h2>
+<p>Our next step is to add some wrinkled eyebrows. Start by opening up the image of the elephant. Using the Lasso Tool with the Feather set to 5 px, make a selection around the wrinkles on the elephant’s trunk. This will provide us some great texture to use above the pig’s eyes.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_85c5be7be079c2dadd0bed4024a778f0.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_35.jpg" class="loaded" src="./151_files/29542_85c5be7be079c2dadd0bed4024a778f0.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 36</h2>
+<p>Copy and Paste the selection into our main scene and Desaturate this layer by pressing Command/Ctrl + Shift + U.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_162a8278a4d597b1c2150aaeb217d9ff.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_36.jpg" class="loaded" src="./151_files/29542_162a8278a4d597b1c2150aaeb217d9ff.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 37</h2>
+<p>Scale the layer using Crtl + T so that it fits above the eye. With the layer still in Transform Mode, activate the Warp Mode by selecting the Icon in the top menu bar. Adjust the handles to warp the layer so that it gives the pig more expression.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_85c98ef54cf346657474c384dea1473c.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_37.jpg" class="loaded" src="./151_files/29542_85c98ef54cf346657474c384dea1473c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 38</h2>
+<p>It may be necessary to blend the edges of this layer more. To do this, create a new Layer Mask and use a soft brush to feather the edges to your liking.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_b7d7fae3f701d5968c6b9da626e9f25d.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_38.jpg" class="loaded" src="./151_files/29542_b7d7fae3f701d5968c6b9da626e9f25d.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 39</h2>
+<p>Set this layer’s Blending Mode to Soft Light and the Opacity to 40%.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_9cbc3e286db851deeb10efb47d8fb75a.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_39.jpg" class="loaded" src="./151_files/29542_9cbc3e286db851deeb10efb47d8fb75a.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 40</h2>
+<p>Make a copy of this layer and reposition the copy over the other eye.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_8eac1ada1f332a41fed6b5317ded7c36.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_40.jpg" class="loaded" src="./151_files/29542_8eac1ada1f332a41fed6b5317ded7c36.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 41</h2>
+<p>To fix the overlapping problem of the "Wrinkles Copy" layer, move it directly above the "Pig" layer. Since we are placing this layer below existing clipping layers to the "Pig" layer, our layer will automatically become a clipping layer. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_f9cfa17f3f759043b498970b047da6c9.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_41.jpg" class="loaded" src="./151_files/29542_f9cfa17f3f759043b498970b047da6c9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 42</h2>
+<p>To make the pig appear as if he is actually hanging out of the egg, we need to add shadows. Before we start adding a shadow, we need to select a good color. Use the Eyedropper Tool and select the area of the egg that is already covered by a dark shadow. </p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_c3e2003c233ed79594f0155e6e39ef80.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_42.jpg" class="loaded" src="./151_files/29542_c3e2003c233ed79594f0155e6e39ef80.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 43</h2>
+<p>On a new layer below the Pig layer, paint in the shadows that would appear directly below the pig’s feet. To clean up my layers, I’ve grouped all the pig layers together.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_bd0bdfb95cf25a4683bf711c4b8d0fe0.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_43.jpg" class="loaded" src="./151_files/29542_bd0bdfb95cf25a4683bf711c4b8d0fe0.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 44</h2>
+<p>Another characteristic of realistic shadows is a secondary, more diffused shadow. To create this type of shadow, make a copy of the original shadow layer and apply a Gaussian Blur (Filter &gt; Blur &gt; Gaussian Blur) of 7.5 px. Reduce this layer’s Opacity to 35%.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_57a16b2fed0985760c4e021a7ec23d70.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_44.jpg" class="loaded" src="./151_files/29542_57a16b2fed0985760c4e021a7ec23d70.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 45</h2>
+<p>We can add some more subtle shadows using the Brush Tool. Set the Size to 70 px, the Hardness to 0%, and the Opacity to 10% and start painting over areas where the pig comes close to (or touches) the egg.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_acf01aa8f92471b6af7caf4735a9b69c.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_45.jpg" class="loaded" src="./151_files/29542_acf01aa8f92471b6af7caf4735a9b69c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 46</h2>
+<p>Using a smaller brush, go back through and add some darker shadows where necessary.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_8ce16abd9bd8356d312084885bfb88b5.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_46.jpg" class="loaded" src="./151_files/29542_8ce16abd9bd8356d312084885bfb88b5.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 47</h2>
+<p>The last step is to blur the pig. Make a copy of the "Pig" group and press Command/Ctrl + E to merge the group. Select the Blur Tool and set the Strength to 30%</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_46e33060390f666dee81dd49a1a12fa4.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_47a.jpg" class="loaded" src="./151_files/29542_46e33060390f666dee81dd49a1a12fa4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>The goal is to match the depth of field that already exists in the original image. We want to keep the eye in focus and make the end of the snout the most blurred. Work in stages, adding subtle blurring toward the inside of the pig and stronger blurring on the outside, with the heaviest blurring on the snout.</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_e030ab4d84c152bd6f86e740dd93ff23.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_47b.jpg" class="loaded" src="./151_files/29542_e030ab4d84c152bd6f86e740dd93ff23.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Step 48</h2>
+<p>You're Done! Your final image should resemble the following:</p>
+<figure class="post_image">
+          <img data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/29542/images/29542_4dbed7292b24bec2b34e89e9e99afbd3.jpg" alt="" data-original-url="http://tutsplus.s3.amazonaws.com/tutspremium/photoshop/Premium_156_Pig/hatched_48.jpg" class="loaded" src="./151_files/29542_4dbed7292b24bec2b34e89e9e99afbd3.jpg" data-was-processed="true"><br>
+        </figure>
+</div></div></div></div></article></main></div><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./151_files/f(1).txt">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-abutted tether-element-attached-top tether-element-attached-left tether-target-attached-top tether-target-attached-left tether-out-of-bounds tether-abutted-top tether-out-of-bounds-left" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight green"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/create-an-unexpected-photo-manipulation--psd-16421"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./151_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./151_files/saved_resource.html"></iframe></body></html>

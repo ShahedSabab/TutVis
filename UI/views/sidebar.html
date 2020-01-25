@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+  <script type="text/javascript" script-name="advent-pro" src="http://use.edgefonts.net/advent-pro.js"></script>
+  <script type="text/javascript" script-name="andika" src="http://use.edgefonts.net/andika.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <!--homepage-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"/>
+
+  <!--  font awesome-->
+  <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+
+</head>
+
+<body>
+
+<div class="d-flex" id="wrapper">
+  <!-- Sidebar -->
+  <div class="container-fluid" id="main">
+    <div class="container">
+
+      <!--      left sidebar start-->
+      <div class="row row-offcanvas row-offcanvas-left" id="mainpage">
+
+        <div class="col-md-3 col-lg-4 sidebar-offcanvas bg pl-0" id="sidebar" role="navigation" style="max-width: 28%; margin-left:-100px; margin-right:100px">
+
+          <ul class="nav flex-column sticky-top pl-0 pt-5 mt-3">
+            <br/>
+            <p style="text-align: left; font-size: 15pt; padding: 30px 0px 0px 0px"> Tutorial Difficulty</p>
+            <form id=checkbox2>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="difficultyList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Advanced</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="difficultyList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Beginner</label>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+
+
+            <p style="text-align: left; font-size: 15pt; padding: 30px 0px 0px 0px">Topics List</p>
+            <form id=checkbox>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Animation & Video Effects</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Design Shapes & Artwork</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Drawing Pixel Art</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Flyer & Poster Design</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Generation of Objects & Graphic Patterns</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Masking & Selection</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Photo Composite & Manipulation</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Photo Editing, Manipulation & Special Effects</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Sketching & Digital Painting</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin-bottom: 15px">
+                <div class="pretty p-svg p-curve p-bigger">
+                  <input type="checkbox" name="topicList"/>
+                  <div class="state p-success">
+                    <!-- svg path -->
+                    <svg class="svg svg-icon" viewBox="0 0 20 20">
+                      <path
+                        d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                        style="stroke: white;fill:white;"></path>
+                    </svg>
+                    <label>Text Effects</label>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+
+
+          </ul>
+          <br>
+          <br>
+          <button type="button" class="btn btn-outline-info" id="btnSelectAll"><i class="fa fa-check-square-o"></i>
+            Select All
+          </button>
+          <button type="button" class="btn btn-outline-danger" id="btnCancel"  ng-click="searchTitle = ''; foundResult='Tutorial List'" ><i class="fa fa-remove"></i> Clear
+          </button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-outline-primary" id="btnApply " ng-click="myLoadListFunc();searchTitle = ''"><i
+            class="fa fa-pencil-square-o"></i> Apply
+          </button>
+
+
+          <div class="row">
+
+          </div>
+
+        </div>
+        <!--/col-->
+
+        <div class="col main pt-5 mt-3" style="width: 200px">
+
+          <p class="display-4 d-none d-sm-block" id="labelTutorialList" style="font-size: 20pt; margin-left:20px;margin-bottom:-5px" ng-bind="foundResult">
+
+          </p>
+          <div class="loader" id="loadingTutorials"></div>
+          <hr style="margin-right:-120px">
+          <div class="bg-white border-right" id="sidebar-wrapper">
+            <div class="list-group list-group-flush" ng-if="flag == 1">
+
+              <div ng-repeat="x in records | filter:searchTitle" >
+                <!--        <a id={{x.ID}} type="text" class="list-group-item list-group-item-action bg-light">-->
+                <a id={{x.ID}} type="text" class="list-group-item list-group-item-action bg"
+                   ng-click="myLinkLoadFunc(x.ID)">
+                  <div class="card bg-light mb-3" style="max-width: 55rem;">
+                    <div class="row">
+                      <div class="col-3">
+                        <img id="imageLoad" class="zoom card-img-overlay" src="tutorial/{{x.ID}}_files/00-final-product.png"
+                             alt="Card image cap"
+                             style="width:240px;height:230px; margin-left: 15px;margin-top:25px" >
+                        <div ng-If="x.label == 'Advanced'&& x.type=='t'">
+<!--                          <button type="button" class="btn btn-outline-primary" style="margin-top:5px; text-align: center; width:225px">-->
+<!--                            <i class="fa fa-file-text fa-lg pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Advanced-->
+<!--                            <img class="icon"  src="../images/high.png">-->
+<!--                          </button>-->
+                          <div class="tag-green" style="margin-left:10px; margin-right:-30px; margin-top:5px; "><i class="fa fa-file-text pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Advanced</div>
+                        </div>
+                        <div ng-If="x.label == 'Advanced'&& x.type=='v'">
+<!--                          <button type="button" class="btn btn-outline-primary" style="margin-top: 220px; text-align: center; width:225px">-->
+<!--                            <i class="fa fa-youtube-play fa-lg pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Advanced-->
+<!--                            <img class="icon"  src="../images/high.png">-->
+<!--                          </button>-->
+                          <div class="tag-green" style="margin-left:10px; margin-right:-30px; margin-top:5px; opacity: 1;"><i class="fa fa-play pull-left" title="Video Tutorial"  style="margin-top:2px" ></i>Advanced</div>
+                        </div>
+                        <div ng-If="x.label == 'Beginner' && x.type=='t'">
+<!--                          <button type="button" class="btn btn-light" style="margin-top: 220px; text-align: center; width:225px">-->
+<!--                            <i class="fa fa-file-text fa-lg pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Beginner-->
+<!--                            <img class="icon"  src="../images/low.png">-->
+<!--                          </button>-->
+                          <div class="tag-blue" style="margin-left:10px; margin-right:-30px; margin-top:5px; opacity: 1;"><i class="fa fa-file-text pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Beginner</div>
+                        </div>
+                        <div ng-If="x.label == 'Beginner' && x.type=='v'">
+<!--                          <button type="button" class="btn btn-light" style="margin-top: 220px; text-align: center; width:225px">-->
+<!--                            <i class="fa fa-youtube-play fa-lg pull-left" title="Text Tutorial"  style="margin-top:2px" ></i>Beginner-->
+<!--                            <img class="icon"  src="../images/low.png">-->
+<!--                          </button>-->
+                          <div class="tag-blue" style="margin-left:10px; margin-right:-30px; margin-top:5px; opacity: 1;"><i class="fa fa-play pull-left" title="Video Tutorial"  style="margin-top:2px" ></i>Beginner</div>
+                        </div>
+                      </div>
+
+                      <div class="col-9" style="padding: 0px 15px 15px 15px">
+
+                        <div class="row">
+                          <div class="col-12" style="padding-right: 5px">
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="col">
+                                  <h5 class="card-title" style="margin-bottom: 10px">{{x.title}} </h5>
+                                </div>
+                              </div>
+
+                              <div id="topicRow" class="row">
+                                <div class="col-md-auto" style="padding:0px 5px 0px 0px">
+                                  <!--                                  <p class="card-text"><b>Topics Covered:</b> <b1 style="color:#0072B2">{{x.t1}}</b1>, <b1 style="color:#D55E00">{{x.t2}},</b1> <b1 style="color: #009E73;">{{x.t3}}</b1> </p>-->
+                                  <p class="card-text">
+                                    <b1>Topics Covered:</b1>
+                                    <span class="tooltips"><i
+                                      class="fa fa-info-circle" style="font-size: 16px"></i><span style="height: 60px"><b>The following bar shows the distribution of the topics in the tutorial. </b>
+                                    </span></span>
+
+
+                                    <!--                                  <div ng-repeat-start="topics in x.topicList">-->
+                                    <!--                                      <b>{{topics}}</b>-->
+                                    <!--                                    </div>-->
+                                  </p>
+                                </div>
+
+
+
+                              </div>
+                              <div id="topicListDiv" class="row" style="padding: 0px 15px">
+                                <div ng-if="x.topicList.length==3">
+                                  <span id="spanTopic13{{x.ID}}" class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,1, 3)" ng-mouseleave="spanNonHover(x.ID,1, 3)">{{x.topicList[0]}}</span>
+                                  <span id="spanTopic23{{x.ID}}" class="badge badge-default" style="background-color: #44AA99; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,2, 3)" ng-mouseleave="spanNonHover(x.ID,2, 3)">{{x.topicList[1]}}</span>
+                                  <span id="spanTopic33{{x.ID}}" class="badge badge-default" style="background-color: #107896; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,3, 3)" ng-mouseleave="spanNonHover(x.ID,3, 3)">{{x.topicList[2]}}</span>
+                                </div>
+                                <div ng-if="x.topicList.length==2">
+                                  <span id="spanTopic12{{x.ID}}" class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,1,2)" ng-mouseleave="spanNonHover(x.ID,1,2)">{{x.topicList[0]}}</span>
+                                  <span id="spanTopic22{{x.ID}}" class="badge badge-default" style="background-color: #44AA99; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,2,2)" ng-mouseleave="spanNonHover(x.ID,2,2)">{{x.topicList[1]}}</span>
+
+                                </div>
+                                <div ng-if="x.topicList.length==1">
+                                  <span id="spanTopic11{{x.ID}}" class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt" ng-mouseenter="spanHover(x.ID,1,1)" ng-mouseleave="spanNonHover(x.ID,1,1)">{{x.topicList[0]}}</span>
+
+                                </div>
+                                <!--                                  <b style="margin-right:5px">{{topics}}, </b>-->
+                              </div>
+
+                              <figure >
+
+
+                                <div class="graphic" >
+
+                                  <div class="row">
+                                    <div class="chart" >
+<!--                                      <div>-->
+                                      <div ng-if="x.topicConList.length==3" >
+                                        <span id="graphicTopic13{{x.ID}}" class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;" ng-mouseenter="graphicHover(x.ID,1, 3)" ng-mouseleave="graphicNonHover(x.ID,1, 3)"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>
+                                        <span id="graphicTopic23{{x.ID}}" class="block" title="{{x.topicList[1]}}" style="width: {{x.topicConList[1]}}%;" ng-mouseenter="graphicHover(x.ID,2, 3)" ng-mouseleave="graphicNonHover(x.ID,2, 3)"><span class="value" hidden>{{x.topicConList[1]}}%</span></span>
+                                        <span id="graphicTopic33{{x.ID}}" class="block" title="{{x.topicList[2]}}" style="width: {{x.topicConList[2]}}%;" ng-mouseenter="graphicHover(x.ID,3, 3)" ng-mouseleave="graphicNonHover(x.ID,3, 3)"><span class="value" hidden>{{x.topicConList[2]}}%</span></span>
+                                      </div>
+                                      <div ng-if="x.topicConList.length==2">
+                                        <span id="graphicTopic12{{x.ID}}" class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;" ng-mouseenter="graphicHover(x.ID,1, 2)" ng-mouseleave="graphicNonHover(x.ID,1, 2)"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>
+                                        <span id="graphicTopic22{{x.ID}}" class="block" title="{{x.topicList[1]}}" style="width: {{x.topicConList[1]}}%;" ng-mouseenter="graphicHover(x.ID,2, 2)" ng-mouseleave="graphicNonHover(x.ID,2, 2)" ><span class="value" hidden>{{x.topicConList[1]}}%</span></span>
+                                      </div>
+                                      <div ng-if="x.topicConList.length==1">
+                                        <span id="graphicTopic11{{x.ID}}" class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;" ng-mouseenter="graphicHover(x.ID,1, 1)" ng-mouseleave="graphicNonHover(x.ID,1, 1)"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>
+                                      </div>
+
+                                    </div>
+
+
+                                  </div>
+                                </div>
+                              </figure>
+                              <div class="row" style="margin-top:5px">
+                                <div class="col-3">
+                                  <p class="card-text">
+                                    <b1>Length:</b1>
+                                  </p>
+                                </div>
+                                <div class="col-4">
+
+                                  <div class="length-wrapper" ng-if="1*x.l<1437">
+                                    <span class="dot-color-green"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="tooltips"><i
+                                      class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:60px; padding:10px 10px 10px 10px">
+                                       The tutorial is shorter than the average tutorials.
+                                    </span></span>
+                                  </div>
+                                  <div class="length-wrapper" ng-if="1*x.l > 1437 && 1*x.l < 2667">
+                                    <span class="dot-color-green"></span>
+                                    <span class="dot-color-yellow"></span>
+                                    <span class="dot"></span>
+                                    <span class="tooltips"><i
+                                      class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:60px; padding:10px 10px 10px 10px">
+                                       The tutorial is medium than the average tutorials.
+                                    </span></span>
+                                  </div>
+                                  <div class="length-wrapper" ng-if="1*x.l > 2667">
+                                    <span class="dot-color-green"></span>
+                                    <span class="dot-color-yellow"></span>
+                                    <span class="dot-color-red"></span>
+                                    <span class="tooltips"><i
+                                      class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:60px; padding:10px 10px 10px 10px">
+                                        The tutorial is longer than the average tutorials.
+                                    </span></span>
+                                  </div>
+
+                                </div>
+                                <div class="col-5" >
+                                  <p class="card-text" style="margin-left:-15px">
+                                    <b1>Most Frequent Tools:</b1>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                              <div class="row" style="margin-top:5px">
+                                <div class="col-3">
+                                  <p class="card-text">
+                                    <b1>Text Difficulty:</b1>
+                                  </p>
+                                </div>
+                                <div class="col-4">
+                                  <div ng-if="x.rs > 1 && x.rs <= 4">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot"></span>
+                                      <span class="dot"></span>
+                                      <span class="tooltips"><i class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:75px; padding:10px 10px 10px 10px">The tutorial seems to contain simpler sentences and is likely to be easy to go through.</span></span>
+                                  </div>
+                                  <div ng-if="x.rs >= 5 && x.rs <= 8">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot-color-yellow"></span>
+                                      <span class="dot"></span>
+                                      <span class="tooltips"><i class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:90px; padding:10px 10px 10px 10px">The text structure of the sentences in the tutorial seems standard and is fairly easy to go through.</span></span>
+                                  </div>
+                                  <div ng-if="x.rs >= 9 && x.rs <= 12">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot-color-yellow"></span>
+                                      <span class="dot-color-red"></span>
+                                      <span class="tooltips"><i class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:90px; padding:10px 10px 10px 10px">The tutorial seems to contain complex sentences and polysyllabic words and is likely to be hard to go through.</span></span>
+                                  </div>
+
+                                </div>
+                                <div class="col-5" style="margin-top:0px">
+                                  <div class="row">
+                                    <div ng-repeat="toolIcon in x.toolsList">
+                                      <div id="iconCol" >
+                                        <img class="tools" src="../images/tools/{{toolIcon}}.png"
+                                             title={{toolIcon}}>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row" style="margin-top: -15px;">
+                                <div class="col-3">
+                                  <p class="card-text">
+                                    <b1>Commands Usage: </b1>
+                                  </p>
+                                </div>
+                                <div class="col-4">
+                                  <div ng-if="x.cr<36">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot"></span>
+                                      <span class="dot"></span>
+                                      <span class="tooltips"><i
+                                        class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:85px; padding:10px 10px 10px 10px">
+                                       The tutorial is likely to focus more on the task description than showing the usage of commands.
+                                    </span></span>
+                                  </div>
+                                  <div ng-if="x.cr>=36 && x.cr<=48">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot-color-yellow"></span>
+                                      <span class="dot"></span>
+                                      <span class="tooltips"><i
+                                        class="fa fa-info-circle" style="font-size: 16px"></i><span style="height:80px; padding:10px 10px 10px 10px">
+                                       The tutorial is likely to portray a balance of task description and the commands usage.
+                                    </span></span>
+                                  </div>
+                                  <div ng-if="x.cr>48">
+                                      <span class="dot-color-green"></span>
+                                      <span class="dot-color-yellow"></span>
+                                      <span class="dot-color-red"></span>
+                                      <span class="tooltips"><i
+                                        class="fa fa-info-circle " style="font-size: 16px"></i><span style="height:75px; padding:10px 10px 10px 10px">
+                                       The tutorial is likely to focus more on the commands usage than talking about the task.
+                                    </span></span>
+                                  </div>
+                                </div>
+
+
+
+
+                              </div>
+
+<!--                              topics and contribution in bottom -->
+<!--                              <div id="topicRow" class="row">-->
+<!--                                <div class="col-md-auto" style="padding:0px 5px 0px 0px">-->
+<!--                                  &lt;!&ndash;                                  <p class="card-text"><b>Topics Covered:</b> <b1 style="color:#0072B2">{{x.t1}}</b1>, <b1 style="color:#D55E00">{{x.t2}},</b1> <b1 style="color: #009E73;">{{x.t3}}</b1> </p>&ndash;&gt;-->
+<!--                                  <p class="card-text">-->
+<!--                                    <b1>Topics Covered:</b1>-->
+<!--                                    <span class="tooltips"><i-->
+<!--                                      class="fa fa-info-circle" style="font-size: 16px"></i><span style="height: 60px"><b>The following bar shows the contribution of the topics in the tutorial. </b>-->
+<!--                                    </span></span>-->
+
+
+<!--                                    &lt;!&ndash;                                  <div ng-repeat-start="topics in x.topicList">&ndash;&gt;-->
+<!--                                    &lt;!&ndash;                                      <b>{{topics}}</b>&ndash;&gt;-->
+<!--                                    &lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--                                  </p>-->
+<!--                                </div>-->
+
+
+
+<!--                              </div>-->
+<!--                              <div id="topicListDiv" class="row" style="padding: 0px 15px">-->
+<!--                                <div ng-if="x.topicList.length==3">-->
+<!--                                  <span class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt">{{x.topicList[0]}}</span>-->
+<!--                                  <span class="badge badge-default" style="background-color: #44AA99; color:#FFFFFF; font-size: 10pt">{{x.topicList[1]}}</span>-->
+<!--                                  <span class="badge badge-default" style="background-color: #107896; color:#FFFFFF; font-size: 10pt">{{x.topicList[2]}}</span>-->
+<!--                                </div>-->
+<!--                                <div ng-if="x.topicList.length==2">-->
+<!--                                  <span class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt">{{x.topicList[0]}}</span>-->
+<!--                                  <span class="badge badge-default" style="background-color: #44AA99; color:#FFFFFF; font-size: 10pt">{{x.topicList[1]}}</span>-->
+
+<!--                                </div>-->
+<!--                                <div ng-if="x.topicList.length==1">-->
+<!--                                  <span class="badge badge-default" style="background-color: #334D5C; color:#FFFFFF; font-size: 10pt">{{x.topicList[0]}}</span>-->
+
+<!--                                </div>-->
+<!--                                &lt;!&ndash;                                  <b style="margin-right:5px">{{topics}}, </b>&ndash;&gt;-->
+<!--                              </div>-->
+
+<!--                              <figure >-->
+
+
+<!--                                <div class="graphic" >-->
+
+<!--                                  <div class="row">-->
+<!--                                    <div class="chart" >-->
+<!--                                      &lt;!&ndash;                                      <div>&ndash;&gt;-->
+<!--                                      <div ng-if="x.topicConList.length==3" >-->
+<!--                                        <span class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>-->
+<!--                                        <span class="block" title="{{x.topicList[1]}}" style="width: {{x.topicConList[1]}}%;"><span class="value" hidden>{{x.topicConList[1]}}%</span></span>-->
+<!--                                        <span class="block" title="{{x.topicList[2]}}" style="width: {{x.topicConList[2]}}%;"><span class="value" hidden>{{x.topicConList[2]}}%</span></span>-->
+<!--                                      </div>-->
+<!--                                      <div ng-if="x.topicConList.length==2">-->
+<!--                                        <span class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>-->
+<!--                                        <span class="block" title="{{x.topicList[1]}}" style="width: {{x.topicConList[1]}}%;"><span class="value" hidden>{{x.topicConList[1]}}%</span></span>-->
+<!--                                      </div>-->
+<!--                                      <div ng-if="x.topicConList.length==1">-->
+<!--                                        <span class="block" title="{{x.topicList[0]}}" style="width: {{x.topicConList[0]}}%;"><span class="value" hidden>{{x.topicConList[0]}}%</span></span>-->
+<!--                                      </div>-->
+
+<!--                                    </div>-->
+
+
+<!--                                  </div>-->
+<!--                                </div>-->
+<!--                              </figure>-->
+<!--                              topics and contribution in bottom -->
+
+                            </div>
+                          </div>
+                          <!--                          <div class col-4>-->
+
+
+                          <!--                            &lt;!&ndash;                              <div id={{x.PID}} class="pie-chart"&ndash;&gt;-->
+                          <!--                            &lt;!&ndash;                                   style="width: 175px; height: 170px; overflow: hidden; margin-down:-10px;">&ndash;&gt;-->
+                          <!--                            &lt;!&ndash;                              </div>&ndash;&gt;-->
+                          <!--&lt;!&ndash;                            <div&ndash;&gt;-->
+                          <!--&lt;!&ndash;                              style="height:300px; width: 350px; position: absolute; overflow: hidden;margin-left:-80px;margin-top:10px;font-size: 16px" ng-controller="ChartController">&ndash;&gt;-->
+                          <!--&lt;!&ndash;                              <canvas id="doughnut" class="chart chart-doughnut "&ndash;&gt;-->
+                          <!--&lt;!&ndash;                                      chart-data="data" chart-labels="labels" chart-options="options"  chart-colors="colors" data-ng-init="init(x.PID)">&ndash;&gt;-->
+
+                          <!--&lt;!&ndash;                              </canvas>&ndash;&gt;-->
+                          <!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+
+
+                          <!--                          </div>-->
+
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!--/row-->
+
+
+          <!--/main col-->
+        </div>
+
+      </div>
+      <!--      left sidebar end-->
+
+    </div>
+
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary mb-3">
+      <div class="flex-row d-flex">
+        <button type="button" class="navbar-toggler mr-2 " data-toggle="offcanvas"
+                title="Toggle responsive left sidebar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="btn btn-primary" id="menu-toggle" ng-click="myMenuToggleFunc()"><i class="fa fa-th-list"></i>
+          List
+        </button>
+        <a class="navbar-brand" href="" title="Free Bootstrap 4 Admin Template" disabled=""
+           style="pointer-events: none">Tutorial Selection Study</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <div class="nav-link" style="opacity: 0;">Home <span class="sr-only">(current)</span></div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                 aria-haspopup="true" aria-expanded="false" style="opacity: 0;">
+                Version
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item">Prototype 1</a>
+                <a class="dropdown-item">Prototype 2</a>
+                <a class="dropdown-item">Prototype 3</a>
+<!--                <div class="dropdown-divider"></div>-->
+<!--                <a class="dropdown-item">Something else here</a>-->
+              </div>
+            </li>
+
+<!--            <li style="margin-left: 355px; margin-bottom:-10px; text-align: center;">-->
+<!--              <div id ="searchText">-->
+<!--                <input id ="searchTextID" type="text" placeholder="Search tutorials ..." ng-model="searchTitle" size="80%"/>-->
+<!--                <a href="#" class="search-icon">-->
+<!--                  <i class="fa fa-search" id="myimage"></i>-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </li>-->
+
+          </ul>
+          <ul class="navbar-nav" style="width: 1300px">
+          <li style="margin-left: 355px; margin-bottom:-10px; text-align: center;">
+            <div id ="searchText">
+              <input id ="searchTextID" type="text" placeholder="Search tutorials ..." ng-model="searchTitle" size="100%" style="max-width: 1300px;width:870px;margin-left:20px"/>
+              <a href="#" class="search-icon" ng-click="searchTitle = ''">
+                <div ng-if="searchTitle.length>0">
+                  <i class="fa fa-close fa-lg" ></i>
+                </div>
+                <div ng-if="!searchTitle">
+                  <i class="fa fa-search fa-lg" ></i>
+                </div>
+              </a>
+            </div>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <iframe id="inlineFrameExample" src="tutorial/topic0.html">
+
+      <!--                src="http://localhost:63342/tutorial-selection-study/tutorial/topic0.html?_ijt=e1o5f0193cjf5v6rklul9nbgcl">-->
+    </iframe>
+
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+
+<footer class="container-fluid">
+  <p class="text-right small">©2016-2018 Company</p>
+</footer>
+
+<!-- /#wrapper -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Nothing Selected ...</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+          <span class="sr-only">Close</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Please select any of the topics from the left panel.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary-outline" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<a href="" data-toggle="modal" data-target="#myModal" id="myModalShower"></a>
+<!-- Menu Toggle Script -->
+
+
+<script>
+
+  $(window).on("load", function () {
+    // $("#wrapper").toggleClass("toggled");
+    $("#menu-toggle").hide();
+
+  });
+
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#menu-toggle").hide();
+    $('input[name=topicList]').prop('checked', true);
+    $('input[name=difficultyList]').prop('checked', true);
+    // $('input[name=topicList]').prop('checked', true);
+    $("#loadingTutorials").hide();
+    $('#btnCancel').click(function () {
+      $('input[name=topicList]').prop('checked', false);
+      $('input[name=difficultyList]').prop('checked', false);
+      $("a").css('background-color', '');
+    });
+    $('#btnSelectAll').click(function () {
+      $('input[name=topicList]').prop('checked', true);
+      $('input[name=difficultyList]').prop('checked', true);
+      $("a").css('background-color', '');
+    });
+
+  });
+</script>
+
+
+</body>
+
+</html>

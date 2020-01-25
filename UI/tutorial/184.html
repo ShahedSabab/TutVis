@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<!-- saved from url=(0100)https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects-%2Dpsd-13329 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./184_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./184_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./184_files/27851e2035"></script><script src="./184_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./184_files/linkid.js.download"></script><script type="text/javascript" async="" src="./184_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":330,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>Create a Wine Bottle and Glass with Smart Objects</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./184_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./184_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./184_files/fuse.js.download"></script><script async="async" src="./184_files/analytics.js.download"></script><script src="./184_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="rnVZGLYt4SJ591hW3xbqeOd6JJhfmtE2n5B28s3Eg8HkOvct0FOCiiLvZw3aLbJx6nTaC8GenwRuWwxC6YfJEg=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="Create a Wine Bottle and Glass with Smart Objects" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="What You&#39;ll Be CreatingThis tutorial was originally published in June 2011 as a Tuts+ Premium
+ tutorial. It is now available free to view. Although this tutorial does
+ not use the latest version..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329" property="og:url"><meta content="true" property="native:billable"><meta content="3503" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329" hreflang="en" rel="alternate"><link href="https://design.tutsplus.com/id/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329" hreflang="id" rel="alternate"><meta content="https://cms-assets.tutsplus.com/uploads/users/346/posts/15562/preview_image/wine_preview.jpg" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="Create a Wine Bottle and Glass with Smart Objects" name="twitter:title"><meta content="What You&#39;ll Be CreatingThis tutorial was originally published in June 2011 as a Tuts+ Premium
+ tutorial. It is now available free to view. Although this tutorial does
+ not use the latest version..." name="twitter:description"><meta content="https://cms-assets.tutsplus.com/uploads/users/346/posts/15562/preview_image/wine_preview.jpg" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./184_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script type="text/javascript" async="" src="./184_files/embed.js.download"></script><script async="" type="text/javascript" src="./184_files/count.js.download"></script><script src="./184_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fcreate-a-wine-bottle-and-glass-with-smart-objects--psd-13329">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design" style="height: auto;"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">Create a Wine Bottle and Glass with Smart Objects</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./184_files/widgets.js.download"></script><div class="post-body__content"><figure class="final-product final-product--image"><img data-src="https://cms-assets.tutsplus.com/uploads/users/346/posts/15562/final_image/wine_final.jpg" alt="Final product image" class="loaded" src="./184_files/wine_final.jpg" data-was-processed="true"><figcaption>What You'll Be Creating</figcaption></figure><blockquote>This tutorial was originally published in June 2011 as a Tuts+ Premium
+ tutorial. It is now available free to view. Although this tutorial does
+ not use the latest version of Adobe Photoshop, its techniques and 
+process are still relevant. <br>
+</blockquote><p><strong>Smart Objects</strong> are very powerful layers in Photoshop. In this tutorial, I will show you how to create a wine bottle and wine glass using Smart Objects as well as demonstrate their benefits. Let's get Started!</p><p>Looking for a quick solution to your design needs? Check out our amazing selection of <a href="https://graphicriver.net/category/vectors/objects/food" target="_self">Realistic Food Graphics</a> from <a href="https://graphicriver.net/" target="_self">GraphicRiver</a> to use for your next design. Or enlist the help of a professional from <a href="https://studio.envato.com/explore/design-graphics" target="_self">Envato Studio</a> for custom food graphics. <br></p>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">1.</span> How to Create the Red Wine Bottle</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Start by creating a <strong>New Document</strong> <strong>1500 px x 2600 px</strong> with a brown background. We are going to start making the wine bottle. To set up the scene, create four <strong>New Groups</strong> as shown below.</p>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9e94be83d44270c888299219fcfac452.jpg" class="loaded" src="./184_files/2484_9e94be83d44270c888299219fcfac452.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a3f5b248833b34e7fe4fe935efef40c7.jpg" class="loaded" src="./184_files/2484_a3f5b248833b34e7fe4fe935efef40c7.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h3 class="nolinks">Step 2</h3>
+<p>Inside the "Wine" group, create a <strong>New Layer</strong> called "Wine" and use the <strong>Pen Tool (P) </strong>to draw the shape of a complete wine bottle. Go in to the <strong>Paths</strong> panel and label this new path "Wine Bottle".</p>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_60897c37e68b0b341112fa55a99dbdb8.jpg" class="loaded" src="./184_files/2484_60897c37e68b0b341112fa55a99dbdb8.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3</h3>
+<p>We will be using this path as a master path to help us create all elements of the wine bottle quickly. To create the path for just the wine inside the bottle, <strong>Copy</strong> the "Wine Bottle" path and rename it "Wine." Use the <strong>Pen tool (P)</strong> to add points (click on a section of the path) and remove points (click on an existing anchor point) to make the path just of the wine.</p>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_abf99f6bf52e0e5eb170b566ac283855.jpg" class="loaded" src="./184_files/2484_abf99f6bf52e0e5eb170b566ac283855.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Tip: Hold<strong> Control-Alt</strong> while moving a handle on a smooth point to adjust as a corner point.</p>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_97b0854e3c514a894ee5c45d17c34b18.jpg" class="loaded" src="./184_files/2484_97b0854e3c514a894ee5c45d17c34b18.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, your path should take the shape of just the wine that will be inside the bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_0f7ae4d70fc823331ddfa2ecccf411ff.jpg" class="loaded" src="./184_files/2484_0f7ae4d70fc823331ddfa2ecccf411ff.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4<br>
+</h3>
+<p><strong>Right-click</strong> the path and <strong>Fill </strong>with black.</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a41f671f979846635b52e2043da243e5.jpg" class="loaded" src="./184_files/2484_a41f671f979846635b52e2043da243e5.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5</h3>
+<p>The goal is to be as non-destructive as possible, which is why we will use <strong>Layer Styles</strong> to build as much of the wine as we can. Add the following <strong>Layer Styles</strong> (note that we are working in grayscale—we will add the color later).</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_1fe6435178dd2dfe6f0b34ccec0bd74b.jpg" class="loaded" src="./184_files/2484_1fe6435178dd2dfe6f0b34ccec0bd74b.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_151c16bfe5895d7239e22e85284c3c8b.jpg" class="loaded" src="./184_files/2484_151c16bfe5895d7239e22e85284c3c8b.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8ef8a3c7c74a91150a5d9d4adda04ec1.jpg" class="loaded" src="./184_files/2484_8ef8a3c7c74a91150a5d9d4adda04ec1.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_b2184293acfb2ede3564f192c9ec9954.jpg" class="loaded" src="./184_files/2484_b2184293acfb2ede3564f192c9ec9954.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6</h3>
+<p>The wine appears too uniform. To fix this we are going to add a dark blotch. Create a <strong>New</strong> <strong>Layer</strong> and choose a large brush with <strong>25% Hardness</strong>. Set the <strong>Mode </strong>of the brush to <strong>Dissolve</strong> and paint in some darker areas over the wine (don't worry about painting outside of the wine; we will fix that in the next step). </p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_1eaafd850b7f5f75023661d715e7fed4.jpg" class="loaded" src="./184_files/2484_1eaafd850b7f5f75023661d715e7fed4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, give it a<strong> Gaussian Blur</strong>. The dissolve brush should give us some nice texture.</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_09b910ef6595aebf6c852bb2797870e4.jpg" class="loaded" src="./184_files/2484_09b910ef6595aebf6c852bb2797870e4.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6576d01aaccae0a0bc6fcb5aa596f5f3.jpg" class="loaded" src="./184_files/2484_6576d01aaccae0a0bc6fcb5aa596f5f3.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7</h3>
+<p> In order to confine the dark blotch to the wine, we need to create a <strong>Mask</strong>. Start by <strong>Control-Clicking</strong> the thumbnail on the "Wine" layer to make a<strong> Selection</strong>. Select the dark blotch layer and click <strong>"Add Layer Mask."</strong></p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ec222708ab840d73e5bd57a2113cd98f.jpg" class="loaded" src="./184_files/2484_ec222708ab840d73e5bd57a2113cd98f.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_bb12625c45e022ad0dadc94493e78365.jpg" class="loaded" src="./184_files/2484_bb12625c45e022ad0dadc94493e78365.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8</h3>
+<p>I want to add some more <strong>Layer Styles</strong> to the wine (particularly the <strong>Inner Shadow</strong> and <strong>Gradient Overlay</strong> that we've already used). This is one area where <strong>Smart Object</strong> can help us. Select both the "Wine" and dark blotch layers. <strong>Right-Click</strong> and <strong>"Convert to Smart Object."</strong> Rename to "Wine."</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a2b90a7a060b757121a72e4be3e47e3b.jpg" class="loaded" src="./184_files/2484_a2b90a7a060b757121a72e4be3e47e3b.jpg" data-was-processed="true"><br>
+        </figure>
+<p>By converting a layer to a <strong>Smart Object</strong>, we've essentially created a container with the original layer(s) and all of the applied effects inside. This container, or <strong>Smart Object</strong>, is represented by a little graphic within the layer's thumbnail. Any time you see this graphic, you can <strong>Double-click</strong> it to reveal the contents on a new document. Go ahead and <strong>Double click</strong> the thumbnail of our new <strong>Smart Object. </strong></p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_150c149f26ca8a341786f856d1f67d48.jpg" class="loaded" src="./184_files/2484_150c149f26ca8a341786f856d1f67d48.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Notice that you are now working on the <strong>Smart Object's</strong> document instead of the original document. Don't close this yet.</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ba063a4fa61bbb4fc643e712a6e094b6.jpg" class="loaded" src="./184_files/2484_ba063a4fa61bbb4fc643e712a6e094b6.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9</h3>
+<p>Since we are inside the "Wine" <strong>Smart Object</strong>, let's take this opportunity to add color to the wine.  Add a <strong>New</strong> <strong>Adjustment Layer</strong> as shown. In the <strong>Adjustment Layer </strong>panel, make sure to select <strong>Colorize</strong>, and adjust the sliders to get your desired color.
+ </p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c8518b919dbae8a2821da78d52ac05c8.jpg" class="loaded" src="./184_files/2484_c8518b919dbae8a2821da78d52ac05c8.jpg" data-was-processed="true"><br>
+        </figure>
+<p><strong>Control-S</strong> to <strong>Save</strong> the <strong>Smart Object</strong> and then close this document, leaving our original document open.</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7791ea3c8c8873ef433d9aec72b77481.jpg" class="loaded" src="./184_files/2484_7791ea3c8c8873ef433d9aec72b77481.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 10</h3>
+<p>As you can see, we now have only one <strong>Smart Object</strong> layer in our "Wine" group. We are now able to add a completely new set of<strong> Layer Styles</strong> to this layer. </p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_d210259c91c3ef3421cf433170f3b710.jpg" class="loaded" src="./184_files/2484_d210259c91c3ef3421cf433170f3b710.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Add the following<strong> Layer Styles</strong>:</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_0a0111be882df31b6369586dfaefad76.jpg" class="loaded" src="./184_files/2484_0a0111be882df31b6369586dfaefad76.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7520caaddcd9769aa6f7e4ea479c1c3d.jpg" class="loaded" src="./184_files/2484_7520caaddcd9769aa6f7e4ea479c1c3d.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Your image should resemble the following:<br>
+</p><figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f9b8b5df456df06093f34d7e2a4eec68.jpg" class="loaded" src="./184_files/2484_f9b8b5df456df06093f34d7e2a4eec68.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 11</h3>
+<p>To finish the wine, we need to add the meniscus. This is created with three shapes (all on their own clipping layers): a white curve (set to <strong>Screen</strong>), a dark gray oval (set to <strong>Multiply</strong>), and a yellow curve (set to <strong>Overlay)</strong>.</p>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_64a4ec2afa13082161c556b433cfb254.jpg" class="loaded" src="./184_files/2484_64a4ec2afa13082161c556b433cfb254.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Red Wine Bottle" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_71da1d6e4e57a677b12e5b4a67d8370d.jpg" class="loaded" src="./184_files/2484_71da1d6e4e57a677b12e5b4a67d8370d.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">2.</span> How to Create the Glass Details</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Let's move on to the glass bottle. This is where we'll add the glass highlights and gloss effects. Start by creating a <strong>New Layer</strong> called "Glass" in the "Bottle" group.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6c75ec11769c6d3c4805ff0c253ccd49.jpg" class="loaded" src="./184_files/2484_6c75ec11769c6d3c4805ff0c253ccd49.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p>Go to the<strong> Paths </strong>panel and make a <strong>Copy</strong> of the "Wine Bottle" path.  </p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_84691853f66fed30b264fa31812004bc.jpg" class="loaded" src="./184_files/2484_84691853f66fed30b264fa31812004bc.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Just like we did before, manipulate this path so that it represents the visible position of the bottle's glass (as shown in the image below).</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_bc559b9e45f1fc6a8fd9608adc01c330.jpg" class="loaded" src="./184_files/2484_bc559b9e45f1fc6a8fd9608adc01c330.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When done, <strong>Right-Click</strong> the path layer and<strong> Fill</strong> with a dark green color.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_0d87a537c2efcda787bb25486e81f809.jpg" class="loaded" src="./184_files/2484_0d87a537c2efcda787bb25486e81f809.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3<br>
+</h3>
+<p>Add the following <strong>Layer Styles</strong> to the "Glass" layer. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a659b10c2abc8450fd0e9b9018600c42.jpg" class="loaded" src="./184_files/2484_a659b10c2abc8450fd0e9b9018600c42.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ad62202b23cc47c4271f63de2762e958.jpg" class="loaded" src="./184_files/2484_ad62202b23cc47c4271f63de2762e958.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f997a6e98993fc9e8a1a427adea651d8.jpg" class="loaded" src="./184_files/2484_f997a6e98993fc9e8a1a427adea651d8.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_96e1d64dfbdf4fb9cab2d9725912dbd1.jpg" class="loaded" src="./184_files/2484_96e1d64dfbdf4fb9cab2d9725912dbd1.jpg" data-was-processed="true"><br>
+        </figure>
+<p>The bottle should look like the image below. So far, there's not much here, so we'll keep building.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_363246686f1adf91114a482d9b2a3d14.jpg" class="loaded" src="./184_files/2484_363246686f1adf91114a482d9b2a3d14.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4<br>
+</h3>
+<p>The glass bottle looks too smooth. To give it some texture, I want to add another <strong>Bevel</strong> and <strong>Emboss Layer Style</strong>. Just like we did before, <strong>Right-Click</strong> on the "Glass" layer and choose <strong>"Convert to Smart Object." </strong></p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_956caca3fe6f915ac13b5e3c1e50807d.jpg" class="loaded" src="./184_files/2484_956caca3fe6f915ac13b5e3c1e50807d.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Now, <strong>Double-click</strong> the layer to add a new set of <strong>Layer Styles</strong>. Add the<strong> Bevel and Emboss</strong> as shown below. This will add a subtle texture to the wine bottle. Note that the <strong>Texture Pattern</strong> used is called <strong>"Kraft Paper"</strong> and is a default pattern in Photoshop.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_d3920f6d205a7f019305f899b6059ef5.jpg" class="loaded" src="./184_files/2484_d3920f6d205a7f019305f899b6059ef5.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_82c483c3abaa2d610e8c6ee47d78d29b.jpg" class="loaded" src="./184_files/2484_82c483c3abaa2d610e8c6ee47d78d29b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5<br>
+</h3>
+<p>To add a little more depth to the "Glass" Layer, create a <strong>New Layer</strong> called "Reflections" and use the <strong>Rectangular Marquee Tool </strong>to draw in some random shapes over the top half of the bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_053fa004f69d7cf52bfa92ea67426d23.jpg" class="loaded" src="./184_files/2484_053fa004f69d7cf52bfa92ea67426d23.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6<br>
+</h3>
+<p>Convert this layer to a <strong>Smart Object </strong>and <strong>Warp (Edit &gt; Transform &gt; Warp) </strong>this layer to match the contours of the wine bottle. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7700a2f8bbc662c6370daedb80f6a188.jpg" class="loaded" src="./184_files/2484_7700a2f8bbc662c6370daedb80f6a188.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, make this layer a<strong> Clipping Layer</strong>, Set its <strong>Blending Mode</strong> to <strong>Overlay</strong> and <strong>Opacity </strong>to<strong> 30%. </strong></p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_003c06f46070ca3e1c00507063e72606.jpg" class="loaded" src="./184_files/2484_003c06f46070ca3e1c00507063e72606.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Repeat these same steps to create reflections for the bottom half of the wine bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9c5818120484b8c13d425859a427c838.jpg" class="loaded" src="./184_files/2484_9c5818120484b8c13d425859a427c838.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Why did we convert this layer to a <strong>Smart Object</strong>? If you don't like the look of the reflections, you can  open the <strong>Smart Object</strong> and redraw your shapes (or even add your own image to be reflected). Also, since this layer is a <strong>Smart Object</strong>, all transformations are completely editable (try to <strong>Warp </strong>this layer again, and you'll notice the grid is exactly how you left it, waiting to be modified).</p>
+<hr>
+<h3 class="nolinks">Step 7<br>
+</h3>
+<p>To complete a nice gloss effect on the "Glass" layer, we want to add a specular highlight. Create a <strong>New Layer</strong> called "Highlight" and use your <strong>Brushes </strong>panel to create an oval-shaped brush (set the <strong>Roundness</strong> to <strong>20%</strong>) with an angle of<strong> 104 Degrees.</strong></p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8a1f1a4dbb25f609423b3963286032cd.jpg" class="loaded" src="./184_files/2484_8a1f1a4dbb25f609423b3963286032cd.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8<br>
+</h3>
+<p>Add a highlight as shown.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_409349ed90e2a8658841e1675e55f444.jpg" class="loaded" src="./184_files/2484_409349ed90e2a8658841e1675e55f444.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Apply a <strong>Motion Blur (Filter &gt; Blur &gt; Motion Blur)</strong> at the same angle with a <strong>Distance</strong> of <strong>130 px.</strong></p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_144ed22d9466d8598375e1455be93673.jpg" class="loaded" src="./184_files/2484_144ed22d9466d8598375e1455be93673.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9<br>
+</h3>
+<p>Open this layer's <strong>Layer Styles</strong> and adjust the <strong>"Blend if"</strong> sliders so the highlight appears to be distorted with the texture of the glass.  </p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ff80845d2404f833f09e2cb8482042e0.jpg" class="loaded" src="./184_files/2484_ff80845d2404f833f09e2cb8482042e0.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Using the same techniques, I've added a second specular highlight towards the top of the glass bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_bec8990c92487a3ba8c799c75166bab8.jpg" class="loaded" src="./184_files/2484_bec8990c92487a3ba8c799c75166bab8.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">3.</span> How to Create the Bottle Top</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Now that the glass bottle is done, we can start on the top. Just like the other sections of the bottle, we need to<strong> Copy</strong> the original "Wine Bottle" path and manipulate it to resemble just the top of the wine bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_2c42580f523fd9b7e95df0629ec99a5c.jpg" class="loaded" src="./184_files/2484_2c42580f523fd9b7e95df0629ec99a5c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2</h3>
+<p>Create a <strong>New Layer</strong> called "Top" in the "Top" group and use the newly created path to <strong>Fill </strong>in a shape with black on the "Top" layer.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_290f147104a2677c1170e74c00bab94c.jpg" class="loaded" src="./184_files/2484_290f147104a2677c1170e74c00bab94c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3</h3>
+<p>Add an <strong>Inner Shadow Layer Style </strong>to add a highlight to the top of the wine bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9e1d0e18fbdb6b476b2b28bbaa00978b.jpg" class="loaded" src="./184_files/2484_9e1d0e18fbdb6b476b2b28bbaa00978b.jpg" data-was-processed="true"><br>
+        </figure>
+<p>The top should resemble this:</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_18101b76dda9dff3a4c94ef9992c5f1b.jpg" class="loaded" src="./184_files/2484_18101b76dda9dff3a4c94ef9992c5f1b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4</h3>
+<p>To make the top of the wine bottle appear more realistic, we need to add some texture. <strong>Convert</strong> this layer to a <strong>Smart Object</strong> and add a <strong>Pattern Overlay</strong> as shown. </p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8e9092e1d3bfe79c48460f69cd4843a9.jpg" class="loaded" src="./184_files/2484_8e9092e1d3bfe79c48460f69cd4843a9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5</h3>
+<p>Create a<strong> New Layer</strong> called "Foil Trim" and use your<strong> Rectangular Marquee Tool </strong>to make a striped shape. <strong>Fill</strong> this with a gold color.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c9fee47cad152ea8c6ff546e04f003b8.jpg" class="loaded" src="./184_files/2484_c9fee47cad152ea8c6ff546e04f003b8.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6</h3>
+<p><strong>Convert </strong>this layer to a <strong>Smart Object</strong> (this way, you can go back and easily change the trim design later) and <strong>Warp (Edit &gt; Transform &gt; Warp)</strong> the<strong> Smart Object</strong> to follow the face of the bottle. </p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_73017c6832484cadd8cbdf18d6a80904.jpg" class="loaded" src="./184_files/2484_73017c6832484cadd8cbdf18d6a80904.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, add a <strong>Gradient Overlay</strong> as shown. </p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_b7b59768244696def62435d8d919590b.jpg" class="loaded" src="./184_files/2484_b7b59768244696def62435d8d919590b.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Make this layer a <strong>Clipping Layer</strong> and adjust the<strong> Opacity </strong>to <strong>64%.</strong></p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_45a99a12b71a380e35f99ab7e36c266c.jpg" class="loaded" src="./184_files/2484_45a99a12b71a380e35f99ab7e36c266c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7</h3>
+<p> On a new<strong> Clipping Layer </strong>called "Shading," take a <strong>Soft Brush </strong>set to<strong> 50%</strong> and use black to darken some areas of the bottle top.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cfefe482817646731ceab7acddb0b224.jpg" class="loaded" src="./184_files/2484_cfefe482817646731ceab7acddb0b224.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8</h3>
+<p>I want to add a little more detail to  the lip (or finish) of the wine bottle. On a new <strong>Clipping Layer</strong>, use the <strong>Pen Tool </strong>to create a shape that follows the lip and <strong>Fill </strong>with black.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7fb8b1433e6d490346ead707b2230585.jpg" class="loaded" src="./184_files/2484_7fb8b1433e6d490346ead707b2230585.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7d991664faad93fb59c9ee93e09e3df4.jpg" class="loaded" src="./184_files/2484_7d991664faad93fb59c9ee93e09e3df4.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9</h3>
+<p>Add the following <strong>Layer Styles</strong> to help blend this shape.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_525e50bb0edc41d1de8625202e1c893e.jpg" class="loaded" src="./184_files/2484_525e50bb0edc41d1de8625202e1c893e.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_5612299e63301f6b6fdb4519768262c4.jpg" class="loaded" src="./184_files/2484_5612299e63301f6b6fdb4519768262c4.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ad733c50edf6d96275c53f80db030880.jpg" class="loaded" src="./184_files/2484_ad733c50edf6d96275c53f80db030880.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_18b59129609b6846419a5998e35bd46b.jpg" class="loaded" src="./184_files/2484_18b59129609b6846419a5998e35bd46b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 10<br>
+</h3>
+<p>On a new <strong>Clipping Layer</strong> use a <strong>Soft White Brush</strong> to draw in some highlights. Set this layer's <strong>Blending Mode </strong>to <strong>Overlay </strong>and<strong> Opacity</strong> to <strong>50%. </strong>The results should be subtle.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_4a9cb1da7cdbcbbbf85cc33ec87c75d0.jpg" class="loaded" src="./184_files/2484_4a9cb1da7cdbcbbbf85cc33ec87c75d0.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 11</h3>
+<p>To complete the top of the wine bottle, create a <strong>New Layer </strong>called "Back" below the "Top" layer. </p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_fbdc722ca2b7e6bcd679aa46ed16da23.jpg" class="loaded" src="./184_files/2484_fbdc722ca2b7e6bcd679aa46ed16da23.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Next, create an <strong>Oval</strong> filled with black and positions it as shown. You can also see that I've added a small trim of highlight to give the top label the appearance of thickness.</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7766eabed29f2cfd3f91ef924fa9ca17.jpg" class="loaded" src="./184_files/2484_7766eabed29f2cfd3f91ef924fa9ca17.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Your overall progress should resemble this image</p>
+<figure class="post_image">
+          <img alt="Create the Bottle Top" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f14ca02ac4f6952b08d171ab7bb3b7d5.jpg" class="loaded" src="./184_files/2484_f14ca02ac4f6952b08d171ab7bb3b7d5.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">4.</span> How to Create a Wine Label</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>To create a label for the wine bottle, start by creating a <strong>New Document </strong>roughly the proportion of a wine label (for this image, I've created a <strong>760 px x 550 px Document</strong>). Create a design for the label. As you can see, I have created a generic rectangular design.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_aac6f73d8e5fc2140a967c7154ce89f9.jpg" class="loaded" src="./184_files/2484_aac6f73d8e5fc2140a967c7154ce89f9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p> When you have finished, convert your design to a <strong>Smart Object </strong>(if you're using multiple layers and/or layer groups, simply <strong>Select All Layers</strong> and then<strong> Convert to  a Smart Object</strong>). Rename this <strong>S</strong><strong>mart Object</strong> to "Full Label" </p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_3d9464567af5f7b7a3d5851ab8cac68a.jpg" class="loaded" src="./184_files/2484_3d9464567af5f7b7a3d5851ab8cac68a.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Now, our goal is to wrap this around the wine bottle using<strong> Edit &gt; Transform &gt; Warp</strong>, however, it would be very difficult to do this since we have a large portion of the shape that will disappear behind itself. We need to work with only part of our label without destroying it. To do this, use the rectangular marquee to select about half of your label and click on <strong>Apply Layer Mask.</strong></p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_01ed1c2b5a1749bde26dd52368b544fb.jpg" class="loaded" src="./184_files/2484_01ed1c2b5a1749bde26dd52368b544fb.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3</h3>
+<p>Convert our masked <strong>Smart Objec</strong>t in to another <strong>Smart Object </strong>and rename it "Half Label." The new<strong> Smart Object</strong> will now take the shape of the mask without being destructive. Now, <strong>Drag and Drop</strong> this new <strong>Smart Object</strong> in to our wine scene inside the "Label" group.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_efec4cc4a045694165604090967d0db1.jpg" class="loaded" src="./184_files/2484_efec4cc4a045694165604090967d0db1.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4<br>
+</h3>
+<p>Since we converted the masked layer in to a <strong>Smart Object</strong>, we can now edit the label based on the dimensions of the mask. Go ahead and <strong>Edit &gt; Transform &gt; Warp</strong> the label into position and you can see how this works.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f6c2c0ac8a099bfe5d988dc56c5a4227.jpg" class="loaded" src="./184_files/2484_f6c2c0ac8a099bfe5d988dc56c5a4227.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5<br>
+</h3>
+<p>Apply the following<strong> Layer Styles</strong>. These styles should help the label to appear more natural. </p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c206b342f192d0842a8d37746c7fc564.jpg" class="loaded" src="./184_files/2484_c206b342f192d0842a8d37746c7fc564.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c9651e3f6d783337c6ead4ecebcbab44.jpg" class="loaded" src="./184_files/2484_c9651e3f6d783337c6ead4ecebcbab44.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9d6f657c54a99f8e52aad76794aac0df.jpg" class="loaded" src="./184_files/2484_9d6f657c54a99f8e52aad76794aac0df.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9c23f4d73348d06f6deb4f1a8acb189f.jpg" class="loaded" src="./184_files/2484_9c23f4d73348d06f6deb4f1a8acb189f.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_28370c9d64772137e3647d58c51b03b0.jpg" class="loaded" src="./184_files/2484_28370c9d64772137e3647d58c51b03b0.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6<br>
+</h3>
+<p>Lastly, create a <strong>New Layer </strong>below the "Half Label" <strong>Smart Object </strong>and create a shape that resembles the backside of the wine label. In this case, I have given it a simple <strong>Gradient Overlay</strong> and a subtle<strong> Blur.</strong></p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_25ff931f161e75885e49114b1022f214.jpg" class="loaded" src="./184_files/2484_25ff931f161e75885e49114b1022f214.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7<br>
+</h3>
+<p>To finish up the wine bottle, select all folders and <strong>Convert </strong>to a <strong>Smart Object.</strong> Label this "Wine Bottle" and, for organizational purposes, place in a <strong>New Group</strong> called "Bottle."</p>
+<figure class="post_image">
+          <img alt="Create a Wine Label" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cf0f2d0c554eebad9611016d2afde29f.jpg" class="loaded" src="./184_files/2484_cf0f2d0c554eebad9611016d2afde29f.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">5.</span> How to Create a Wine Glass</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Now, let's create a wine glass to go along with our wine. To start, create a <strong>New Group</strong> called "Glass" with the following groups inside: </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_e1d0ccdd47913a3c0730e6553399b3d7.jpg" class="loaded" src="./184_files/2484_e1d0ccdd47913a3c0730e6553399b3d7.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p>In the "Bulb" group, create a <strong>New Layer </strong>called "Bulb" and use the <strong>Pen Tool (P)</strong> to draw the bulb of a wine glass. </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_46106d4aaf2d8610da06bcc6966410cc.jpg" class="loaded" src="./184_files/2484_46106d4aaf2d8610da06bcc6966410cc.jpg" data-was-processed="true"><br>
+        </figure>
+<p><strong>Fill </strong>with<strong> 50% Gray.</strong></p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_580b4d4cc0587e88df16bc5aec53b578.jpg" class="loaded" src="./184_files/2484_580b4d4cc0587e88df16bc5aec53b578.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_5c8438f6ebad8a3245fc0c39a18fce82.jpg" class="loaded" src="./184_files/2484_5c8438f6ebad8a3245fc0c39a18fce82.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3<br>
+</h3>
+<p>We are going to layer multiple effects to try to achieve a realistic 'glass' appearance. Start by making three <strong>Copies </strong>of the "Bulb" layer and set the<strong> Fill </strong>to<strong> 0%</strong> on each one.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c6b2f2214a5622ee355aa6256f04b9e9.jpg" class="loaded" src="./184_files/2484_c6b2f2214a5622ee355aa6256f04b9e9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4</h3>
+<p>Go back to the original "Bulb" layer and set this layer's <strong>Opacity</strong> to <strong>6%</strong></p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8b2e9affeb972ed71942633459b2ca26.jpg"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5<br>
+</h3>
+<p>Let's start building the glass effect. Add the following <strong>Layer Styles</strong> to this layer:</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_1088f4d2a0cd59375c8a9bc74b3ae919.jpg"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_1d6f3aedb0c08edc0671f79919426246.jpg" class="loaded" src="./184_files/2484_1d6f3aedb0c08edc0671f79919426246.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_276a37e01893b5fb8cb56997fe4edbfe.jpg" class="loaded" src="./184_files/2484_276a37e01893b5fb8cb56997fe4edbfe.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_16275d1188b22563fa7d76ad74fb33ff.jpg" class="loaded" src="./184_files/2484_16275d1188b22563fa7d76ad74fb33ff.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c804737054c4816cbaf548bef3ea5f7e.jpg" class="loaded" src="./184_files/2484_c804737054c4816cbaf548bef3ea5f7e.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_aabe2ff2912f7edfddea3684343d53ff.jpg" class="loaded" src="./184_files/2484_aabe2ff2912f7edfddea3684343d53ff.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6<br>
+</h3>
+<p>Now, select the first<strong> </strong>copy ("Bulb copy") and add the following <strong>Layer Styles</strong>. As you'll see, by setting these copy layers to a<strong> Fill </strong>of <strong>0%</strong> we are able to use redundant layer styles to build complicated effects.  </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_09d5eaa89c535259ab1578af979fda7e.jpg" class="loaded" src="./184_files/2484_09d5eaa89c535259ab1578af979fda7e.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9dbe363259535a57a6f2f887a2f1ef51.jpg" class="loaded" src="./184_files/2484_9dbe363259535a57a6f2f887a2f1ef51.jpg" data-was-processed="true"><br>
+        </figure>
+<p>On the <strong>Gradient Overlay Layer Styles</strong>, you'll notice I've been using some complex gradients; these were mainly created by experimenting. If you don’t like the results you're getting, try something different.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7a9c176f922c393fd5d4db8da808e4bc.jpg" class="loaded" src="./184_files/2484_7a9c176f922c393fd5d4db8da808e4bc.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a07dfd22b98f9503c4d25c645740912b.jpg" class="loaded" src="./184_files/2484_a07dfd22b98f9503c4d25c645740912b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7<br>
+</h3>
+<p>Select the second copy and add the following <strong>Layer Styles</strong>. </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ec74c3a79002685442e03b0768bef2cd.jpg" class="loaded" src="./184_files/2484_ec74c3a79002685442e03b0768bef2cd.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_72894953bdc14719eb0abb11ecb50ac5.jpg" class="loaded" src="./184_files/2484_72894953bdc14719eb0abb11ecb50ac5.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cb3dd7749a79b0d340d47797c3830f26.jpg" class="loaded" src="./184_files/2484_cb3dd7749a79b0d340d47797c3830f26.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_77bd9f6cd3d60d79c008e646e4ae8a13.jpg" class="loaded" src="./184_files/2484_77bd9f6cd3d60d79c008e646e4ae8a13.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8<br>
+</h3>
+<p> Finally, select the third copy and add the following <strong>Layer Styles</strong>. </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_18dfd954aa309d91460927bd632dca8d.jpg" class="loaded" src="./184_files/2484_18dfd954aa309d91460927bd632dca8d.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_14ce8f387f926238df006df1808d8065.jpg" class="loaded" src="./184_files/2484_14ce8f387f926238df006df1808d8065.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c9ec6be791d7b2c91f97a83f374a4af5.jpg" class="loaded" src="./184_files/2484_c9ec6be791d7b2c91f97a83f374a4af5.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, select all four "Bulb' layers and <strong>Convert</strong> to a <strong>Smart Object</strong>.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ae69ebc7a40346ae03cf750e5a0d01c2.jpg" class="loaded" src="./184_files/2484_ae69ebc7a40346ae03cf750e5a0d01c2.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9<br>
+</h3>
+<p> To create the rim of the wine glass, start by creating a <strong>New Layer </strong>called "Rim." Use the <strong>Elliptical Marquee Tool</strong> to create an oval donut shape and<strong> Fill </strong>with <strong>50% </strong>gray.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ece18b720ebab714b08fb3e95efecc9e.jpg" class="loaded" src="./184_files/2484_ece18b720ebab714b08fb3e95efecc9e.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a101a4ce4050e3a7905c887e641e8160.jpg" class="loaded" src="./184_files/2484_a101a4ce4050e3a7905c887e641e8160.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 10<br>
+</h3>
+<p>Now, <strong>Control-Click</strong> the layer's thumbnail to make a selection and press <strong>Control-</strong><strong>Shift-I </strong>to <strong>Inverse</strong> the selection. </p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_42212be5da292321a6346cdec36a1de8.jpg" class="loaded" src="./184_files/2484_42212be5da292321a6346cdec36a1de8.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Select the "Bulb" layer and click on <strong>Add Layer Mask.</strong> This will hide the part of the wine glass that would have overlapped with the rim.</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_17ea2fe195528e713f3161ed0ae0e14d.jpg" class="loaded" src="./184_files/2484_17ea2fe195528e713f3161ed0ae0e14d.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 11<br>
+</h3>
+<p>Go back to the rim layer and add the following<strong> Layer Styles. </strong></p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8c12ff6f2187803ab6ca1c5348729b21.jpg" class="loaded" src="./184_files/2484_8c12ff6f2187803ab6ca1c5348729b21.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7994a5be3f0a3fe36e6bde74499160f6.jpg" class="loaded" src="./184_files/2484_7994a5be3f0a3fe36e6bde74499160f6.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Set the <strong>Fill </strong>to <strong>8%</strong>. <strong>Convert </strong>to a <strong>Smart Object </strong>when you're done</p>
+<figure class="post_image">
+          <img alt="Create a Wine Glass" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cec7c22e9c9291d78d8428637e629c63.jpg" class="loaded" src="./184_files/2484_cec7c22e9c9291d78d8428637e629c63.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">6.</span> How to Add Glass Reflections and Highlights<br>
+</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Just like we did with the wine bottle, draw some random shapes in white on a <strong>New Layer</strong> above the "Bulb" <strong>Smart Object.</strong> Name this <strong>New Layer</strong> "Reflections."</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_89bf5d558788c47127b0051a90b26c45.jpg" class="loaded" src="./184_files/2484_89bf5d558788c47127b0051a90b26c45.jpg" data-was-processed="true"><br>
+        </figure>
+<p><strong>Edit &gt; Transform &gt; Warp</strong> the shapes around the glass</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ba30c64d9dfdcf8dc2c0b0edeb3646d2.jpg" class="loaded" src="./184_files/2484_ba30c64d9dfdcf8dc2c0b0edeb3646d2.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, make this a <strong>Clipping Layer</strong> and set the <strong>Blending Mode</strong> to <strong>Overlay</strong> and the <strong>Opacity </strong>to<strong> 30%. </strong>I have also added a <strong>Mask </strong>to mask out the reflections that appear in the center of the glass.</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f44c5a931f768a4ab49419b55f48ce03.jpg" class="loaded" src="./184_files/2484_f44c5a931f768a4ab49419b55f48ce03.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p>Create a new <strong>Clipping Layer</strong> to the "Rim" layer called "Rim Highlights" and draw in some highlights with a soft yellow color.   </p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_16e3f9a1c9f342b90dc231c26201aa1b.jpg" class="loaded" src="./184_files/2484_16e3f9a1c9f342b90dc231c26201aa1b.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3<br>
+</h3>
+<p>Lastly, create a <strong>New Layer</strong> called "Lowlights" above the "Reflections" layer. Add some soft, black spots as shown.</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_1a902459ec7a2aa4c63a3a44a611664a.jpg" class="loaded" src="./184_files/2484_1a902459ec7a2aa4c63a3a44a611664a.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Make this layer a<strong> Clipping Layer</strong>. This will automatically reduce the <strong>Opacity </strong>of the spots..</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f327b1e5eb04fde44d86b64dfd314cac.jpg" class="loaded" src="./184_files/2484_f327b1e5eb04fde44d86b64dfd314cac.jpg" data-was-processed="true"><br>
+        </figure>
+<p>So you can understand why we did this, here is a before and after for this step. You can see that the glass no longer appears as flat.</p>
+<figure class="post_image">
+          <img alt="Add Glass Reflections" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_e3c948d29890e93aaf7f18b41efd0ec9.jpg" class="loaded" src="./184_files/2484_e3c948d29890e93aaf7f18b41efd0ec9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">7.</span> How to Create the Glass Stem</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>Now let's create the glass stem. In the "Stem" group, create a <strong>N</strong><strong>ew Layer </strong>called "Stem" and use the <strong>Pen Tool</strong> to draw a simple shape of the stem. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9c960002b63eabb4bb2f9c618ea9c39e.jpg" class="loaded" src="./184_files/2484_9c960002b63eabb4bb2f9c618ea9c39e.jpg" data-was-processed="true"><br>
+        </figure>
+<p><strong>Fill </strong>this with <strong>50%</strong> gray.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6d8d872814e375cb73f0f818cddfde3d.jpg" class="loaded" src="./184_files/2484_6d8d872814e375cb73f0f818cddfde3d.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p>Add the following <strong>Layer Styles</strong>. Make sure to check <strong>"Layer Style Hides Mask."</strong> </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ed8bbf465942be31463de93741e9e23b.jpg" class="loaded" src="./184_files/2484_ed8bbf465942be31463de93741e9e23b.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_d46456bc804394ba86dd8824369a40f3.jpg" class="loaded" src="./184_files/2484_d46456bc804394ba86dd8824369a40f3.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_0ba7aae14efb4031e2caaee19055846a.jpg" class="loaded" src="./184_files/2484_0ba7aae14efb4031e2caaee19055846a.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cb67c890e21aa5bfe578d5986c819218.jpg" class="loaded" src="./184_files/2484_cb67c890e21aa5bfe578d5986c819218.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_784a76b303f57261754b1de7e56a86cb.jpg" class="loaded" src="./184_files/2484_784a76b303f57261754b1de7e56a86cb.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_2951f068dddffeca3a1f6309ebb131cf.jpg" class="loaded" src="./184_files/2484_2951f068dddffeca3a1f6309ebb131cf.jpg" data-was-processed="true"><br>
+        </figure>
+<p>To fix the base of the stem, add a <strong>Layer Mask </strong>and use a feathered<strong> Brush</strong> to <strong>Mask</strong> the bottom of the stem as shown. This will give it a more natural transition in to the base.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f3d9813fd4ddb845670d4233ef7b882f.jpg" class="loaded" src="./184_files/2484_f3d9813fd4ddb845670d4233ef7b882f.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3<br>
+</h3>
+<p>To build a little more detail on the stem, <strong>Copy</strong> this layer, set the <strong>Fill </strong>to <strong>0%</strong> and the<strong> Opacity </strong>to<strong> 47%.</strong> <strong>Delete </strong>all <strong>Layer Styles</strong> except for the <strong>Gradient Overlay</strong>. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_b22a157a7463e179daaf3d5c2058b8a4.jpg" class="loaded" src="./184_files/2484_b22a157a7463e179daaf3d5c2058b8a4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Adjust the <strong>Gradient Overlay</strong> as shown below.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c2711935f5918c85aafa215d489c1a4f.jpg" class="loaded" src="./184_files/2484_c2711935f5918c85aafa215d489c1a4f.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Your image should now resemble the following:</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_571a89753cb6b40e222b3e1247db6d98.jpg" class="loaded" src="./184_files/2484_571a89753cb6b40e222b3e1247db6d98.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Use the existing <strong>Mask</strong> on this layer to clean up the gradient as shown:</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_8cd1136de09892d52de55b44d1527478.jpg" class="loaded" src="./184_files/2484_8cd1136de09892d52de55b44d1527478.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4<br>
+</h3>
+<p>To create the base of the wine glass, start by drawing an <strong>Ellipse</strong> filled with <strong>50%</strong> gray inside the "Base" group. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_007a352552a9873a9ef4690f0981ad79.jpg" class="loaded" src="./184_files/2484_007a352552a9873a9ef4690f0981ad79.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Next, Add the following <strong>Layer Styles.</strong></p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_3f509af861823ed3ce7dc09f075dbb5a.jpg" class="loaded" src="./184_files/2484_3f509af861823ed3ce7dc09f075dbb5a.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_4825c3c3589b78a2e6e051e85cb48c11.jpg" class="loaded" src="./184_files/2484_4825c3c3589b78a2e6e051e85cb48c11.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a1719b7e7f9d050e3b65daad8f76ecc2.jpg" class="loaded" src="./184_files/2484_a1719b7e7f9d050e3b65daad8f76ecc2.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_62b0075c4afd78202c7320b36901b84f.jpg" class="loaded" src="./184_files/2484_62b0075c4afd78202c7320b36901b84f.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_4b21a6d30435f97bb42ef49f2f71b79c.jpg" class="loaded" src="./184_files/2484_4b21a6d30435f97bb42ef49f2f71b79c.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Your image should resemble the following:</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f33966b9f4bd2426f50203f57f1a166c.jpg" class="loaded" src="./184_files/2484_f33966b9f4bd2426f50203f57f1a166c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5</h3>
+<p>To build more detail, <strong>Copy </strong>this layer and make sure the <strong>Opacity </strong>is set to<strong> 0%.</strong> Next, replace the existing <strong>Later Styles</strong> with the following:</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_3461702d9b7784c3fe2cb8d93c13203c.jpg" class="loaded" src="./184_files/2484_3461702d9b7784c3fe2cb8d93c13203c.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_d8c206bce5616f259fafe28689242bcd.jpg" class="loaded" src="./184_files/2484_d8c206bce5616f259fafe28689242bcd.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_fbc2ad45dc3241c878fbd3f846e3b6f8.jpg" class="loaded" src="./184_files/2484_fbc2ad45dc3241c878fbd3f846e3b6f8.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_04f776cd8330aae4f37e8ed08e84921b.jpg" class="loaded" src="./184_files/2484_04f776cd8330aae4f37e8ed08e84921b.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_558a37f04c5abc48499c6db010a1c0dc.jpg" class="loaded" src="./184_files/2484_558a37f04c5abc48499c6db010a1c0dc.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6<br>
+</h3>
+<p>Select the two base layers and <strong>Convert to a Smart Object</strong>. Rename this layer "Base."</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_267b2dbfd55d095f62b802b838dc09a4.jpg" class="loaded" src="./184_files/2484_267b2dbfd55d095f62b802b838dc09a4.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7<br>
+</h3>
+<p>To add some dimension to the base, make a <strong>Copy </strong>of the <strong>Smart Object</strong> and place it under the original. Nudge it down to a desired thickness.  </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7daf8b37d6d14d74a855837c39209265.jpg" class="loaded" src="./184_files/2484_7daf8b37d6d14d74a855837c39209265.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Add the following<strong> Layer Styles</strong> to enhance this edge.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f38d1f6a8b252274cb97c4da7f33666d.jpg" class="loaded" src="./184_files/2484_f38d1f6a8b252274cb97c4da7f33666d.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_91400836beb7fae9f392b5649c77b503.jpg" class="loaded" src="./184_files/2484_91400836beb7fae9f392b5649c77b503.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_181230189e5dd85c5ebbb374bc3263d8.jpg" class="loaded" src="./184_files/2484_181230189e5dd85c5ebbb374bc3263d8.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Add a <strong>Layer Mask</strong> and mask out the top half of the shape so that it appears more natural.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_5612d727a68c22242944930dccc88094.jpg" class="loaded" src="./184_files/2484_5612d727a68c22242944930dccc88094.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8<br>
+</h3>
+<p>Add a new <strong>Clipping Layer</strong> to the original "Base" <strong>Smart Object </strong>and draw in some black reflections as shown.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7f06902a23c2386ee78a50827c8c45bc.jpg" class="loaded" src="./184_files/2484_7f06902a23c2386ee78a50827c8c45bc.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9<br>
+</h3>
+<p>I want to fix the base as it passes behind the stem. To do this, create a<strong> Layer Mask </strong>on the "Base" layer and <strong>Mask </strong>out that area.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_cc202a213a9f1afd1f0272d5ecaa86b4.jpg" class="loaded" src="./184_files/2484_cc202a213a9f1afd1f0272d5ecaa86b4.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Next, create a<strong> Copy</strong> of the "Base" layer and move it above the clipping layer (make sure to re-clip your clipping layer if it becomes unclipped). <strong>Delete </strong>the <strong>Layer Mask</strong>; we'll need to make a new one later. <strong>Warp (Edit &gt; Transform &gt; Warp)</strong> this base so to a desired shape. </p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_080c7da6940a361dc3d5e6a900ca75aa.jpg" class="loaded" src="./184_files/2484_080c7da6940a361dc3d5e6a900ca75aa.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Lastly, add a<strong> Layer Mask</strong> to mask out anything that is not behind the stem. This should give us the illusion of refraction.</p>
+<figure class="post_image">
+          <img alt="Create the Glass Stem" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_d946b6319564f386a3060df86c130a6c.jpg" class="loaded" src="./184_files/2484_d946b6319564f386a3060df86c130a6c.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">8.</span> How to Create the Final Details</h2><h3 class="nolinks">Step 1<br>
+</h3>
+<p>To finish the wine glass, Create a<strong> New Layer </strong>called "Highlights" with the following <strong>Layer</strong> <strong>Style.</strong></p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_55670952c8bf9fe6b581476c66beed7f.jpg" class="loaded" src="./184_files/2484_55670952c8bf9fe6b581476c66beed7f.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6bd6bdcf89f852efde3a94e3431bbca6.jpg" class="loaded" src="./184_files/2484_6bd6bdcf89f852efde3a94e3431bbca6.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_0329510cac1364d3d03e80c0c588d139.jpg" class="loaded" src="./184_files/2484_0329510cac1364d3d03e80c0c588d139.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Paint some highlights on the glass as you see fit</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_c8655aaf2a7b8f30138b7376856d191f.jpg" class="loaded" src="./184_files/2484_c8655aaf2a7b8f30138b7376856d191f.jpg" data-was-processed="true"><br>
+        </figure>
+<p>When you're done, select the layers and layer groups associated to the wine glass and <strong>Convert to a Smart Object.</strong> <strong>Place </strong>the <strong>Smart Object</strong> in a new folder called "Wine Glass."</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_af67fe59edb5abac54054156c21f215a.jpg" class="loaded" src="./184_files/2484_af67fe59edb5abac54054156c21f215a.jpg" data-was-processed="true"><br>
+        </figure>
+<p>Your scene should know look like this:</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_ea39cfe65da49a1213984db6dba94002.jpg" class="loaded" src="./184_files/2484_ea39cfe65da49a1213984db6dba94002.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 2<br>
+</h3>
+<p>In the remaining steps, we'll finish up the scene with some additional details. Let's start by adding a caustic reflection from the wine bottle. Since this reflection is the same color as the wine, we can use our "Wine Bottle" <strong>Smart Object</strong>. Go ahead and make a <strong>Copy</strong> of this. Rename this "Caustics." By using a<strong> Copy</strong> of an existing <strong>Smart Object</strong>, any changes we make to the original <strong>Smart Object</strong> will reflect in the copy(ies) as you will see later.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_55d9662d80c6ec4f2cdbd45768037746.jpg" class="loaded" src="./184_files/2484_55d9662d80c6ec4f2cdbd45768037746.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 3<br>
+</h3>
+<p><strong>Edit &gt; Transform &gt; Warp </strong>as shown. You don't have to be precise here, we will use a <strong>Layer Mask</strong> to clean this up.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_fd4efc5ab6260371d6dc359b2e96a972.jpg"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 4<br>
+</h3>
+<p>Add a <strong>Layer Mask</strong> to this <strong>Smart Object</strong> and <strong>Mask</strong> out much of this layer, leaving a subtle caustic pattern. Set the <strong>Blending Mode</strong> to<strong> Screen</strong> to finish the effect.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6c7781395fc8ce3462bc541cc17616c7.jpg" class="loaded" src="./184_files/2484_6c7781395fc8ce3462bc541cc17616c7.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 5<br>
+</h3>
+<p>If you want, you can add another<strong> Layer </strong>or <strong></strong><strong>Layer Group </strong>and create some subtle shadows to ground the wine bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_f35ec0e48e99f225872c3ec682b7b017.jpg" class="loaded" src="./184_files/2484_f35ec0e48e99f225872c3ec682b7b017.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 6</h3>
+<p>Next, we are going to add the caustic reflection to the wine glass; however, this time we will build it from scratch. In a new <strong>Group</strong> under the "Wine Glass" <strong>Smart Object</strong>, create a series of light and dark rings and crescent shapes as shown.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_095e7170427a91a3553e7a55b9af7459.jpg" class="loaded" src="./184_files/2484_095e7170427a91a3553e7a55b9af7459.jpg" data-was-processed="true"><br>
+        </figure>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_e0ad9e030485e7ce60dfb558d595c464.jpg" class="loaded" src="./184_files/2484_e0ad9e030485e7ce60dfb558d595c464.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 7<br>
+</h3>
+<p>Just like we did with the Wine Bottle, go ahead and add some shadows underneath the wine glass.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_13e0ff78d7c989cffc949e5c1c4771fa.jpg" class="loaded" src="./184_files/2484_13e0ff78d7c989cffc949e5c1c4771fa.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 8<br>
+</h3>
+<p>The last thing we are going to do is add the reflections of the wine glass and bottle from each other. Go to the "Wine Glass" <strong>Smart Object</strong>, make a <strong>Copy</strong> of it and place it above the "Wine Bottle" <strong>Smart Object</strong>. Rename this "Glass Reflection."</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_7cc65d098e4378133dd7c11dfe385eb9.jpg" class="loaded" src="./184_files/2484_7cc65d098e4378133dd7c11dfe385eb9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 9<br>
+</h3>
+<p><strong>Warp</strong> the wine glass to match the contours of the wine bottle.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_6b7325779e675cb4ed8c7fe415cfe9f9.jpg" class="loaded" src="./184_files/2484_6b7325779e675cb4ed8c7fe415cfe9f9.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 10<br>
+</h3>
+<p>Create a <strong>Layer Mask</strong> to mask out any parts of the wine glass that fall off the wine bottle. Also, adjust the<strong> Opacity</strong> as you see fit.</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_72524eed86fc0a8602c4a587ce6ef186.jpg" class="loaded" src="./184_files/2484_72524eed86fc0a8602c4a587ce6ef186.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h3 class="nolinks">Step 11<br>
+</h3>
+<p>Do the same for the reflection of the wine bottle on the glass</p>
+<figure class="post_image">
+          <img alt="Create the Final Details" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_9b217abe93c04d6614e32ffa124abfb2.jpg" class="loaded" src="./184_files/2484_9b217abe93c04d6614e32ffa124abfb2.jpg" data-was-processed="true"><br>
+        </figure>
+<hr>
+<h2 class="nolinks">Conclusion</h2>
+<p>You're done! Since we set up this scene using Smart Objects, you can now go back and edit any Smart Object. For example, I have changed the color of the wine, the shape of the label, and the size of the wine glass—these changes automatically update in the rest of the image, such as in the reflections and caustics.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/2484/images/2484_a0e87a520955df5be052dff2a3a9252c.jpg" class="loaded" src="./184_files/2484_a0e87a520955df5be052dff2a3a9252c.jpg" data-was-processed="true"><br>
+        </figure><h2 class="nolinks">Realistic Food Graphics From GraphicRiver</h2><p>Need a quick solution to your graphic needs? Then browse the incredible selection of <a href="https://graphicriver.net/category/vectors/objects/food" target="_self">Realistic Food Graphics</a> available to you through <a href="https://graphicriver.net/" target="_self">GraphicRiver</a>. Download these assets to add to your designs and check out one of our favorites below!<br></p><h3 class="nolinks"><a href="https://graphicriver.net/item/alcohol-realistic-set/10310439" target="_self">Alcohol Realistic Set</a></h3><p>Take a load off with this incredible set of realistic vector beverages. Designed with incredible details, this set includes nine total beverages suitable for your next creative project. Download this set to get started with your celebrations today!<br></p><figure class="post_image"><a href="https://graphicriver.net/item/alcohol-realistic-set/10310439" target="_self"><img alt="Alcohol Realistic Set " data-src="https://cms-assets.tutsplus.com/uploads/users/346/posts/15562/image/wine_gr.jpg" class="loaded" src="./184_files/wine_gr.jpg" data-was-processed="true"></a></figure><br></div></div></div></div></article></main></div><div class="quick-links view quick-links__collapsed view--loaded"><div class="quick-links__container"><div class="quick-links__content"><ul class="quick-links__list"><li class="quick-links__list-title">Web Themes &amp; Templates</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/wordpress">WP Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/site-templates">HTML Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/ecommerce/shopify">Shopify Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/tags/bootstrap">Bootstrap Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/free/wordpress-themes">Free WordPress Themes</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/after-effects-project-files">After Effects Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/apple-motion-templates">Apple Motion Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/tags/effects">Video Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/motion-graphics/lower-thirds">Lower Thirds</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/stock-footage">Stock Footage</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Audio</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/music">Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/sound">Sound Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/popular_item/by_category?category=music">Best Selling Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/source-files/logic-pro">Logic Pro Files</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/tags/background">Background Music</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Code</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/wordpress">WordPress Plugins</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/php-scripts">PHP Script</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/javascript">JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/css">CSS Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/plugins/prestashop">PrestaShop Plugins</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Graphics</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/logo-templates">Logo Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/print-templates/business-cards">Business Card Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/add-ons/lightroom-presets">Lightroom Presets</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/serif">Serif Fonts</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/sans-serif">Sans-serif Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Photos</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/food">Food Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/animals">Animal Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/technology">Tech Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/fitness,sports#content">Fitness Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/nature,travel#content">Nature Stock Photos</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Design Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/logos?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=logo_quick-links">Logo Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=business%20card%20maker&amp;h=36&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=buscard_quick-links">Business Card Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=t-shirt%20design&amp;h=35&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=tshirt-maker_quick-links">T-Shirt Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/banner-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=banner_maker_quick-links">Banner Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/flyer-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=flyer_maker_quick-links">Flyer Maker</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/intro-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=intro_maker_quick_links">Intro Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/slideshow-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=slideshow_video_maker_quick_links">Slideshow Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/instagram-story-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=instagram_story_videomaker_quick_links">Instagram Story Video Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_devices=Offers%20%2F%20Sales&amp;h=117&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=offer_sales_quick-links">Offer / Sales</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_tags=Content%20Teaser&amp;h=120&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=content_teaser_quick-links">Content Teaser</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Elements</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/wordpress/themes">WordPress Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/photos">Stock Images</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/web-templates/site-templates">Website Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/graphic-templates/logos">Logos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/fonts">Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Tuts+</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://code.tutsplus.com/series/learn-javascript-the-complete-guide--cms-1112">Learn JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/series/learn-adobe-photoshop--cms-1098">Photoshop Tutorials</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/articles/how-to-draw--cms-25787">How to Draw</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://webdesign.tutsplus.com/series/learn-how-to-use-wordpress--cms-1074">How to Use WordPress</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://business.tutsplus.com/series/how-to-use-powerpoint-ultimate-tutorial-guide--cms-1207">How to Use PowerPoint</a></li></ul></div></div></div><footer class="page-footer view view--loaded"></footer><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./184_files/f(1).txt">
+</script><iframe name="google_cookie_match_frame" title="Google cookie match frame" width="1" height="1" src="./184_files/pixel.html" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" style="display:none" scrolling="no"></iframe>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-out-of-bounds tether-element-attached-left tether-target-attached-left tether-out-of-bounds-left tether-abutted tether-abutted-top tether-element-attached-top tether-target-attached-top tether-abutted-left tether-out-of-bounds-top" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight purple"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/create-a-wine-bottle-and-glass-with-smart-objects--psd-13329"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./184_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./184_files/saved_resource.html"></iframe></body></html>

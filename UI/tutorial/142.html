@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx-%2Dpsd-17786 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./142_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./142_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./142_files/27851e2035"></script><script src="./142_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./142_files/linkid.js.download"></script><script type="text/javascript" async="" src="./142_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":157,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>Create a 3D, Chrome, Logo Animation With Sound FX</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./142_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./142_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./142_files/fuse.js.download"></script><script async="async" src="./142_files/analytics.js.download"></script><script src="./142_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="iRaa31s6Mr4k3uBR5lPudWOV8wgYZIVdhAUaN8O/0WDDWTTqPURRFn/G3wrjaLZ8bpsNm4Zgy291zmCH5/ybsw=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="Create a 3D, Chrome, Logo Animation With Sound FX" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="Photoshop has become a multi-purpose tool that can create some complex animations without the need to purchase additional software. In this tutorial, we will show you how to create and composite a..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786" property="og:url"><meta content="true" property="native:billable"><meta content="3606" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786" hreflang="en" rel="alternate"><meta content="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/preview.jpg" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="Create a 3D, Chrome, Logo Animation With Sound FX" name="twitter:title"><meta content="Photoshop has become a multi-purpose tool that can create some complex animations without the need to purchase additional software. In this tutorial, we will show you how to create and composite a..." name="twitter:description"><meta content="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/preview.jpg" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./142_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><script type="text/javascript" async="" src="./142_files/embed.js.download"></script><script async="" type="text/javascript" src="./142_files/count.js.download"></script><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script src="./142_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fcreate-a-3d-chrome-logo-animation-with-sound-fx--psd-17786">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design" style="height: auto;"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">Create a 3D, Chrome, Logo Animation With Sound FX</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="content-heading"></div><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./142_files/widgets.js.download"></script><div class="post-body__content"><figure><iframe src="./142_files/SPwIlNrOga0.html" frameborder="0"></iframe></figure><p>Photoshop has become a multi-purpose tool that can create some complex animations without the need to purchase additional software. In this tutorial, we will show you how to create and composite a 3D animation with sound and lighting effects. We will also cover techniques on how to optimize your rendering time. Let's get started!</p>
+<p></p>
+<hr>
+<h2 class="nolinks">Tutorial Assets</h2>
+<p>The following assets were used during the production of this tutorial.</p>
+<ul>
+<li>3D Object (In Free Download Files)</li>
+<li>Material Presets (In Free Download Files)</li>
+<li><a href="http://www.sxc.hu/photo/1019053">Living Room</a></li>
+<li><a href="https://audiojungle.net/item/magic-whooshes/1112573">Audio Clips</a></li>
+</ul>
+<hr>
+<h2 class="nolinks">Step 1</h2>
+<p>
+Create a new document at a video resolution you prefer. In this case, I'm using 720 px by 480 px.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_01.jpg" class="loaded" src="./142_files/Glare_01.jpg" data-was-processed="true"></div>
+<hr>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h2 class="nolinks">Step 2</h2>
+<p>
+Choose a Foreground and Background Color and use the Gradient Tool to make a radial gradient as shown. Make sure the Radial Gradient icon is selected in the Top menu.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_02.jpg" class="loaded" src="./142_files/Glare_02.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 3</h2>
+<p>
+The next step is to create our 3D object which we will later texture and animate. You can use or build any object that you want, but for this tutorial, we'll be using a 3D object from one of my previous tutorials (included in the resources). To learn how to create this object, please refer to my <a href="https://psd.tutsplus.com/tutorials/3d/chrome-hood-ornament/">Realistic Chrome Hood Ornament Premium Tutorial</a>.</p>
+<p>
+We will now add the 3D Object to our scene. Go to File &gt; Open and navigate to the "3D_object.psd" file. This will open as a new document.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_03a.jpg" class="loaded" src="./142_files/Glare_03a.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 4</h2>
+<p>
+We want to move the "3D Object" layer into the scene we were just working on. Normally, you would use the Move Tool (V) to click and drag the layer from the canvas to the correct document tab at the top. Hovering over a document tab would open that document to allow you to drop the new layer into that new document. Unfortunately, with a 3D layer, you cannot use the Move Tool directly. So, we will have to use it indirectly.</p>
+<p>
+In the "3D_object.psd" document, make sure the 3D Object layer is selected in the Layers Panel. Also, make sure to select the Rectangular Marquee Tool (M).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_04a.jpg" class="loaded" src="./142_files/Glare_04a.jpg" data-was-processed="true"></div>
+<p>
+Holding Ctrl will change the cursor to the Move Tool temporarily which will now allow us to click and drag the 3D layer from document to document. Go ahead and hold down Ctrl + Shift while clicking and dragging the object from the canvas to our working document. Hovering over the working document will open it up.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_04b.jpg" class="loaded" src="./142_files/Glare_04b.jpg" data-was-processed="true"></div>
+<p>
+When the working document opens, drag your cursor over the canvas and release the mouse button to place the layer. Since we were holding Shift, the layer will automatically be placed in the center of the canvas.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_04c.jpg" class="loaded" src="./142_files/Glare_04c.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_04d.jpg" class="loaded" src="./142_files/Glare_04d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 5</h2>
+<p>
+With the 3D layer selected, make sure the Properties Panel and the 3D Panel become visible. If these panels are not visible, just open them by going to Window &gt; 3D, or Window &gt; Properties. Here is an example of both windows when the "Current View" is selected: </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_05a.jpg" class="loaded" src="./142_files/Glare_05a.jpg" data-was-processed="true"></div>
+<p>
+Our next step is to go through and apply textures to each surface. If we go to the 3D Panel, we can see the three object groups that make up our 3D object. By twirling down a group layer, we can see the 3D Object layer as well as its Material layer. </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_05b.jpg" class="loaded" src="./142_files/Glare_05b.jpg" data-was-processed="true"></div>
+<p>
+Select the "Ellipse" object's "Front Bevel Material" layer in the 3D Panel. In the Properties Panel, make the following adjustments. Our goal is to create a chrome material for this surface.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_05c.jpg" class="loaded" src="./142_files/Glare_05c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 6</h2>
+<p>
+In order to apply this material to other surfaces, we need to save it to the Material Picker. To do this, click on the Material Picker preview window in the Properties Panel, select the small gear icon to open a fly-out panel with additional options and choose New Material. Name the new material "Chrome."</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_06.jpg" class="loaded" src="./142_files/Glare_06.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 7</h2>
+<p>
+To apply the newly created "Chrome" material to the rest of the "Ellipse" material layers, go back to the 3D Panel and shift-click the rest of the surfaces.  Next, go to the Material Picker in the Properties Panel and navigate to our "Chrome" material.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_07a.jpg" class="loaded" src="./142_files/Glare_07a.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_07b.jpg" class="loaded" src="./142_files/Glare_07b.jpg" data-was-processed="true"></div>
+<p>
+Now, the entire "Ellipse" object should be textured with the "Chrome" material. As you can see, there's not much difference. This is because there's nothing to reflect. We will address this later.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_07c.jpg" class="loaded" src="./142_files/Glare_07c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 8</h2>
+<p>
+We will use the same "Chrome" material for the "TUTS" object. Select all of the material layers for the "TUTS" object and apply the "Chrome" material. Your image should resemble that following:</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_08a.jpg" class="loaded" src="./142_files/Glare_08a.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_08b.jpg" class="loaded" src="./142_files/Glare_08b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 9</h2>
+<p>
+The last material we need to apply is on the "Backing Front Inflation Material" layer. Select this material layer and apply the following settings in the Properties Panel.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_09a.jpg" class="loaded" src="./142_files/Glare_09a.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_09b.jpg" class="loaded" src="./142_files/Glare_09b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 10</h2>
+<p>
+Photoshop automatically includes a ground plane in every 3D scene (denoted by the grid). It also allows the option to cast shadows on that ground plane. In the 3D Panel, select the "Environment" layer, then go to the Properties Panel and make sure the Shadow and Ground Plane settings are set as shown:</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_10.jpg" class="loaded" src="./142_files/Glare_10.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 11</h2>
+<p>
+Since our object is 'standing' on the ground plane, the object's shadow will cast across it. We eventually want the object to be parallel with the ground plane and the light directly above so the shadow will be cast directly beneath the object.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_11a.jpg" class="loaded" src="./142_files/Glare_11a.jpg" data-was-processed="true"></div>
+<p>
+To achieve this, we will first move the object into position. Make sure the Move Tool (V) is selected and, in the 3D Panel, select the "Scene" layer (this selects all objects at once). </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_11b.jpg" class="loaded" src="./142_files/Glare_11b.jpg" data-was-processed="true"></div>
+<p>
+Use the onscreen widget to rotate the scene 90 degrees around the X-axis. You can also manually set the rotation using the Coordinated Tab in the Properties Panel.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_11c.jpg" class="loaded" src="./142_files/Glare_11c.jpg" data-was-processed="true"></div>
+<p>
+Lastly, use the onscreen widget to move the scene down so it's closer to the ground plane.  </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_11d.jpg" class="loaded" src="./142_files/Glare_11d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 12</h2>
+<p>
+The next step is to adjust the lighting to get better looking shadows.  In the 3D Panel, select the "Infinite Light 1" layer and use the onscreen widget to rotate the light so that if points straight down at our object.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_12a.jpg" class="loaded" src="./142_files/Glare_12a.jpg" data-was-processed="true"></div>
+<p>
+Here is a different angle so we can see how the shadow looks. If you need to reposition the object so that it's closer or further from the ground plane, refer back to Step 11.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_12b.jpg" class="loaded" src="./142_files/Glare_12b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 13</h2>
+<p>
+Before we finish adjusting the lighting, let's move the camera so we are facing our object straight on.. In the 3D Panel, select the "Current View" layer and use the tools in the Top Menu to manipulate the camera's position.
+ </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_13a.jpg" class="loaded" src="./142_files/Glare_13a.jpg" data-was-processed="true"></div>
+<p>
+To save this camera, go to the Properties Panel and click the dropdown under "View." Name this camera "Render." Saving the camera will automatically add it to our 3D Panel so we can jump between multiple cameras at any time.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_13b.jpg" class="loaded" src="./142_files/Glare_13b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 14</h2>
+<p>
+Now, it's time to finish the lighting. We are going to change the settings of the light to allow for a small amount of shadow to be visible from behind the object. This will help our scene from looking too flat against the background.  In the 3D Panel, select the "Infinite Light 1" layer again and make the following changes in the Properties Panel.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_14a.jpg" class="loaded" src="./142_files/Glare_14a.jpg" data-was-processed="true"></div>
+<p>
+Notice that we can now see some of the shadow
+ </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_14b.jpg" class="loaded" src="./142_files/Glare_14b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 15</h2>
+<p>
+To finish lighting our scene, we are going to add an Image Based Light (IBL). As the name implies, it uses an image to light the scene (essentially mimicking the lighting in the image). The result is a much more natural and realistically lit scene.</p>
+<p>
+In the 3D Panel, select the "Environment" layer. In the Properties Panel, make sure IBL is checked and click on the icon to load a texture. Go ahead and add the image of the living room from the Tutorial Assets.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_15a.jpg" class="loaded" src="./142_files/Glare_15a.jpg" data-was-processed="true"></div>
+<p>
+Our scene is now lit by the IBL which is represented in the background of our canvas. This image is for reference only and will not render in the background.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_15b.jpg" class="loaded" src="./142_files/Glare_15b.jpg" data-was-processed="true"></div>
+<p>
+As long as the Environment layer is highlighted, we will see this reference image as well as an onscreen widget that can be used to rotate the IBL around. By moving the image, we can change the reflections in our scene. Feel free to rotate the environment as you see fit.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_15c.jpg" class="loaded" src="./142_files/Glare_15c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 16</h2>
+<p>
+Lastly, the reflections appear too yellow. We can change this by editing the source image for the IBL. To do this, go to the Properties Panel, click the IBL thumbnail and click Edit Texture.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_16a.jpg" class="loaded" src="./142_files/Glare_16a.jpg" data-was-processed="true"></div>
+<p>
+This will open the texture file in a new window.  I've used Image &gt; Adjustment &gt; Replace Color to replace the yellow to a blue. This doesn't have to look realistic; we are just introducing a new color.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_16b.jpg" class="loaded" src="./142_files/Glare_16b.jpg" data-was-processed="true"></div>
+<p>
+Here is how our scene reflects the new colors from the IBL map.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_16c.jpg" class="loaded" src="./142_files/Glare_16c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 17</h2>
+<p>
+We will now create a small amount of animation in our scene. Start by clicking on the Create Video Timeline button to activate the timeline. If this button is not visible, you can go to Window &gt; Timeline.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_17a.jpg" class="loaded" src="./142_files/Glare_17a.jpg" data-was-processed="true"></div>
+<p>The "3D Object" layer will now be portrayed as a video layer in the Video Timeline. </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_17b.jpg" class="loaded" src="./142_files/Glare_17b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 18</h2>
+<p>
+Since we'll be animating the "3D Scene Position" of the "3D Object" layer, twirl down the "3D Object" layer in the timeline.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_18.jpg" class="loaded" src="./142_files/Glare_18.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 19</h2>
+<p>
+In the 3D Panel, make sure the "Scene" layer is selected. Next, move the Current Time indicator to the 15 frame mark and click the  "Enable Keyframe Animation" icon.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_19a.jpg" class="loaded" src="./142_files/Glare_19a.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_19b.jpg" class="loaded" src="./142_files/Glare_19b.jpg" data-was-processed="true"></div>
+<p>
+Next, move the Current Time Indicator to the "00" mark and use the onscreen widget to rotate the scene roughly 30 degrees around the Y Axis. A new keyframe should automatically appear at the first frame for the 3D Scene Position.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_19c.jpg" class="loaded" src="./142_files/Glare_19c.jpg" data-was-processed="true"></div>
+<p>
+ Scrubbing the Current Time Indicator back and forth between the keyframes will allow us to preview the animation.
+ </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_19d.gif" class="loaded" src="./142_files/Glare_19d.gif" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 20</h2>
+<p>
+Use the slider directly below the Timebar to set the end point of our Work Area to 15 frames.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_20.jpg" class="loaded" src="./142_files/Glare_20.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 21</h2>
+<p>
+Before we render the animation, we can make some small changes to optimize the rendering time. Go to  Edit &gt; Preferences &gt; 3D and set the Ray Tracer High Quality Threshold to 4. Alternatively, if you want a more polished final rendering, and don't mind waiting a little longer, feel free to set this to 5 or even 6 (we are only rendering 15 frames after all).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_21.jpg" class="loaded" src="./142_files/Glare_21.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 22</h2>
+<p>
+Go to File &gt; Export &gt; Render Video and apply the settings as shown. We will be rendering our scene as a JPG sequence instead of a video. This will give us more control later. I recommend saving the rendered stills to a new folder to better organize the files.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_22.jpg" class="loaded" src="./142_files/Glare_22.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 23</h2>
+<p>
+At this point, save your file and open a New Document. We are going to build a quick 2D animation of our glare effect. We will later apply this to our 3D object. Create a new document 525 px by 300 px with a black background.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_23.jpg" class="loaded" src="./142_files/Glare_23.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 24</h2>
+<p>
+Create a new layer called "Glare" and use the Rectangular Marquee Tool to make a horizontal selection as shown.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_24.jpg" class="loaded" src="./142_files/Glare_24.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 25</h2>
+<p>
+Select the Gradient Tool and make sure it is set to Foreground to Transparent and Linear Gradient. Also, set the Foreground Color to White.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_25a.jpg" class="loaded" src="./142_files/Glare_25a.jpg" data-was-processed="true"></div>
+<p>
+Using the Gradient Tool, make a small gradient at the bottom of the selection.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_25b.jpg" class="loaded" src="./142_files/Glare_25b.jpg" data-was-processed="true"></div>
+<p>
+Press Ctrl + D to deselect.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_25c.jpg" class="loaded" src="./142_files/Glare_25c.jpg" data-was-processed="true"></div><p></p>
+<hr>
+<h2 class="nolinks">Step 26</h2>
+<p>
+Rotate (Ctrl + T) the "Glare"  layer as shown.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_26.jpg" class="loaded" src="./142_files/Glare_26.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 27</h2>
+<p>
+The next step is to animate this layer across our canvas. To do this, open the Timeline like we did in Step 17.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_27a.jpg" class="loaded" src="./142_files/Glare_27a.jpg" data-was-processed="true"></div>
+<p>
+Twirl down the "Glare" layer and click on the icon to Enable Keyframe Animation for the "Position" property.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_27b.jpg" class="loaded" src="./142_files/Glare_27b.jpg" data-was-processed="true"></div>
+<p>
+Move the Current Time Indicator to frame 50 and click on the Add Keyframe icon to set the position..</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_27c.jpg" class="loaded" src="./142_files/Glare_27c.jpg" data-was-processed="true"></div>
+<p>
+Move the Current Time Indicator further down the timeline (to frame 90, or so) and move the "Glare" layer across the canvas as shown. A key frame should automatically be generated at this position.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_27d.jpg" class="loaded" src="./142_files/Glare_27d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 28</h2>
+<p>
+Pressing Spacebar will preview the animation.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_28a.gif" class="loaded" src="./142_files/Glare_28a.gif" data-was-processed="true"></div>
+<p>
+Feel free to embellish this animation as you see fit. I've added a few additional layers with different types of glare moving at different speeds. Here is a short preview.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_28b.gif" class="loaded" src="./142_files/Glare_28b.gif" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 29</h2>
+<p>
+Go to File &gt; Export &gt; Render Video. Since we are working with a 2D animation (and don't have to worry about rendering times), we can save out as a .MOV file.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_29.jpg" class="loaded" src="./142_files/Glare_29.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 30)</h2>
+<p>
+Now that we have our 2D glare animation finished, we can go back to our original scene to work on the glare effect.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_30.jpg" class="loaded" src="./142_files/Glare_30.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 31</h2>
+<p>
+For this next part, we want the object to be all black. Click on the first material layer of the "TUTS" object and change the material settings in the Properties Panel as shown.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_31a.jpg" class="loaded" src="./142_files/Glare_31a.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_31b.jpg" class="loaded" src="./142_files/Glare_31b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 32</h2>
+<p>
+Save this material like we did in Step 6. Name it "Reflected Black."</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_32.jpg" class="loaded" src="./142_files/Glare_32.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 33</h2>
+<p>
+Apply this texture to every surface on all three objects. The result should be an unrealistically reflective object.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_33.jpg" class="loaded" src="./142_files/Glare_33.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 34</h2>
+<p>
+One of the great features in Photoshop is the ability to add animated GIFs or MOV files as textures. We will apply the MOV file that we previously created to the IBL in our scene. This will create the appearance of our 2D glare animation being reflected in our object.</p>
+<p>
+In the 3D Panel, select the "Environment" layer and, in the Properties Panel, click the IBL thumbnail and select Replace Texture. Select the 2D Glare MOV file that we just created.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_34a.jpg" class="loaded" src="./142_files/Glare_34a.jpg" data-was-processed="true"></div>
+<p>
+Pressing the space bar will preview the animation, but it will only show the first 15 frames since we adjusted the work area in Step 20. Go ahead and expand the work area to 90 frames.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_34b.jpg" class="loaded" src="./142_files/Glare_34b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 35</h2>
+<p>
+As explained in Step 15, we can us the onscreen widget to manipulate the position of the IBL. Currently, if you preview the animation, the IBL is positioned in such a way that it is not reflecting the 'glare' in our animation. Set the Current Time Indicator towards the end of the timeline (when the glare in our .MOV file starts to animate).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_35a.jpg" class="loaded" src="./142_files/Glare_35a.jpg" data-was-processed="true"></div>
+<p>
+Rotate the IBL until we see that glare in the reflections of our object.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_35b.jpg" class="loaded" src="./142_files/Glare_35b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 36</h2>
+<p>
+Since there are minimal textures in our scene, our scene will render a little faster.  However, there are some additional steps we can take that will make little visual difference, but a significant time saver when rendering.</p>
+<p>
+Click on each object layer and uncheck Catch Shadows and Cast Shadows (found in the Properties Panel).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_36a.jpg" class="loaded" src="./142_files/Glare_36a.jpg" data-was-processed="true"></div>
+<p>
+Select the "Infinite Light 1" layer and uncheck Shadow in the Properties Panel.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_36b.jpg" class="loaded" src="./142_files/Glare_36b.jpg" data-was-processed="true"></div>
+<p>
+Select the "Environment" layer and uncheck Shadow in the Properties Panel. Also, set the Ground Plane Shadow's Opacity to 0%.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_36c.jpg" class="loaded" src="./142_files/Glare_36c.jpg" data-was-processed="true"></div>
+<p>
+Lastly, as an optional step, go to Edit &gt; Preferences &gt; 3D and set the Ray Tracer High Quality Threshold to 3 or 4.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_36d.jpg" class="loaded" src="./142_files/Glare_36d.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 37</h2>
+<p>
+The last thing we need to do before rendering is to make the background solid black. Select the "Background" layer and give it a black fill.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_37.jpg" class="loaded" src="./142_files/Glare_37.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 38</h2>
+<p>
+Just like we did in Step 22, go to File &gt; Export &gt; Render Video and render the animation as a JPG Image Sequence.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_38.jpg" class="loaded" src="./142_files/Glare_38.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 39</h2>
+<p>
+Now that we have all of our components rendered out, we can begin to composite our animation in a new document,  using the video timeline.  Go to File &gt; Open and navigate to the folder where we saved our 3D animation image sequence. Make sure to check the Image Sequence box before opening.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_39a.jpg" class="loaded" src="./142_files/Glare_39a.jpg" data-was-processed="true"></div>
+<p>
+Since we are working with video layers, you may get the following message before you open the file. When the file is open, just go to View and uncheck  Pixel Aspect Ration Correction to correct.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_39b.jpg" class="loaded" src="./142_files/Glare_39b.jpg" data-was-processed="true"></div>
+<p>
+Next, go to  File &gt; Place and select the last frame only of our 3D animation. This will place the last frame of our animation on the same layer as our video file.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_39c.jpg" class="loaded" src="./142_files/Glare_39c.jpg" data-was-processed="true"></div>
+<p>
+Notce that the file appears to be wider than the canvas. This is due to our video layer being portrayed in a different pixel aspect ratio than our still image. We can manually adjust the handles to correct.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_39d.jpg" class="loaded" src="./142_files/Glare_39d.jpg" data-was-processed="true"></div>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_39e.jpg" class="loaded" src="./142_files/Glare_39e.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 40</h2>
+<p>
+The next step is to add the 3D glare animation to our scene. Go to File &gt; Place and navigate to the glare animation image. Make sure to open these as an Image Sequence. Note that this automatically converts the video layer into a Smart Object. This is important for the later steps (alternatively, you can right-click any video layer in the Layers Panel and select "Convert to Smart Object").</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_40.jpg" class="loaded" src="./142_files/Glare_40.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 41</h2>
+<p>
+To start the initial glare effect, select the 3D glare animation layer and set the Blending Mode to Linear Dodge (Add).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_41a.jpg" class="loaded" src="./142_files/Glare_41a.jpg" data-was-processed="true"></div>
+<p>
+If you scrub through the animation, you can see how this Blending Mode affects the scene.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_41b.gif" class="loaded" src="./142_files/Glare_41b.gif" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 42</h2>
+<p>
+As pointed out earlier, our 3D glare video layer is a Smart Object. As a Smart Object, we can now apply Smart Filters to the video layer. We will use Smart Filters to enhance our glare effect. Make a copy of the glare layer in the Layers Panel and name this "Blurred Glare." This will automatically add a new layer to our video timeline.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_42a.jpg" class="loaded" src="./142_files/Glare_42a.jpg" data-was-processed="true"></div>
+<p>
+ Give this a Gaussian Blur (Filter &gt; Blur &gt; Gaussian Blur) set to 6.8 pixels. This will add that glow that often accompanies a glare.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_42b.jpg" class="loaded" src="./142_files/Glare_42b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 43</h2>
+<p>
+We can get creative with the glare by adding a Radial Blur. Go ahead and make another copy of the original glare layer and go to Filter &gt; Blur &gt; Radial Blur. Set the Amount to 100. Feel free to add a second Radial Blur for a added emphasis (Smart Filters can be added multiple times).</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_43a.jpg" class="loaded" src="./142_files/Glare_43a.jpg" data-was-processed="true"></div>
+<p>
+Your scene should resemble the following.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_43b.jpg" class="loaded" src="./142_files/Glare_43b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 44</h2>
+<p>
+Now that our animation is almost done, we are going to add some final touches. Add a new layer using the Layers Panel and fill with black. Name this layer "Fade."</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_44a.jpg" class="loaded" src="./142_files/Glare_44a.jpg" data-was-processed="true"></div>
+<p>
+In the Video Timeline, twirl down the "Fade" layer and, click the Stopwatch icon to Enable Keyframe Animation for the Opacity property. When you Enable Keyframe Animation, a keyframe will be placed at the spot of your Current Time Indicator—move it back to frame 00.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_44b.jpg" class="loaded" src="./142_files/Glare_44b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 45</h2>
+<p>
+Create another at the tenth frame. You can click and drag a keyframe after it's added to position it more accurately.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_45.jpg" class="loaded" src="./142_files/Glare_45.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 46</h2>
+<p>
+With the second keyframe still activate (donated by the yellow highlight), adjust the "Fade" layer's Opacity to 0% using the Layers Panel. Our fade-in is now complete.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_46.jpg" class="loaded" src="./142_files/Glare_46.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 47</h2>
+<p>
+The last thing to do is to add the audio found in the Tutorial Assets. We'll be using a sound clip bundle called "Magic Wooshes." This file includes four seaparet 'woosh' clips.</p>
+<p>
+ At the very bottom of our Video Timeline, click the plus symbol on the end of the Audio Track layer. Load the "Wooshes 01.mp3" sound clip.
+ </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_47.jpg" class="loaded" src="./142_files/Glare_47.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 48</h2>
+<p>
+Pressing the Spacebar will preview the animation with the sound. This audio clip sounds like it will work best when the glare effect passes over our object.  Move this sound clip so that that the 'woosh' plays as the glare starts moving across our object.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_48.jpg" class="loaded" src="./142_files/Glare_48.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 49</h2>
+<p>
+Currently, the audio keeps playing past the end of our animation, to fix this, we will need to trim the clip. Click on the end of the Audio Track and drag it back so that it ends with our animation.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_49a.jpg" class="loaded" src="./142_files/Glare_49a.jpg" data-was-processed="true"></div>
+<p>
+At this point, go ahead and drag the remaining to layers back so that they end with the animation.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_49b.jpg" class="loaded" src="./142_files/Glare_49b.jpg" data-was-processed="true"></div>
+<p>
+The audio still cuts off early. To fix that, we will add a fade out to the audio. Click the arrow icon at the end of the track and set the Fade Out to .5 sec.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_49c.jpg" class="loaded" src="./142_files/Glare_49c.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 50</h2>
+<p>
+If you want, you can add another audio track to the beginning of our scene to play when our object rotates into position.  To add another audio track, click the Music Notes Icon on the Audio Track and select New Audio Track.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_50a.jpg" class="loaded" src="./142_files/Glare_50a.jpg" data-was-processed="true"></div>
+<p>
+Just repeat Steps 47–49. I've found that the clip "Wooshes 02.mp3" works well, however, it requires a little more adjusting.</p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_50b.jpg" class="loaded" src="./142_files/Glare_50b.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Step 51</h2>
+<p>Finally, go to File &gt; Export &gt; Render Video. </p>
+<div><img alt="" data-src="https://cdn.tutsplus.com/psd/uploads/legacy/0747_Glare/Glare_51.jpg" class="loaded" src="./142_files/Glare_51.jpg" data-was-processed="true"></div>
+<hr>
+<h2 class="nolinks">Final Rendering</h2>
+<p>You're Done! Below is the final animation with sounds effects:</p>
+<div><iframe src="./142_files/SPwIlNrOga0(1).html" width="600" height="450" frameborder="0"></iframe></div></div></div></div></div></article></main></div><div class="quick-links view quick-links__collapsed view--loaded"><div class="quick-links__container"><div class="quick-links__content"><ul class="quick-links__list"><li class="quick-links__list-title">Web Themes &amp; Templates</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/wordpress">WP Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/site-templates">HTML Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/ecommerce/shopify">Shopify Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/tags/bootstrap">Bootstrap Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/free/wordpress-themes">Free WordPress Themes</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/after-effects-project-files">After Effects Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/apple-motion-templates">Apple Motion Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/tags/effects">Video Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/motion-graphics/lower-thirds">Lower Thirds</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/stock-footage">Stock Footage</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Audio</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/music">Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/sound">Sound Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/popular_item/by_category?category=music">Best Selling Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/source-files/logic-pro">Logic Pro Files</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/tags/background">Background Music</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Code</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/wordpress">WordPress Plugins</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/php-scripts">PHP Script</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/javascript">JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/css">CSS Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/plugins/prestashop">PrestaShop Plugins</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Graphics</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/logo-templates">Logo Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/print-templates/business-cards">Business Card Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/add-ons/lightroom-presets">Lightroom Presets</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/serif">Serif Fonts</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/sans-serif">Sans-serif Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Photos</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/food">Food Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/animals">Animal Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/technology">Tech Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/fitness,sports#content">Fitness Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/nature,travel#content">Nature Stock Photos</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Design Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/logos?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=logo_quick-links">Logo Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=business%20card%20maker&amp;h=36&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=buscard_quick-links">Business Card Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=t-shirt%20design&amp;h=35&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=tshirt-maker_quick-links">T-Shirt Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/banner-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=banner_maker_quick-links">Banner Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/flyer-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=flyer_maker_quick-links">Flyer Maker</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/intro-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=intro_maker_quick_links">Intro Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/slideshow-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=slideshow_video_maker_quick_links">Slideshow Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/instagram-story-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=instagram_story_videomaker_quick_links">Instagram Story Video Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_devices=Offers%20%2F%20Sales&amp;h=117&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=offer_sales_quick-links">Offer / Sales</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_tags=Content%20Teaser&amp;h=120&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=content_teaser_quick-links">Content Teaser</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Elements</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/wordpress/themes">WordPress Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/photos">Stock Images</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/web-templates/site-templates">Website Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/graphic-templates/logos">Logos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/fonts">Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Tuts+</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://code.tutsplus.com/series/learn-javascript-the-complete-guide--cms-1112">Learn JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/series/learn-adobe-photoshop--cms-1098">Photoshop Tutorials</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/articles/how-to-draw--cms-25787">How to Draw</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://webdesign.tutsplus.com/series/learn-how-to-use-wordpress--cms-1074">How to Use WordPress</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://business.tutsplus.com/series/how-to-use-powerpoint-ultimate-tutorial-guide--cms-1207">How to Use PowerPoint</a></li></ul></div></div></div><footer class="page-footer view view--loaded"></footer><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./142_files/f(1).txt">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-out-of-bounds tether-element-attached-left tether-target-attached-left tether-out-of-bounds-left tether-abutted tether-abutted-top tether-element-attached-top tether-target-attached-top tether-abutted-left tether-out-of-bounds-top" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight green"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/create-a-3d-chrome-logo-animation-with-sound-fx--psd-17786"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./142_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./142_files/saved_resource.html"></iframe></body></html>

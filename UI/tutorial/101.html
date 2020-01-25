@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!-- saved from url=(0109)https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop-%2Dpsd-37336 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./101_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./101_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./101_files/27851e2035"></script><script src="./101_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./101_files/linkid.js.download"></script><script type="text/javascript" async="" src="./101_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":287,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>How to Create an Ornate, Vintage, Poster Design in Photoshop</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./101_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./101_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./101_files/fuse.js.download"></script><script async="async" src="./101_files/analytics.js.download"></script><script src="./101_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="RnsDxQDOntCLZ1YBlcpv6GcDS1pWMh8NOsjVPXgDxocMNK3wZrD9eNB/aVqQ8Tfhag21ycg2UT/LA6+NXECMVA=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="How to Create an Ornate, Vintage, Poster Design in Photoshop" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="What You&#39;ll Be CreatingIn this tutorial, I will show you how to create a vintage-style poster design, complete with ornate typography and illustration. We&#39;ll look at the whole design process from..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336" property="og:url"><meta content="false" property="native:billable"><meta content="5165" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336" hreflang="en" rel="alternate"><meta content="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Preview400x277.jpg" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="How to Create an Ornate, Vintage, Poster Design in Photoshop" name="twitter:title"><meta content="What You&#39;ll Be CreatingIn this tutorial, I will show you how to create a vintage-style poster design, complete with ornate typography and illustration. We&#39;ll look at the whole design process from..." name="twitter:description"><meta content="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Preview400x277.jpg" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./101_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script type="text/javascript" async="" src="./101_files/embed.js.download"></script><script async="" type="text/javascript" src="./101_files/count.js.download"></script><script src="./101_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fhow-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">How to Create an Ornate, Vintage, Poster Design in Photoshop</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="content-heading"></div><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./101_files/widgets.js.download"></script><div class="post-body__content"><figure class="final-product final-product--image"><img data-src="https://cms-assets.tutsplus.com/uploads/users/32/posts/19787/final_image/0964_Fury_Skies195.jpg" alt="Final product image" class="loaded" src="./101_files/0964_Fury_Skies195.jpg" data-was-processed="true"><figcaption>What You'll Be Creating</figcaption></figure><p>In this tutorial, I will show you how to create a vintage-style poster design, complete with ornate typography and illustration. We'll look at the whole design process from start to finish, showing how to plan your piece, work up and colour the illustration, design the typography and border, and a few simple tricks to give it a bit of depth and interest. It's quite a long process, but I have included a lot of useful techniques that you'll be able to use in a wide range of projects. Let's get started!</p>
+<p></p>
+<hr>
+<h2 class="nolinks">Tutorial Assets</h2>
+<p>You will need the following assets in order to complete this tutorial. Please download them before you begin. If they are not available, please find alternatives.</p>
+<ul>
+<li><a href="http://www.isourcetextures.com/catalogue/paper-/plain-paper/paper--plain-paper50">Old Paper Texture</a></li>
+<li><a href="http://lostandtaken.com/blog/2011/11/17/five-free-delicate-grungy-textures.html">Delicate Grungy Textures</a></li>
+<li><a href="http://lostandtaken.com/blog/2012/1/4/30-free-seamless-background-textures.html">Seamless Background Textures</a></li>
+<li><a href="http://lostandtaken.com/blog/2011/10/28/25-deconstructed-vintage-book-textures.html">Deconstructed Vintage Book Textures</a></li>
+<li>
+<a href="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Watercolour_Textures.zip">Watercolour Textures</a> by Benjamin Mounsey</li>
+<li><a href="http://morepunkinstuff.tripod.com/filters/Mac/mac.html">Mac's Remove White Plugin</a></li>
+</ul>
+<h2 class="nolinks">Speed Art Video</h2>
+<figure><iframe src="./101_files/m75zX_KI72Y.html" width="600" height="450" frameborder="0"></iframe></figure>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h2 class="nolinks">4+ Hour Video</h2>
+<p>For this tutorial, we were able to condense around 16 hours of real-time video into just over 4 hours of video. We did this just in case you were stuck on a particular step and wanted to view some video to help you get back on track. Keep in mind that this video does not include any audio or narration.</p>
+<figure><iframe src="./101_files/utOiceK7g_I.html" width="600" height="450" frameborder="0"></iframe></figure>
+<h2 class="nolinks">
+<span class="sectionnum">1.</span> Get the Background Ready</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>Create a new document (<strong>File &gt; New...</strong>) using the settings shown below.</p>
+<figure>
+<img alt="Skies1" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies1.jpg" class="loaded" src="./101_files/0964_Fury_Skies1.jpg" data-was-processed="true"><p></p>
+<figcaption>We use a pretty huge document size to give us a lot of play when it comes to detail. It also means you can print at a huge size, which is great for a poster design!</figcaption>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>On a new layer, create a nice even border around the outside of your design. Use the <strong>Rectangular Marquee Tool</strong> and the <strong>Stroke</strong> command to create a rectangular box.</p>
+<figure>
+<img alt="skies2" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies2.jpg" class="loaded" src="./101_files/0964_Fury_Skies2.jpg" data-was-processed="true"><p></p>
+<figcaption>Use the rulers and guides to make sure your box is even all the way round.</figcaption>
+</figure>
+<figure>
+<img alt="skies3" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies3.jpg" class="loaded" src="./101_files/0964_Fury_Skies3.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>Open up the assets for your background image, and bring them into your document. An old paper texture works well, I used the combination of textures below to allow plenty of potential for variety, but you can use whatever texture you feel works best.</p>
+<ul>
+<li><a href="http://www.isourcetextures.com/catalogue/paper-/plain-paper/paper--plain-paper50">Old Paper Texture</a></li>
+<li><a href="http://lostandtaken.com/blog/2011/11/17/five-free-delicate-grungy-textures.html">Delicate Grungy Textures</a></li>
+<li>
+<a href="http://lostandtaken.com/blog/2011/10/28/25-deconstructed-vintage-book-textures.html">Deconstructed Vintage Book Textures</a>
+  </li>
+<li>
+<a href="https://cdn.tutsplus.com/psd/uploads/2014/03/0964_Fury_Watercolour_Textures.zip">Watercolor Textures</a> by Benjamin Mounsey</li>
+</ul>
+<figure>
+  <img alt="skies4" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies4.jpg" class="loaded" src="./101_files/0964_Fury_Skies4.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies5" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies5.jpg" class="loaded" src="./101_files/0964_Fury_Skies5.jpg" data-was-processed="true"><p></p>
+<figcaption>Tinker with the opacity and layer settings to tailor your background to your tastes.</figcaption>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>Add some nice watercolour textures to one of the corners to create a bit of interest (we'll do a bit more of this later). The texture I used is one I created myself and you can find a selection of them <a href="https://cdn.tutsplus.com/psd/uploads/2014/03/0964_Fury_Watercolour_Textures.zip">here</a>. Use the <strong>Hue/Saturation</strong> panel to tailor the colours to your taste, and use the <strong>Eraser Tool</strong> on a low opacity to blend the edges into your background.</p>
+<figure>
+<img alt="skies6" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies6.jpg" class="loaded" src="./101_files/0964_Fury_Skies6.jpg" data-was-processed="true"><p></p>
+<figcaption>Use the free downloadable filter <strong>Mac's Remove White</strong> to remove the white background.</figcaption>
+</figure>
+<figure>
+<img alt="skies7" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies7.jpg" class="loaded" src="./101_files/0964_Fury_Skies7.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies8" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies8.jpg" class="loaded" src="./101_files/0964_Fury_Skies8.jpg" data-was-processed="true"><p></p>
+<figcaption>You can merge all the layers to help keep the document size down.</figcaption>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">2.</span> Plan the Typography</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>Using the <strong>Brush Tool</strong>, create a border around where you think your typography will sit in the composition.</p>
+<figure>
+<img alt="skies9" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies9.jpg" class="loaded" src="./101_files/0964_Fury_Skies9.jpg" data-was-processed="true"><p></p>
+<figcaption>If you hit the <strong>R</strong> key, it will allow you to freely rotate the canvas. This will help you draw more naturally, especially with a graphics tablet. </figcaption>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>Using the hard round brush, sketch in your typography.</p>
+<figure>
+<img alt="skies10" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies10.jpg" class="loaded" src="./101_files/0964_Fury_Skies10.jpg" data-was-processed="true"><p></p>
+<figcaption>Try and create some nice flowing shapes with your typography to blend with the design elements later.</figcaption>
+</figure>
+<p>After your initial rough sketch, tidy up some of the edges.</p>
+<figure>
+<img alt="skies11" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies11.jpg" class="loaded" src="./101_files/0964_Fury_Skies11.jpg" data-was-processed="true"><p></p>
+<figcaption>Holding the <strong>Shift</strong> key while drawing allows you to draw perfectly straight lines, either vertically or horizontally. </figcaption>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>On a new layer, start sketching in some of the ornate elements of the typography. We're looking for a mixture of flowing typographic elements and mechanical parts to add some interest and detail.</p>
+<figure>
+<img alt="skies12" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies12.jpg" class="loaded" src="./101_files/0964_Fury_Skies12.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies13" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies13.jpg" class="loaded" src="./101_files/0964_Fury_Skies13.jpg" data-was-processed="true"><p></p>
+<figcaption>These elements will change as you move through the design process.</figcaption>
+</figure>
+<figure>
+<img alt="skies14 pfigcaptionWeave the shapes around and through the typography to create depth and interestfigcaptionfigureh3Step 4h3pOnce the rough shapes are drawn use the strongPen Toolstrong to block in the typography Try and use the bare minimum of anchor points as this will help you create smooth curves Remember that when you have strongPen Toolstrong activated the strongControlstrong key works as a shortcut to move your anchor points and the strongAltstrong key will allow you to move the handles for an anchor pointpfigure class" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies14.jpg" class="loaded" src="./101_files/0964_Fury_Skies14.jpg" data-was-processed="true">
+<img alt="skies15" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies15.jpg" class="loaded" src="./101_files/0964_Fury_Skies15.jpg" data-was-processed="true"><p></p>
+<figcaption>Try and be efficient with your anchor points.</figcaption>
+</figure>
+<figure>
+<img alt="skies16" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies16.jpg" class="loaded" src="./101_files/0964_Fury_Skies16.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies17" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies17.jpg" class="loaded" src="./101_files/0964_Fury_Skies17.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>Use the <strong>Transform Tool</strong> to reposition or resize the letters as necessary.</p>
+<figure>
+<img alt="skies18" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies18.jpg" class="loaded" src="./101_files/0964_Fury_Skies18.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">3.</span> Plan the Illustration </h2>
+<h3 class="nolinks">Step 1</h3>
+<p>Once the composition of the typography is planned out, create a new layer  and start sketching in the illustration. At this stage this will be very rough, we just want to get an idea of where the elements will sit within the allotted space.</p>
+<p>The illustration for this piece is going to be of a zeppelin being attacked by a giant eagle. The first thing we want to sketch in is the zeppelin. This needs to be recognisable, and take a strong position within the composition, otherwise it is likely to be over-powered by the scale of the giant eagle.</p>
+<figure>
+<img alt="skies19" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies19.jpg" class="loaded" src="./101_files/0964_Fury_Skies19.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>Sketch in the eagle next. You can overlap the border with parts of the wings to help add a sense of depth and drama, as if the scene is bursting through the border.</p>
+<p>To enhance the fantasy element of this scene, we'll add some long flowing tails to the eagle. These will give us some nice shapes and scale to play with in the composition as well.</p>
+<p>Choosing a low viewpoint for this scene will help you to enhance the sense of scale, and give you that sense of awe, as if you are looking up at something vast and imposing.</p>
+<figure>
+<img alt="skies20" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies20.jpg" class="loaded" src="./101_files/0964_Fury_Skies20.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>Now you've got the basic elements in place, its time to start working up the sketch. At this stage, you'll want to pull up some reference photos to make sure your eagle looks relatively accurate. Pulling up reference is as simple as a quick Google search of "eagle wings" or whatever particular element you're drawing at the time. Personally, I won't work from a specific reference photo, I'll use a wide range. I feel if you work from one specific photo, you will be too concerned with reproducing it exactly, rather than how it fits into your image as a whole.</p>
+<figure>
+<img alt="skies21" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies21.jpg" class="loaded" src="./101_files/0964_Fury_Skies21.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies22" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies22.jpg" class="loaded" src="./101_files/0964_Fury_Skies22.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies23" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies23.jpg" class="loaded" src="./101_files/0964_Fury_Skies23.jpg" data-was-processed="true"><p></p>
+<figcaption>Here you can see I've made another pass at the head of the eagle. It will probably take quite a few attempts before you're satisfied!</figcaption>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>Initially, we had drawn the eagle without the traditional tail feathers, and just with the three long tails, but it doesn't look quite right without them so we're going to add them in now.</p>
+<figure>
+<img alt="skies24" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies24.jpg" class="loaded" src="./101_files/0964_Fury_Skies24.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>Keep checking your reference and adjusting the illustration.</p>
+<figure>
+<img alt="skies25" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies25.jpg" class="loaded" src="./101_files/0964_Fury_Skies25.jpg" data-was-processed="true"><p></p>
+<figcaption>More adjustments to the head here, we're not finished with it yet though!</figcaption>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>Add a small bird in the background. This helps add to the depth and scale.</p>
+<figure>
+<img alt="skies26" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies26.jpg" class="loaded" src="./101_files/0964_Fury_Skies26.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>The eagle's head will be a critical focal point for the piece, so make sure you spend plenty of time on it and get it looking really great. You can see here it took me quite a few passes before I was happy with the look of it.</p>
+<figure>
+<img alt="skies27 br figurefigure class" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies27.jpg" class="loaded" src="./101_files/0964_Fury_Skies27.jpg" data-was-processed="true">
+<img alt="skies28" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies28.jpg" class="loaded" src="./101_files/0964_Fury_Skies28.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies29" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies29.jpg" class="loaded" src="./101_files/0964_Fury_Skies29.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies30" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies30.jpg" class="loaded" src="./101_files/0964_Fury_Skies30.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">4.</span> Finalise the Line Art for the Illustration</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>Now that we've got all the elements of the illustration down, we're going to polish up the line art so that it's nice and clean. This is really important, as the lines will be a visible element in the final piece. So to start, switch the <strong>Opacity</strong> for the rough line art down to about <strong>40-50%</strong> on the layer panel. Now grab the <strong>Brush Tool</strong> with a hard edge, and just start working over the top. Try to keep the lines really clean and precise, with as few superfluous strokes as possible. You can even use the <strong>Pen Tool</strong> for this if your prefer the vector look, but I prefer the natural feeling from drawing the lines with my tablet.</p>
+<figure>
+<img alt="skies31" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies31.jpg"><p></p>
+<figcaption>The <strong>Rotate Canvas</strong> function will be invaluable at this stage.</figcaption>
+</figure>
+<figure>
+<img alt="skies32" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies32.jpg" class="loaded" src="./101_files/0964_Fury_Skies32.jpg" data-was-processed="true"><p></p>
+<figcaption>It's really useful if you can avoid leaving gaps in the outside edge of your lines. This will allow you to use the <strong>Paint Bucket Tool</strong> in later stages.</figcaption>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>Enhance sections of the lines that may need extra details.</p>
+<figure>
+<img alt="skies33" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies33.jpg" class="loaded" src="./101_files/0964_Fury_Skies33.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>Use the flow of the plumage to create a sense of volume and weight to the eagle</p>
+<figure>
+<p><img alt="skies34" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies34.jpg" class="loaded" src="./101_files/0964_Fury_Skies34.jpg" data-was-processed="true"><br>
+</p></figure>
+<h3 class="nolinks">Step 4</h3>
+<p>Expand on the tail feathers.</p>
+<figure>
+<img alt="skies35" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies35.jpg" class="loaded" src="./101_files/0964_Fury_Skies35.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>We want the talons to look as if they've penetrated the zeppelin, to give a sense of interaction between the elements, so try and draw them as if they have raked across the surface.</p>
+<figure>
+<img alt="skies" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies36.jpg" class="loaded" src="./101_files/0964_Fury_Skies36.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>The feathers of a bird's wing are arranged in layers, from the smallest on the inside to the largest on the outside. Use reference images to mimic this accurately.</p>
+<figure>
+<img alt="skies37" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies37.jpg" class="loaded" src="./101_files/0964_Fury_Skies37.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>Now we need to go back to the rough layer, and redraw a few elements that aren't fitting with the current composition. So we redraw the tails to make more sense with the new tail feathers, and we also tidy up the background bird, and completely redesign the zeppelin.</p>
+<figure>
+<img alt="skies38" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies38.jpg" class="loaded" src="./101_files/0964_Fury_Skies38.jpg" data-was-processed="true"><p></p>
+<figcaption>Here we just want to improve the flow of the tails within the composition. </figcaption>
+</figure>
+<figure>
+<img alt="skies39" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies39.jpg" class="loaded" src="./101_files/0964_Fury_Skies39.jpg" data-was-processed="true"><p></p>
+<figcaption>Some minor changes to the background bird to keep it consistent. </figcaption>
+</figure>
+<figure>
+<img alt="skies40" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies40.jpg" class="loaded" src="./101_files/0964_Fury_Skies40.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 8 </h3>
+<p>Now continue working on the final lines for the zeppelin. You'll want to use the <strong>Pen Tool</strong> for the long curves especially.</p>
+<figure>
+<img alt="skies41" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies41.jpg" class="loaded" src="./101_files/0964_Fury_Skies41.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies42" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies42.jpg"><br>
+</figure>
+<h3 class="nolinks"> Step 9 </h3>
+<p>Now move on to the tails. It's far easier to use the <strong>Pen Tool</strong> here, as these curves are so long and smooth it would be practically impossible to do them freehand.</p>
+<figure>
+<img alt="skies43" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies43.jpg"><br>
+</figure>
+<figure>
+<img alt="skies44" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies44.jpg"><p></p>
+<figcaption>Don't worry about where the strokes cross over, we'll tidy those sections up later. Just concentrate on getting the thickness right, as if the tails were coming towards the viewer. </figcaption>
+</figure>
+<figure>
+<img alt="skies45" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies45.jpg"><p></p>
+<figcaption>We want these feathers to look somewhere between scales and feathers, as these tails look slightly reptilian in nature. </figcaption>
+</figure>
+<figure>
+<img alt="skies46" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies46.jpg"><p></p>
+<figcaption>At the end of the tails, create long flowing feathers. </figcaption>
+</figure>
+<figure>
+<img alt="skies47" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies47.jpg"><br>
+</figure>
+<h3 class="nolinks"> Step 9 </h3>
+<p>Next, polish up the background bird to look similar in nature to the huge one in the foreground.</p>
+<figure>
+<img alt="skies" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies48.jpg"><br>
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>Now we're going to define the edges of the illustration. This is fairly simple, for the straight edges, just use the <strong>Line Tool</strong> and then for the curved sections, use the <strong>Pen Tool.</strong> It's very important this is done on a new layer, separate from the typography or any border elements we will add in the future.</p>
+<figure>
+<img alt="skies49" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies49.jpg" class="loaded" src="./101_files/0964_Fury_Skies49.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies50" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies50.jpg" class="loaded" src="./101_files/0964_Fury_Skies50.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies51" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies51.jpg" class="loaded" src="./101_files/0964_Fury_Skies51.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies52" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies52.jpg" class="loaded" src="./101_files/0964_Fury_Skies52.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 11 </h3>
+<p>Finally, we are going to tidy up the few remaining details back with the <strong>Brush Tool</strong>.</p>
+<figure>
+<img alt="skies53" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies53.jpg" class="loaded" src="./101_files/0964_Fury_Skies53.jpg" data-was-processed="true"><p></p>
+<figcaption>Finalise the right hand wing. </figcaption>
+</figure>
+<figure>
+<img alt="skies54" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies54.jpg" class="loaded" src="./101_files/0964_Fury_Skies54.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies55" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies55.jpg" class="loaded" src="./101_files/0964_Fury_Skies55.jpg" data-was-processed="true"><p></p>
+<figcaption>Add some additional plumage across the wings and body of the bird. Try and use the flow of the plumage to enhance the volume of the bird. </figcaption>
+</figure>
+<figure>
+<img alt="skies56" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies56.jpg" class="loaded" src="./101_files/0964_Fury_Skies56.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies57" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies57.jpg" class="loaded" src="./101_files/0964_Fury_Skies57.jpg" data-was-processed="true"><p></p>
+<figcaption>Create some gouges on the surface of the zeppelin, to show the interaction between the two elements. </figcaption>
+</figure>
+<p>Create some rings across the surface of the zeppelin for a bit of variety. For this, create a curve with the <strong>Pen Tool</strong> on a new layer. Then duplicate the layer, and reposition it slightly to create a band. Finally, merge all the layers down again into the illustration lines.</p>
+<figure>
+<img alt="skies58" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies58.jpg" class="loaded" src="./101_files/0964_Fury_Skies58.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies59" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies59.jpg" class="loaded" src="./101_files/0964_Fury_Skies59.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies60" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies60.jpg" class="loaded" src="./101_files/0964_Fury_Skies60.jpg" data-was-processed="true"><p></p>
+<figcaption>Repeat this process to create the rest of the bands on the zeppelin. </figcaption>
+</figure>
+<p>Next, add some scales to the bird's legs</p>
+<figure>
+<img alt="skies61" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies61.jpg" class="loaded" src="./101_files/0964_Fury_Skies61.jpg" data-was-processed="true"><br>
+</figure>
+<p>Then add some detail to the feathers of the bird.</p>
+<figure>
+<img alt="skies62" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies62.jpg" class="loaded" src="./101_files/0964_Fury_Skies62.jpg" data-was-processed="true"><br>
+</figure>
+<p>And finally, add some additional detail to the zeppelin.</p>
+<figure>
+<img alt="skies63" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies63.jpg" class="loaded" src="./101_files/0964_Fury_Skies63.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies64" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies64.jpg" class="loaded" src="./101_files/0964_Fury_Skies64.jpg" data-was-processed="true"><p></p>
+<figcaption>The lines for your illustration are now finished!</figcaption>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">5.</span> Tidy and Work Up the Typography</h2>
+<h3 class="nolinks"> Step 1 </h3>
+<p>The next step is to start working up the detail in the typography, and now that we've had a chance to consider it more closely, to reposition or adjust any elements that might not fit together as we would like.</p>
+<figure>
+<img alt="skies65" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies65.jpg" class="loaded" src="./101_files/0964_Fury_Skies65.jpg" data-was-processed="true"><p></p>
+<figcaption>Here you can see I've repositioned the <strong>I</strong> to sit better within the typography, and thickened sections of the <strong>E</strong> to fill the remaining space. </figcaption>
+</figure>
+<h3 class="nolinks"> Step 2 </h3>
+<p>Now we are going to work on finalising some of the swirls, cogs and ornate elements of the typography. So first, switch the opacity of the typography layer down to around 70% (this is just temporary), and create a new layer  over the top for your embellishments. Now choose the <strong>Pen Tool</strong> and start creating paths over some of the swirls we created in our rough sketch.</p>
+<figure>
+<img alt="skies66" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies66.jpg" class="loaded" src="./101_files/0964_Fury_Skies66.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies67" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies67.jpg" class="loaded" src="./101_files/0964_Fury_Skies67.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 3 </h3>
+<p>Once you've created your swirls, start positioning some circles. You'll be turning these into cogs and mechanical looking parts with some pretty simple processes. At this stage, you don't want any of these cogs to overlap, just because it will cause confusion in the later stages.</p>
+<figure>
+<img alt="skies68" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies68.jpg" class="loaded" src="./101_files/0964_Fury_Skies68.jpg" data-was-processed="true"><br>
+</figure>
+<p>Now <strong>Command/Control-left click</strong> on the embellishment layer to select everything, and then select the layer mask we just created on the typography layer. Next, we want to create a <strong>Layer Mask</strong> on the typography, and set it to <strong>Reveal All.</strong> Now, create a black stroke around the outside of your selection on the newly created layer mask. This will create a border around the swirls and circles on the embellishment layer. Now return the <strong>Opacity</strong> on the typography layer back to <strong>100%,</strong> and merge the two layers together.</p>
+<figure>
+<img alt="skies69" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies69.jpg" class="loaded" src="./101_files/0964_Fury_Skies69.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies70" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies70.jpg" class="loaded" src="./101_files/0964_Fury_Skies70.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies71" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies71.jpg" class="loaded" src="./101_files/0964_Fury_Skies71.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies72" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies72.jpg" class="loaded" src="./101_files/0964_Fury_Skies72.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>Now we're going to use a simple circular brush  and <strong>Eraser</strong>to shape our circles into cogs. For this, I use my mouse rather than my tablet, just because it deactivates the pressure sensitivity on the brushes without having to change the brush settings. However, you can achieve the same thing by adjusting the brush settings to remove the pressure settings on fade and size, and continue to use a graphics tablet if you prefer. It's up to you! I find the mouse more accurate for this kind of work.</p>
+<p>So take your circular <strong>Eraser</strong> and just start erasing sections of the circles to create a cutout effect around the outside, like a cog. You can also use the simple circular brush and eraser to create concentric rings within the cogs for additional detail. If you feel like just using the <strong>Brush Tool</strong> to draw some more complex patterns you can do that too. Feel free to go crazy with detail, but bear in mind at some point you will need to create a similar level of detail in the body of the typography to keep it consistent.</p>
+<figure>
+<img alt="skies73" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies73.jpg" class="loaded" src="./101_files/0964_Fury_Skies73.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies74" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies74.jpg" class="loaded" src="./101_files/0964_Fury_Skies74.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies75" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies75.jpg" class="loaded" src="./101_files/0964_Fury_Skies75.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies76" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies76.jpg" class="loaded" src="./101_files/0964_Fury_Skies76.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>Next, create a new layer and repeat the process we just used to create the cogs. Then, repeat the process of masking out the typography layer. This will leave the newly created cogs sitting on top of the typography with a border around them. Again, merge the layers down.</p>
+<figure>
+<img alt="skies77" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies77.jpg" class="loaded" src="./101_files/0964_Fury_Skies77.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies78" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies78.jpg" class="loaded" src="./101_files/0964_Fury_Skies78.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies79" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies79.jpg" class="loaded" src="./101_files/0964_Fury_Skies79.jpg" data-was-processed="true"><br>
+</figure>
+<p>Again, repeat the process of creating cogs on a new layer. However, instead of setting the cogs in front of the typography layer, we want to set them behind. So the process is the same, but instead we create the mask on the layer of cogs we just created. Now hold <strong>Command/Control</strong> and select the typography, and create a black stroke around the selection on the mask.</p>
+<figure>
+<img alt="skies80" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies80.jpg" class="loaded" src="./101_files/0964_Fury_Skies80.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies81" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies81.jpg" class="loaded" src="./101_files/0964_Fury_Skies81.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>Now we are going to create a few more swirls coming from the serifs of the typography, and also swirling from around the cogs like gusts of wind or water.</p>
+<figure>
+<img alt="skies82" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies82.jpg" class="loaded" src="./101_files/0964_Fury_Skies82.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies83" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies83.jpg" class="loaded" src="./101_files/0964_Fury_Skies83.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies84" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies84.jpg" class="loaded" src="./101_files/0964_Fury_Skies84.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies85" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies85.jpg" class="loaded" src="./101_files/0964_Fury_Skies85.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">6.</span> Create an Ornate Border</h2>
+<h3 class="nolinks"> Step 1 </h3>
+<p>The next step is to create some ornate flowing shapes and cogs around the border of the illustration. So to start, create a new layer and sketch in the shapes around the typography.</p>
+<figure>
+<img alt="skies86" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies86.jpg" class="loaded" src="./101_files/0964_Fury_Skies86.jpg" data-was-processed="true"><br>
+</figure>
+<p>Create another new layer and sketch in the shapes on the left side of the border. Then <strong>Duplicate</strong> the layer and use <strong>Flip Horizontal</strong> command. Line the new layer up with the right hand side and merge the layers together. Now you have a rough plan for your ornate border.</p>
+<figure>
+<img alt="skies87" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies87.jpg" class="loaded" src="./101_files/0964_Fury_Skies87.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies88" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies88.jpg" class="loaded" src="./101_files/0964_Fury_Skies88.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies89" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies89.jpg" class="loaded" src="./101_files/0964_Fury_Skies89.jpg" data-was-processed="true"><p></p>
+<figcaption>We've purposely left a gap at the bottom so we can take a bit more time on that section later. </figcaption>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>Before we get on to finalising the border, there's something we need to get finished up, and that is to complete the <strong>Of</strong> part of our header. Use the <strong>Pen Tool</strong> to create the shape of the <strong>F</strong>.</p>
+<figure>
+<img alt="skies90" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies90.jpg" class="loaded" src="./101_files/0964_Fury_Skies90.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies91" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies91.jpg" class="loaded" src="./101_files/0964_Fury_Skies91.jpg" data-was-processed="true"><br>
+</figure>
+<p>Now we're going to create a little hot air balloon for the <strong>O</strong>, to tie in with the arial theme. For this, we'll just use a few simple shapes, and a bit of editing by hand with the <strong>Brush Tool.</strong></p>
+<figure>
+<img alt="skies92" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies92.jpg" class="loaded" src="./101_files/0964_Fury_Skies92.jpg" data-was-processed="true"><p></p>
+<figcaption>First, make two circles by creating a stroke around a circular marquee.</figcaption>
+</figure>
+<figure>
+<img alt="skies93" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies93.jpg" class="loaded" src="./101_files/0964_Fury_Skies93.jpg" data-was-processed="true"><p></p>
+<figcaption>Next, create a small trapezoid with the <strong>Pen Tool</strong>. </figcaption>
+</figure>
+<figure>
+<img alt="skies94" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies94.jpg" class="loaded" src="./101_files/0964_Fury_Skies94.jpg" data-was-processed="true"><p></p>
+<figcaption>Then using the line tool, create four lines connecting the trapezoid to the circles. </figcaption>
+</figure>
+<figure>
+<img alt="skies95" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies95.jpg" class="loaded" src="./101_files/0964_Fury_Skies95.jpg" data-was-processed="true"><p></p>
+<figcaption>Now use the pen tool to create four lines across the surface of your balloon. </figcaption>
+</figure>
+<figure>
+<img alt="skies96" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies96.jpg" class="loaded" src="./101_files/0964_Fury_Skies96.jpg" data-was-processed="true"><p></p>
+<figcaption>Finally, using the <strong>Brush Tool</strong> you can add extra detail to make it a bit less bland. </figcaption>
+</figure>
+<p>Just before we go back to the border, the eagle could do with looking a bit more threatening, so we bolster a bit of the detail around his eyes, and get rid of the pupils to give him more of a monstrous appearance.</p>
+<figure>
+<img alt="skies97" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies97.jpg" class="loaded" src="./101_files/0964_Fury_Skies97.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies98" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies98.jpg" class="loaded" src="./101_files/0964_Fury_Skies98.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 3 </h3>
+<p>Now on to finalising our border. Create a new layer, and with the pen tool, start creating strokes around the edges, to fit with your rough plan for the border. Play with different width and length of strokes.</p>
+<figure>
+<img alt="skies99" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies99.jpg" class="loaded" src="./101_files/0964_Fury_Skies99.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies100" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies100.jpg" class="loaded" src="./101_files/0964_Fury_Skies100.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies101" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies101.jpg" class="loaded" src="./101_files/0964_Fury_Skies101.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies102" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies102.jpg" class="loaded" src="./101_files/0964_Fury_Skies102.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 4 </h3>
+<p>Next we want to create some more cogs for our border, using exactly the same processes as we used before, just circular brushes and erasers to create cutaway shapes and concentric rings, with some simple editing with a paintbrush for variety.</p>
+<figure>
+<img alt="skies103" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies103.jpg" class="loaded" src="./101_files/0964_Fury_Skies103.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies104" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies104.jpg" class="loaded" src="./101_files/0964_Fury_Skies104.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies105" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies105.jpg" class="loaded" src="./101_files/0964_Fury_Skies105.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies106" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies106.jpg" class="loaded" src="./101_files/0964_Fury_Skies106.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 4 </h3>
+<p>So we're getting into the swing of things now, and we are going to repeat this process for the left hand side of the border. Create strokes and cogs in exactly the same way as above to match your border, then duplicate it and flip it to match the right side. However this time, don't merge the layers together. We'll likely be coming back to this border in a little while, so it's easier if we keep the left side separate so we can duplicate it again.</p>
+<figure>
+<img alt="skies107" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies107.jpg" class="loaded" src="./101_files/0964_Fury_Skies107.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies108" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies108.jpg" class="loaded" src="./101_files/0964_Fury_Skies108.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies109" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies109.jpg" class="loaded" src="./101_files/0964_Fury_Skies109.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies110" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies110.jpg" class="loaded" src="./101_files/0964_Fury_Skies110.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies111" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies111.jpg" class="loaded" src="./101_files/0964_Fury_Skies111.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies112" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies112.jpg" class="loaded" src="./101_files/0964_Fury_Skies112.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies113" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies113.jpg" class="loaded" src="./101_files/0964_Fury_Skies113.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 5 </h3>
+<p>The next step is to fill that gap we left at the bottom of the border. I always think that when you create a piece of art, it's great to give people some little details so it takes a bit of time to absorb everything. Nothing too extraordinary here, but we're going to create a small hourglass motif, and an especially detailed cog. You'll want to do this on a new layer.</p>
+<figure>
+<img alt="skies113" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies114.jpg" class="loaded" src="./101_files/0964_Fury_Skies114.jpg" data-was-processed="true"><p></p>
+<figcaption>Use the guides to align your design perfectly to the surrounding elements. </figcaption>
+</figure>
+<figure>
+<img alt="skies115" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies115.jpg" class="loaded" src="./101_files/0964_Fury_Skies115.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies116" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies116.jpg" class="loaded" src="./101_files/0964_Fury_Skies116.jpg" data-was-processed="true"><br>
+</figure>
+<p>Create a new layer for the hourglass, as we will want to be able to create a separate mask around it.</p>
+<figure>
+<img alt="skies117" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies117.jpg" class="loaded" src="./101_files/0964_Fury_Skies117.jpg" data-was-processed="true"><p></p>
+<figcaption>To create the basic shape, just erase a section of a rectangle, then duplicate it, flip it and merge the two. </figcaption>
+</figure>
+<figure>
+<img alt="skies118" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies118.jpg" class="loaded" src="./101_files/0964_Fury_Skies118.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies119" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies119.jpg" class="loaded" src="./101_files/0964_Fury_Skies119.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies120" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies120.jpg" class="loaded" src="./101_files/0964_Fury_Skies120.jpg" data-was-processed="true"><p></p>
+<figcaption>Just the standard eraser and paintbrush to do most of the work on this. </figcaption>
+</figure>
+<figure>
+<img alt="skies121" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies121.jpg" class="loaded" src="./101_files/0964_Fury_Skies121.jpg" data-was-processed="true"><p></p>
+<figcaption>The top and bottom seemed a bit unbalanced so here I adjusted them a touch. </figcaption>
+</figure>
+<figure>
+<img alt="skies122" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies122.jpg"><br>
+</figure>
+<h3 class="nolinks"> Step 6 </h3>
+<p>You may have noticed by now there is a slight disparity in detail between the typography and the cogs/swirls around it. So now we're going to go back and even that up. This whole process is about building up the detail in layers, so everything fits together and every element gets enough attention to fit with the overall theme.</p>
+<figure>
+<img alt="skies123" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies123.jpg" class="loaded" src="./101_files/0964_Fury_Skies123.jpg" data-was-processed="true"><p></p>
+<figcaption>You're trying to create a sort of weaving effect here, as if the strokes and swirls are weaving between the other elements.</figcaption>
+</figure>
+<figure>
+<img alt="skies124" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies124.jpg" class="loaded" src="./101_files/0964_Fury_Skies124.jpg" data-was-processed="true"><p></p>
+<figcaption>You can see I've just erased section of the swirls to make it look as if the serif of the <strong>F</strong> is weaving through the adjacent swirl. </figcaption>
+</figure>
+<figure>
+<img alt="skies125" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies125.jpg" class="loaded" src="./101_files/0964_Fury_Skies125.jpg" data-was-processed="true"><p></p>
+<figcaption>Here we are just erasing some patterns into the letters. You can use masks and strokes for this if you prefer, but I like to draw with my tablet wherever I am able! </figcaption>
+</figure>
+<figure>
+<img alt="skies126" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies126.jpg" class="loaded" src="./101_files/0964_Fury_Skies126.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies127" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies127.jpg" class="loaded" src="./101_files/0964_Fury_Skies127.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies128" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies128.jpg" class="loaded" src="./101_files/0964_Fury_Skies128.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies129" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies129.jpg" class="loaded" src="./101_files/0964_Fury_Skies129.jpg" data-was-processed="true"><p></p>
+<figcaption>That looks much better. </figcaption>
+</figure>
+<h3 class="nolinks"> Step 7 </h3>
+<p>Now we're going to make a few final edits and corrections to the border before we get into the colouring of the illustration.</p>
+<figure>
+<img alt="skies130" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies130.jpg" class="loaded" src="./101_files/0964_Fury_Skies130.jpg" data-was-processed="true"><p></p>
+<figcaption>Anywhere the strokes overlap the border, we want to correct the border to fit around them. </figcaption>
+</figure>
+<figure>
+<img alt="skies131" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies131.jpg" class="loaded" src="./101_files/0964_Fury_Skies131.jpg" data-was-processed="true"><p></p>
+<figcaption>Now we're just creating a few rips and tears around the border to give it more of a papery look, to fit with the background. </figcaption>
+</figure>
+<figure>
+<img alt="skies132" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies132.jpg" class="loaded" src="./101_files/0964_Fury_Skies132.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies133" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies133.jpg" class="loaded" src="./101_files/0964_Fury_Skies133.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">7.</span> Colour the Illustration</h2>
+<h3 class="nolinks"> Step 1 </h3>
+<p>We're approaching the end of this process, and now we're into the final stages. So let's get started on the colours for our illustration. The first thing we want to do is choose a nice blue colour, and fill the whole illustration with it. So create a new layer  and set it within a new group  called <strong>Colours</strong>. The groups and layer order are fairly important for this part as we will be using masks on various layers.</p>
+<figure>
+<img alt="skies134" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies134.jpg" class="loaded" src="./101_files/0964_Fury_Skies134.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies135" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies135.jpg" class="loaded" src="./101_files/0964_Fury_Skies135.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies136" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies136.jpg" class="loaded" src="./101_files/0964_Fury_Skies136.jpg" data-was-processed="true"><p></p>
+<figcaption>Don't forget to fill the little patches around your typography! </figcaption>
+</figure>
+<h3 class="nolinks"> Step 2 </h3>
+<p>Next we're going to fill the background of our illustration with black. So the first thing to do is create a new layer called <strong>Black</strong> and position it above the blue layer.</p>
+<figure>
+<img alt="skies137" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies137.jpg" class="loaded" src="./101_files/0964_Fury_Skies137.jpg" data-was-processed="true"><br>
+</figure>
+<p>You're going to need to create selections around your illustration, so at this point you need to merge the outline of your border down into your illustration layer. All the typography and ornate elements should still remain separate.</p>
+<figure>
+<img alt="skies138" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies138.jpg"><br>
+</figure>
+<figure>
+<img alt="skies139" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies139.jpg"><p></p>
+<figcaption>Now we can select all the areas within the line art that we want to be black.</figcaption>
+</figure>
+<figure>
+<img alt="skies140" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies140.jpg" class="loaded" src="./101_files/0964_Fury_Skies140.jpg" data-was-processed="true"><p></p>
+<figcaption>Just use the <strong>Paint bucket</strong> tool to fill the black areas, then select outside the illustration lines.</figcaption>
+</figure>
+<figure>
+<img alt="skies141" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies141.jpg" class="loaded" src="./101_files/0964_Fury_Skies141.jpg" data-was-processed="true"><p></p>
+<figcaption>Now using your selection, create a <strong>Layer Mask</strong> that hides the border.</figcaption>
+</figure>
+<p>Finally, we want to create a slight blue outline around our illustration. We'll want another mask over the black layer. To keep the two masks separate, I just create a new group out of the <strong>Black</strong> layer, and create a <strong>Layer Mask</strong> over it.</p>
+<figure>
+<img alt="skies142" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies142.jpg" class="loaded" src="./101_files/0964_Fury_Skies142.jpg" data-was-processed="true"><p></p>
+<figcaption><strong>Command/Control-click</strong> the <strong>Illustration lines</strong> layer, and on your new layer mask create a black stroke around the lines.</figcaption>
+</figure>
+<figure>
+<img alt="skies143" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies143.jpg" class="loaded" src="./101_files/0964_Fury_Skies143.jpg" data-was-processed="true"><p></p>
+<figcaption>This should leave you with a blue border surrounding your line art.</figcaption>
+</figure>
+<h3 class="nolinks"> Step 3 </h3>
+<p>Next, we're going to create some highlights. So to start with, we're going to <strong>Duplicate</strong> our Blue layer, use the <strong>Hue/Saturation</strong> panel to lighten it, and set the new layer below the darker blue. Then we will add a <strong>Layer Mask</strong> to the darker layer, and start masking through it to reveal the highlights.</p>
+<figure>
+<img alt="skies144" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies144.jpg" class="loaded" src="./101_files/0964_Fury_Skies144.jpg" data-was-processed="true"><p></p>
+<figcaption>Duplicate the layer.</figcaption>
+</figure>
+<figure>
+<img alt="skies145" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies145.jpg" class="loaded" src="./101_files/0964_Fury_Skies145.jpg" data-was-processed="true"><p></p>
+<figcaption>Lighten the new layer, and make sure its set beneath the dark layer.</figcaption>
+</figure>
+<figure>
+<img alt="skies146" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies146.jpg" class="loaded" src="./101_files/0964_Fury_Skies146.jpg" data-was-processed="true"><p></p>
+<figcaption>Then start masking through the dark layer to reveal your highlights.</figcaption>
+</figure>
+<figure>
+<img alt="skies147" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies147.jpg" class="loaded" src="./101_files/0964_Fury_Skies147.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies148" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies148.jpg" class="loaded" src="./101_files/0964_Fury_Skies148.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies148" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies148.jpg" class="loaded" src="./101_files/0964_Fury_Skies148.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies149" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies149.jpg" class="loaded" src="./101_files/0964_Fury_Skies149.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 4 </h3>
+<p>Now we're going to add some bright white highlights. This is pretty straightforward, just create a mask over the whole <strong>Colours</strong> group, and you will be able to mask right through to the background layer to create your highlights.</p>
+<figure>
+<img alt="skies150" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies150.jpg" class="loaded" src="./101_files/0964_Fury_Skies150.jpg" data-was-processed="true"><p></p>
+<figcaption>First create a mask over your <strong>Colours</strong> group. </figcaption>
+</figure>
+<figure>
+<img alt="skies151" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies151.jpg" class="loaded" src="./101_files/0964_Fury_Skies151.jpg" data-was-processed="true"><p></p>
+<figcaption>Now mask our a large moon shape, this is going to be our light source. </figcaption>
+</figure>
+<figure>
+<img alt="skies152" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies152.jpg" class="loaded" src="./101_files/0964_Fury_Skies152.jpg" data-was-processed="true"><p></p>
+<figcaption>Then light up the windows of the Zeppelin. </figcaption>
+</figure>
+<figure>
+<img alt="skies153" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies153.jpg" class="loaded" src="./101_files/0964_Fury_Skies153.jpg" data-was-processed="true"><p></p>
+<figcaption>Add some highlights. </figcaption>
+</figure>
+<figure>
+<img alt="skies154" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies154.jpg" class="loaded" src="./101_files/0964_Fury_Skies154.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 5 </h3>
+<p>The next step is to create some deep shadows. Create a new layer  and set it between your blue, and black layers. Then we're just going to choose a dark blue and paint onto it with the <strong>Brush Tool.</strong></p>
+<figure>
+<img alt="skies155" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies155.jpg" class="loaded" src="./101_files/0964_Fury_Skies155.jpg" data-was-processed="true"><p></p>
+<figcaption>Create your new layer. </figcaption>
+</figure>
+<figure>
+<img alt="skies156" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies156.jpg" class="loaded" src="./101_files/0964_Fury_Skies156.jpg" data-was-processed="true"><p></p>
+<figcaption>Then just paint your shadows in with the <strong>Brush Tool</strong>. </figcaption>
+</figure>
+<figure>
+<img alt="skies157" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies157.jpg" class="loaded" src="./101_files/0964_Fury_Skies157.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies158" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies158.jpg"><br>
+</figure>
+<figure>
+<img alt="skies159" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies159.jpg"><br>
+</figure>
+<h3 class="nolinks"> Step 6 </h3>
+<p>The colours are nearly there, just a few more details to work on.</p>
+<figure>
+<img alt="skies160" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies160.jpg" class="loaded" src="./101_files/0964_Fury_Skies160.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies161" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies161.jpg" class="loaded" src="./101_files/0964_Fury_Skies161.jpg" data-was-processed="true"><p></p>
+<figcaption>Fill the scratches and the Eagle's mouth with black. You'll need to edit the mask over the <strong>Black</strong> layer to do this. </figcaption>
+</figure>
+<figure>
+<img alt="skies162" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies162.jpg" class="loaded" src="./101_files/0964_Fury_Skies162.jpg" data-was-processed="true"><br>
+</figure>
+<figcaption>On the <strong>Black</strong> mask, create some swirling strokes across the layer with the <strong>Pen Tool</strong>. </figcaption>
+<figure>
+<img alt="skies163" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies163.jpg" class="loaded" src="./101_files/0964_Fury_Skies163.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies164" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies164.jpg" class="loaded" src="./101_files/0964_Fury_Skies164.jpg" data-was-processed="true"><p></p>
+<figcaption>Use the mask over your <strong>Colours</strong> group, to create some stars in the background. Try and expand the stars and swirls over the cutout sections near your typography, just so they aren't completely blank. </figcaption>
+</figure>
+<figure>
+<img alt="skies165" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies165.jpg" class="loaded" src="./101_files/0964_Fury_Skies165.jpg" data-was-processed="true"><p></p>
+<figcaption>Create a new layer and set the layer mode to <strong>Overlay</strong>. Paint over it with a very soft, cream-coloured brush at a low opacity to create the effect of some light bloom. </figcaption>
+</figure>
+<figure>
+<img alt="skies166" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies166.jpg" class="loaded" src="./101_files/0964_Fury_Skies166.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">8.</span> Final Details, Textures and Adjustments</h2>
+<h3 class="nolinks"> Step 1</h3>
+<p>For this final stage, we're going to add a few details to the borders, and then use a few texture effects and adjustments to tie everything together. To start with, let's get the borders tidied up and squared away.</p>
+<figure>
+<img alt="skies167" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies167.jpg" class="loaded" src="./101_files/0964_Fury_Skies167.jpg" data-was-processed="true"><p></p>
+<figcaption>A few strokes with the pen tool to add an extra layer of detail. </figcaption>
+</figure>
+<figure>
+<img alt="skies168" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies168.jpg" class="loaded" src="./101_files/0964_Fury_Skies168.jpg" data-was-processed="true"><p></p>
+<figcaption>You can add some simple circles here and there as well. </figcaption>
+</figure>
+<figure>
+<img alt="skies169" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies169.jpg" class="loaded" src="./101_files/0964_Fury_Skies169.jpg" data-was-processed="true"><p></p>
+<figcaption>A few extra cogs. </figcaption>
+</figure>
+<figure>
+<img alt="skies170" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies170.jpg" class="loaded" src="./101_files/0964_Fury_Skies170.jpg" data-was-processed="true"><br>
+</figure>
+<p>Once you're done with adding additional detail, duplicate and flip the layer, and replace the right hand side so you have a perfectly symmetrical border.</p>
+<figure>
+<img alt="skies171" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies171.jpg" class="loaded" src="./101_files/0964_Fury_Skies171.jpg" data-was-processed="true"><p></p>
+<figcaption>You may need to fill in a couple of gaps in the border depending on how asymmetric your illustration is. </figcaption>
+</figure>
+<figure>
+<img alt="skies172" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies172.jpg" class="loaded" src="./101_files/0964_Fury_Skies172.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 2 </h3>
+<p>Now we're going to repeat the exact same process around the typography. Just add extra detail to the existing swirls and cogs.</p>
+<figure>
+<img alt="skies173" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies173.jpg" class="loaded" src="./101_files/0964_Fury_Skies173.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies174" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies174.jpg" class="loaded" src="./101_files/0964_Fury_Skies174.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies175" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies175.jpg" class="loaded" src="./101_files/0964_Fury_Skies175.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies176" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies176.jpg" class="loaded" src="./101_files/0964_Fury_Skies176.jpg" data-was-processed="true"><p></p>
+<figcaption>Here we're going to try and do something interesting with the protruding section of the <strong>K</strong> by making it look like a feather. </figcaption>
+</figure>
+<figure>
+<img alt="skies177" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies177.jpg" class="loaded" src="./101_files/0964_Fury_Skies177.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies178" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies178.jpg" class="loaded" src="./101_files/0964_Fury_Skies178.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies179" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies179.jpg" class="loaded" src="./101_files/0964_Fury_Skies179.jpg" data-was-processed="true"><br>
+</figure>
+<h3 class="nolinks"> Step 3 </h3>
+<p>Now we're at the final stage, just a couple of things left to do. First we're going to switch the <strong>Layer Mode</strong> of the whole group called <strong>Colours</strong> to <strong>Multiply</strong>. This will reveal the textures beneath, and also create a bit more variance in the colours.</p>
+<figure>
+<img alt="skies180" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies180.jpg" class="loaded" src="./101_files/0964_Fury_Skies180.jpg" data-was-processed="true"><br>
+</figure>
+<p>Next we're going to use a texture layer mask to create a worn effect over all the typography. So first, make sure all your typography, borders, and ornate elements are in one group, and create a <strong>Layer Mask</strong> over the whole group set to <strong>Reveal All.</strong></p>
+<figure>
+<img alt="skies181" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies181.jpg" class="loaded" src="./101_files/0964_Fury_Skies181.jpg" data-was-processed="true"><br>
+</figure>
+<p>Now you need to pick a monochrome texture with pure black and white contrast. This is easy to do, just pick a texture you like, use the <strong>Desaturate</strong> command, and then use the <strong>Levels</strong> panel to make it pure black and white. I used the texture below.</p>
+<figure>
+<img alt="skies182" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies182.jpg" class="loaded" src="./101_files/0964_Fury_Skies182.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies183" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies183.jpg" class="loaded" src="./101_files/0964_Fury_Skies183.jpg" data-was-processed="true"><br>
+</figure>
+<p>Copy and paste your texture into your main document, and then use the <strong>Macs Remove White</strong> custom filter to remove all the white from the texture. Then make a selection from the resulting black areas, and delete that from theLayer Mask over the typography group. You will now have a nice, worn textured look to your typography.</p>
+<figure>
+<img alt="skies184" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies184.jpg" class="loaded" src="./101_files/0964_Fury_Skies184.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies185" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies185.jpg" class="loaded" src="./101_files/0964_Fury_Skies185.jpg" data-was-processed="true"><p></p>
+<figcaption>Make a selection from the black and transparent texture you just created. </figcaption>
+</figure>
+<figure>
+<img alt="skies186" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies186.jpg" class="loaded" src="./101_files/0964_Fury_Skies186.jpg" data-was-processed="true"><p></p>
+<figcaption>Now you have some textured typography. </figcaption>
+</figure>
+<p>We want to add a few more watercolour textures to the background to help tie it in with the colours of the illustration. So grab some watercolour textures, paste them into the document, remove the white background with <strong>Macs Remove White</strong> again, and then use the <strong>Hue/Saturation</strong> panel to fit them into the colour scheme.</p>
+<figure>
+<img alt="skies187" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies187.jpg" class="loaded" src="./101_files/0964_Fury_Skies187.jpg" data-was-processed="true"><p></p>
+<figcaption>Set this layer directly above the background layer, and beneath the typography and illustration. </figcaption>
+</figure>
+<figure>
+<img alt="skies188" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies188.jpg" class="loaded" src="./101_files/0964_Fury_Skies188.jpg" data-was-processed="true"><p></p>
+<figcaption>Use the <strong>Hue/Saturation</strong> panel and the <strong>Layer Opacity</strong> to adjust the colours. You will want to create a mask over the illustration as well so the watercolour textures don't bleed over. </figcaption>
+</figure>
+<figure>
+<img alt="skies189" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies189.jpg" class="loaded" src="./101_files/0964_Fury_Skies189.jpg" data-was-processed="true"><br>
+</figure>
+
+<figure>
+<img alt="skies190" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies190.jpg" class="loaded" src="./101_files/0964_Fury_Skies190.jpg" data-was-processed="true"><br>
+</figure>
+
+<figure>
+<img alt="skies191" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies191.jpg" class="loaded" src="./101_files/0964_Fury_Skies191.jpg" data-was-processed="true"><br>
+</figure>
+<p>Finally, a bit of a noisy texture to add a bit of grit and grain to the whole illustration. Paste your texture over the top of everything, set to <strong>Multiply</strong> and then adjust the <strong>Layer Opacity</strong> to suit.</p>
+<figure>
+<img alt="skies192" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies192.jpg" class="loaded" src="./101_files/0964_Fury_Skies192.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies193" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies193.jpg" class="loaded" src="./101_files/0964_Fury_Skies193.jpg" data-was-processed="true"><br>
+</figure>
+<figure>
+<img alt="skies194" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies194.jpg" class="loaded" src="./101_files/0964_Fury_Skies194.jpg" data-was-processed="true"><br>
+</figure>
+<h2 class="nolinks">Conclusion</h2>
+<p>And there you have it, your completed poster design! In this tutorial, you've learned how to use some very simple tools and techniques to create some striking design effects, and we've walked through the design process step-by-step so you can learn how to plan and execute this sort of work. Hopefully, you should have learned plenty of skills you can apply to other designs and illustrations. Thanks for reading!</p>
+<figure>
+<img alt="skiesfinal" data-src="https://cdn.tutsplus.com/psd/uploads/2014/02/0964_Fury_Skies195.jpg" class="loaded" src="./101_files/0964_Fury_Skies195(1).jpg" data-was-processed="true"><br>
+</figure></div></div></div></div></article></main></div><div class="quick-links view quick-links__collapsed view--loaded"><div class="quick-links__container"><div class="quick-links__content"><ul class="quick-links__list"><li class="quick-links__list-title">Web Themes &amp; Templates</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/wordpress">WP Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/site-templates">HTML Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/category/ecommerce/shopify">Shopify Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/tags/bootstrap">Bootstrap Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://themeforest.net/free/wordpress-themes">Free WordPress Themes</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/after-effects-project-files">After Effects Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/apple-motion-templates">Apple Motion Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/tags/effects">Video Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/motion-graphics/lower-thirds">Lower Thirds</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://videohive.net/category/stock-footage">Stock Footage</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Audio</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/music">Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/sound">Sound Effects</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/popular_item/by_category?category=music">Best Selling Royalty Free Music</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/category/source-files/logic-pro">Logic Pro Files</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://audiojungle.net/tags/background">Background Music</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Code</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/wordpress">WordPress Plugins</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/php-scripts">PHP Script</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/javascript">JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/css">CSS Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://codecanyon.net/category/plugins/prestashop">PrestaShop Plugins</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Graphics</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/logo-templates">Logo Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/print-templates/business-cards">Business Card Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/add-ons/lightroom-presets">Lightroom Presets</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/serif">Serif Fonts</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://graphicriver.net/fonts/sans-serif">Sans-serif Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Photos</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/food">Food Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/animals">Animal Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/technology">Tech Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/fitness,sports#content">Fitness Stock Photos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://photodune.net/tags/nature,travel#content">Nature Stock Photos</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Design Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/logos?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=logo_quick-links">Logo Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=business%20card%20maker&amp;h=36&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=buscard_quick-links">Business Card Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/design-templates/?f_devices=t-shirt%20design&amp;h=35&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=tshirt-maker_quick-links">T-Shirt Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/banner-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=banner_maker_quick-links">Banner Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/flyer-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=flyer_maker_quick-links">Flyer Maker</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Video Maker</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/intro-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=intro_maker_quick_links">Intro Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/slideshow-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=slideshow_video_maker_quick_links">Slideshow Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/instagram-story-video-maker?utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=instagram_story_videomaker_quick_links">Instagram Story Video Maker</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_devices=Offers%20%2F%20Sales&amp;h=117&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=offer_sales_quick-links">Offer / Sales</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://placeit.net/c/videos/?f_tags=Content%20Teaser&amp;h=120&amp;utm_medium=promos&amp;utm_source=envatoquicklinks&amp;utm_campaign=placeit_mkt-quicklinks&amp;utm_content=content_teaser_quick-links">Content Teaser</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Elements</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/wordpress/themes">WordPress Themes</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/photos">Stock Images</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/web-templates/site-templates">Website Templates</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/graphic-templates/logos">Logos</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://elements.envato.com/fonts">Fonts</a></li></ul><ul class="quick-links__list"><li class="quick-links__list-title">Tuts+</li><li class="quick-links__list-item"><a class="quick-links__link" href="https://code.tutsplus.com/series/learn-javascript-the-complete-guide--cms-1112">Learn JavaScript</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/series/learn-adobe-photoshop--cms-1098">Photoshop Tutorials</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://design.tutsplus.com/articles/how-to-draw--cms-25787">How to Draw</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://webdesign.tutsplus.com/series/learn-how-to-use-wordpress--cms-1074">How to Use WordPress</a></li><li class="quick-links__list-item"><a class="quick-links__link" href="https://business.tutsplus.com/series/how-to-use-powerpoint-ultimate-tutorial-guide--cms-1207">How to Use PowerPoint</a></li></ul></div></div></div><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./101_files/f(1).txt">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-abutted tether-out-of-bounds tether-element-attached-top tether-element-attached-left tether-target-attached-top tether-target-attached-left tether-abutted-top tether-out-of-bounds-left" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight purple"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/how-to-create-an-ornate-vintage-poster-design-in-photoshop--psd-37336"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./101_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./101_files/saved_resource.html"></iframe></body></html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Tutorial Selection</title>
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/main-style.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--  Main page-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
+  <!-- chart -->
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-pie.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-base.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
+  <!--Sidebar Click Script-->
+  <script> src = "https://code.jquery.com/jquery-3.2.1.min.js" </script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="d-flex" id="wrapper">
+
+  <!-- Sidebar -->
+  <div class="bg-light border-right" id="sidebar-wrapper">
+
+
+    <div id="sidebar" class="list-group list-group-flush" ng-if="flag == 1">
+      <div ng-repeat="x in records">
+        <a id={{x.ID}} type="text" class="list-group-item list-group-item-action bg-light">
+          <div class="card bg-light mb-3" style="max-width: 50rem;">
+            <div class="row">
+              <div class="col-3">
+                <img id="imageLoad" class="card-img-overlay" src="tutorial/{{x.ID}}_files/00-final-product.png" alt="Card image cap"
+                     style="width:225px;height:225px;margin-top:-15px">
+              </div>
+              <div class="col-9">
+                <div ngIf="{{x.label}} == 'b'">
+                  <div class="card-header bg-danger text-white" >Beginner<i class="fa fa-file-text pull-right"></i>
+                  </div>
+                </div>
+<!--                <div ngIf="{{x.label}} == 'a'">-->
+<!--                  <p>wooooow {{x.label}}</p>-->
+<!--                  <div class="card-header bg-primary text-white" >Advanced<i class="fa fa-file-text pull-right"></i>-->
+<!--                  </div>-->
+<!--                </div>-->
+
+                <div class="row">
+                  <div class="col-8" style="padding-right: 0px">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <h6 class="card-title" style="margin-bottom: 10px">{{x.title}} </h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-auto">
+                          <p class="card-text">Length:</p>
+                        </div>
+                        <div class="col">
+                          <div class="length-wrapper" id="{{x.l}}">
+                            <span class="dot" id="dot1"></span>
+                            <span class="dot" id="dot2"></span>
+                            <span class="dot" id="dot3"></span>
+                            <span class="dot" id="dot4"></span>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="card-text">Main Topic: {{x.t1}} </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <p class="card-text">Readability Score: {{x.rs}} <span class="tooltips"><i
+                            class="fa fa-info-circle"></i><span style="height:90px"><b style="font-size:13px">T</b>his score represents how difficult a text is to read. <br/> Score Range (1-4) : <b
+                            style="font-size:13px; color: #58D68D ">Very Easy </b><br/>Score Range (5-8) : <b
+                            style="font-size:13px; color: #F7DC6F">Easy </b><br/>Score Range (9-12) : <b
+                            style="font-size:13px; color: #EC7063  ">Hard</b></span></span>
+                          </p>
+                        </div>
+
+                        <div class="col-6">
+                          <p class="card-text">Command Ratio: {{x.cr}}% <span class="tooltips"><i
+                            class="fa fa-info-circle"></i><span><b
+                            style="font-size:13px; color: #58D68D ">Low</b> percentage rate indicates more explanation than the presence of commands. <br/> <b
+                            style="font-size:13px;color: #EC7063  ">High</b> percentage rate indicates less explanation than the presence of commands.</span></span>
+                          </p>
+                        </div>
+
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="card-text">Top Commands: <span class="tooltips"><i
+                            class="fa fa-info-circle"></i><span style="height:45px">The following commands are most frequently used in this tutorial</span></span>
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class col-4>
+                    <div class="chart">
+                      <div id={{x.PID}} class="pie-chart" style="width: 175px; height: 170px; overflow: hidden; margin-down:-10px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="row" style="margin-left:10px; margin-top:-15px;margin-bottom:-10px;">
+
+              <div class="col">
+                <p class="card-text-tag" style="font-size: 12pt">
+                  <span class="badge badge-secondary">elliptical_marquee_tool</span>
+                  <span class="badge badge-secondary">path_selection_tool</span>
+                  <span class="badge badge-secondary">add_anchor_point_tool</span>
+                  <span class="badge badge-secondary">convert_point_tool</span>
+                  <span class="badge badge-secondary">direct_selection_tool</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper" ng-if="flag == 1">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <button class="btn btn-primary" id="menu-toggle" style="background-color:#007b5e"><i class="fa fa-bars"></i>
+        List
+      </button>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <iframe id="inlineFrameExample" src="tutorial/topic0.html">
+
+      <!--                src="http://localhost:63342/tutorial-selection-study/tutorial/topic0.html?_ijt=e1o5f0193cjf5v6rklul9nbgcl">-->
+    </iframe>
+
+
+  </div>
+  <!-- /#page-content-wrapper -->
+
+
+</div>
+
+
+<div id="homepage">
+  <div class="container" id="myDIV">
+    <br/><br/><br/>
+    <div class="well well-lg">
+      <h2 style="text-align: center">Select any topic:</h2><br/>
+      <div class="row" style=" justify-content:center">
+        <div class="col-md-auto  col-centered">
+          <button type="button" class="btn btn-outline-secondary">Drawing Pixel Art</button>
+        </div>
+        <div class="col-md-auto  col-centered">
+          <button type="button" class="btn btn-outline-secondary">Sketching & Digital Painting</button>
+        </div>
+        <div class="col-md-auto  col-centered">
+          <button type="button" class="btn btn-outline-secondary">Animation & Video Effects</button>
+        </div>
+        <div class="col-md-auto  col-centered">
+          <button type="button" class="btn btn-outline-secondary">Photo Composite & Manipulation</button>
+        </div>
+        <div class="col-md-auto  col-centered">
+          <button type="button" class="btn btn-outline-secondary">Text Effects</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="myDIV2">
+    <br/><br/><br/>
+    <h2 style="text-align: center">Select difficulty:</h2><br/>
+    <div class="row" style=" justify-content:center">
+
+      <div class="col-md-auto  col-centered">
+        <button type="button" class="btn btn btn-outline-primary">Advanced</button>
+      </div>
+      <div class="col-md-auto  col-centered">
+        <button type="button" class="btn btn-outline-danger">Beginner</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <br/><br/><br/>
+    <div class="row" style=" justify-content:center">
+        <button type="button" id="search-homepage" class="btn btn-primary"><span class="btn-label"><i class="fa fa-search"></i></span> Search</button>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- /#wrapper -->
+
+
+<!-- Menu Toggle Script -->
+<script>
+  $("#menu-toggle").click(function (e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
+
+
+
+
+</body>
+
+</html>

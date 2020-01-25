@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop-%2Dpsd-23903 -->
+<html data-app-version="6d780b3b2d4ca2e36a0a02e85d956f54cbdf788e-production" style="" class="js no-touch history gr__design_tutsplus_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="all" href="./123_files/application-96845ba754c6652c219ce27163301e86.css"><link crossorigin="true" href="https://fonts.gstatic.com/" rel="preconnect"><link href="./123_files/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./123_files/27851e2035"></script><script src="./123_files/nr-1123.min.js.download"></script><script type="text/javascript" async="" src="./123_files/linkid.js.download"></script><script type="text/javascript" async="" src="./123_files/ec.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27851e2035","applicationID":"3094824","transactionName":"JQpZTURXXlRcRBYWRBIKRVBXVEEXSl5WFQ==","queueTime":0,"applicationTime":447,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><title>Create a Retro Sign from Scratch Using Advanced Techniques in Photoshop</title><link rel="canonical" href="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903"><link rel="shortcut icon" type="image/png" href="https://static.tutsplus.com/assets/favicon-9e8b377989d9949ad1003dc5298cd8ef.png"><link rel="apple-touch-icon" type="image/png" href="https://static.tutsplus.com/assets/apple-touch-icon-edce48c2c1293474a34fa8f1c87b5685.png"><script>window.Tutsplus = {};
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+Tutsplus.environment = 'production';
+Tutsplus.recaptchaSiteKey = '6Lc_OAETAAAAABHaGkjvRfbPQizlpILv2YzeqTil';
+Tutsplus.rollbarToken = '5b20f5bdb8ae402fb5bcfd50cc7f04a3';
+Tutsplus.rollbarEnabled = true;
+Tutsplus.ssoEnabled = true;
+Tutsplus.ssoServer = 'https://account.envato.com';
+Tutsplus.ssoSignInPath = '/sso/sign_in.json';
+Tutsplus.resetPasswordPath = 'https://account.envato.com/reset_password?to=tutsplus';
+Tutsplus.forcedResetPasswordPath = 'https://account.envato.com/password_reset_required?to=tutsplus';
+Tutsplus.adsEnabled = true;</script><link href="./123_files/cookiebot.css" media="all" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;" rel="stylesheet" type="text/css"><script async="async" data-cbid="4a6af4ea-f614-41d8-b0a9-8bb6d7fe4799" id="Cookiebot" src="./123_files/uc.js.download" type="text/javascript"></script><!--[if lte IE 8]><link rel="stylesheet" media="screen" href="https://static.tutsplus.com/assets/ie8-9850b7f919e1b2b2d9d1a412d95bd6e3.css" /><script src="https://static.tutsplus.com/assets/modernizr.custom-980d665eeab47b43d57b6ce2c3e57284.js"></script><![endif]--><script async="async" src="./123_files/fuse.js.download"></script><script async="async" src="./123_files/analytics.js.download"></script><script src="./123_files/application-27e4122270aa4fc69210270a4f5b6676.js.download"></script><link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://tutsplus.com/posts.atom"><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="BX41BgleXX22vO+jp0+0QrUIG8JYajcRqOr+lbhIb5NPMZszbyA+1e2k0PiidOxLuAblUcZueSNZIYQlnAslQA=="><meta content="initial-scale=1" name="viewport"><meta content="index, follow" name="robots"><meta content="Create a Retro Sign from Scratch Using Advanced Techniques in Photoshop" property="og:title"><meta content="Design &amp; Illustration Envato Tuts+" property="og:site_name"><meta content="1494084460809023" property="fb:app_id"><meta content="What You&#39;ll Be CreatingThis tutorial was originally published in April 2013 as a Tuts+ Premium tutorial. It is now available free to view. Although this tutorial does not use the latest version of..." name="description" property="og:description"><meta content="article" property="og:type"><meta content="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903" property="og:url"><meta content="true" property="native:billable"><meta content="5136" property="native:length"><meta property="native:priority"><link href="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903" hreflang="en" rel="alternate"><link href="https://design.tutsplus.com/id/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903" hreflang="id" rel="alternate"><meta content="https://cms-assets.tutsplus.com/uploads/users/346/posts/17470/preview_image/retrosignpre.jpg" property="og:image"><meta content="summary_large_image" name="twitter:card"><meta content="@tutsplus" name="twitter:site"><meta content="Create a Retro Sign from Scratch Using Advanced Techniques in..." name="twitter:title"><meta content="What You&#39;ll Be CreatingThis tutorial was originally published in April 2013 as a Tuts+ Premium tutorial. It is now available free to view. Although this tutorial does not use the latest version of..." name="twitter:description"><meta content="https://cms-assets.tutsplus.com/uploads/users/346/posts/17470/preview_image/retrosignpre.jpg" name="twitter:image"><meta content="t60fIs6JfmiK5FpPBlh_bKr5lJSX6abJYYIFjqiFG3M" name="google-site-verification"><meta content="D3E35339A8EC086B14C62277CBEC8234" name="msvalidate.01"><meta content="zvqxFgQqdy" name="baidu-site-verification"><script src="./123_files/body-1cbf13b5281b976942ef4909a1858719.js.download" async="async"></script><link href="https://www.google-analytics.com/" rel="dns-prefetch"><link href="https://fonts.gstatic.com/" rel="dns-prefetch"><link href="https://js-agent.newrelic.com/" rel="dns-prefetch"><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin,.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing{display:block;display:initial;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:none;}</style><script type="text/javascript" async="" src="./123_files/embed.js.download"></script><script async="" type="text/javascript" src="./123_files/count.js.download"></script><script src="./123_files/f.txt"></script><link rel="preload" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.73c498778035470a16f391458a5d5cc4.css"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.5e2845671155c097129ebd8a2aeb308d.js"><link rel="preload" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.b8bf14b0bfe753b64dddaad74e2e663a.js"><link rel="preload" as="script" href="https://disqus.com/next/config.js"></head><body class="page-body topic-design" data-ga-account="UA-11792865-37" data-ga-autolink-domains="activeden.net,audiojungle.net,themeforest.net,videohive.net,graphicriver.net,3docean.net,codecanyon.net,photodune.net,market.envato.com,market.styleguide.envato.com,elements.envato.com,build.envatohostedservices.com,author.envato.com,tutsplus.com,envato.com,business.tutsplus.com,design.tutsplus.com,code.tutsplus.com,webdesign.tutsplus.com,photography.tutsplus.com,music.tutsplus.com,cgi.tutsplus.com,gamedevelopment.tutsplus.com,computers.tutsplus.com,crafts.tutsplus.com" data-ga-domain="tutsplus.com" data-wt-dcsid="dcs222cpd4g6lg7wb3cum8l5g_6w6m" data-gr-c-s-loaded="true"><!--[if lt IE 10]><div class="legacy-ie-banner"><h2 class="legacy-ie-banner__title">Unsupported browser</h2><p class="legacy-ie-banner__text">This site was designed for modern browsers and tested with Internet Explorer version 10 and later. </p><p class="legacy-ie-banner__text">It may not look or work correctly on your browser. </p></div><![endif]--><nav class="global-nav view view--loaded"><div class="global-nav__mobile-overlay"></div><div class="global-nav__mobile"><section class="global-nav__mobile-search global-search view view--loaded"><form class="global-nav__search-form" action="https://design.tutsplus.com/tutorials/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="text" name="search[terms]" id="search_terms" value="" placeholder="Search Envato Tuts+" class="global-nav__mobile-search-terms"><button name="button" type="submit" class="global-nav__mobile-search-button"><i class="fa fa-search"></i></button></form></section><div class="global-nav__mobile-user-links"><a class="global-nav__mobile-user-link" href="https://tutsplus.com/subscribe-with-elements">Subscribe</a><a class="global-nav__mobile-user-link" href="https://tutsplus.com/sign_in?redirect_to=https%3A%2F%2Fdesign.tutsplus.com%2Ftutorials%2Fcreate-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903">Sign In</a></div><ul class="global-nav__mobile-top-level"><li class="global-nav__mobile-top-level-item global-nav__mobile-top-level-item--expanded"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/tutorials"><span class="global-nav__mobile-top-level-link-title">How-To Tutorials</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><ul class="global-nav__mobile-second-level"><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/tutorials">Design &amp; Illustration</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/tutorials">Code</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/tutorials">Web Design</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/tutorials">Photo &amp; Video</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/tutorials">Business</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/tutorials">Music &amp; Audio</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/tutorials">3D &amp; Motion Graphics</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-gamedevelopment" href="https://gamedevelopment.tutsplus.com/tutorials">Game Development</a></li><li class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-computers" href="https://computers.tutsplus.com/tutorials">Computer Skills</a></li></ul></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/courses"><span class="global-nav__mobile-top-level-link-title">Courses</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/courses">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/courses">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/courses">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/courses">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/courses">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/courses">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/courses">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-link-expandable" href="https://tutsplus.com/ebooks"><span class="global-nav__mobile-top-level-link-title">eBooks</span></a><a class="global-nav__mobile-top-level-link global-nav__mobile-top-level-expansion-link" href="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903#"><span class="global-nav__mobile-top-level-expand-text"><i class="fa fa-plus global-nav__mobile-top-level-link-icon"></i></span><span class="global-nav__mobile-top-level-collapse-text"><i class="fa fa-minus global-nav__mobile-top-level-link-icon"></i></span></a><div class="global-nav__mobile-second-level"><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-design" href="https://design.tutsplus.com/ebooks">Design &amp; Illustration</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-code" href="https://code.tutsplus.com/ebooks">Code</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-webdesign" href="https://webdesign.tutsplus.com/ebooks">Web Design</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-photography" href="https://photography.tutsplus.com/ebooks">Photo &amp; Video</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-business" href="https://business.tutsplus.com/ebooks">Business</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-music" href="https://music.tutsplus.com/ebooks">Music &amp; Audio</a></div><div class="global-nav__mobile-second-level-item"><a class="global-nav__mobile-second-level-topic-link topic-cgi" href="https://cgi.tutsplus.com/ebooks">3D &amp; Motion Graphics</a></div></div></li><li class="global-nav__mobile-top-level-item"><a class="global-nav__mobile-top-level-link" href="https://tutsplus.com/subscribe-with-elements">Pricing</a></li></ul><ul class="global-nav-mobile__envato-links"><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://elements.envato.com/">Envato Elements</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://studio.envato.com/">Envato Studio</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="http://community.envato.com/">Community</a></li><li class="global-nav__mobile-top-level-item"><a class="global-mobile__header-item--envato-link" href="https://help.elements.envato.com/">Help</a></li></ul></div><div class="global-nav__mobile-toggle"><a class="global-nav__mobile-toggle-link" href="javascript:"><i class="fa fa-reorder"></i><i class="fa fa-times"></i></a></div></nav><div class="page-content topic-design"><main class="content"><div class="content-banner"><div class="content-banner-restricted-width"><div class="content-banner__icon"></div><div class="content-banner__body"><h1 class="content-banner__title nolinks">Create a Retro Sign from Scratch Using Advanced Techniques in Photoshop</h1></div></div></div><div class="content-title"></div><article class="post article view view--loaded"><div class="layout__content-with-sidebar"><div class="content-heading"></div><div class="post-body view view--loaded"><div class="post-body__body"><script async="" charset="utf-8" src="./123_files/widgets.js.download"></script><div class="post-body__content"><figure class="final-product final-product--image"><img data-src="https://cms-assets.tutsplus.com/uploads/users/346/posts/17470/final_image/retrosignfinal.jpg" alt="Final product image" class="loaded" src="./123_files/retrosignfinal.jpg" data-was-processed="true"><figcaption>What You'll Be Creating</figcaption></figure><blockquote>This tutorial was originally published in April 2013 as a Tuts+ Premium tutorial. It is now available free to view. Although this tutorial does not use the latest version of Adobe Photoshop, its techniques and  process are still relevant.</blockquote><p>In this tutorial, we will push Photoshop to its limits to produce a realistic neon sign.<br>
+We will use several techniques, ranging from simple to advanced, to help us create and texture a neon sign within Photoshop. We will explore how to use Smart Objects, create custom textures, manipulate Layer Styles and create custom brushes. Let's get started!</p><p>Get inspired! Find more <a href="https://graphicriver.net/search/retro%20signs?referrer=homepage&amp;utf8=%E2%9C%93" target="_self">retro signs</a> on <a href="https://graphicriver.net/" target="_self">Envato Market</a>.<br></p>
+<hr>
+<h2 class="nolinks">Tutorial Assets</h2>
+<p>To complete the tutorial you will need the following assets:</p>
+<ul>
+<li><a href="https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2013/04/Premium_208_Sign_Brushes.zip">Custom Rust Brush</a></li>
+</ul>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">1.</span> How to Create the Sign's Shape</h2>
+<div class="post__inarticle-ad-template" style="display: block; margin-top: 30px;"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764347426"></div></div><div class="avert__label">Advertisement</div></div></div></div><h3 class="nolinks">Step 1</h3>
+<p>
+Create a new document <em><strong>(File &gt; New)</strong></em> at<strong> 4300 px by 3000 px.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f13486680cb51888892945c38d0f6f9d.jpg" class="loaded" src="./123_files/71319_f13486680cb51888892945c38d0f6f9d.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+On a new layer, use the <strong>Rectangle Tool</strong> to draw a rectangle in the middle of the canvas. Make sure the <strong>Tool Mode</strong> is set to Shape and the <strong>Fill</strong> to any color other than white, such as <code class="inline">#C4C4C4</code>. Name this layer <em>Metal Face</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_1f755f28a9730f5b42545ca3b637f810.jpg" class="loaded" src="./123_files/71319_1f755f28a9730f5b42545ca3b637f810.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Go to<strong> </strong><em><strong>Layer &gt; Smart Objects &gt; Convert to Smart Object</strong></em><strong>.</strong> We can tell this layer is now a <strong>Smart Object </strong>by the icon on the thumbnail.  By using <strong>Smart Objects</strong>, we can transform the shape and make non-destructive adjustment with no loss to the quality.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b218a255760b35ef57d970afbfe4a9fe.jpg" class="loaded" src="./123_files/71319_b218a255760b35ef57d970afbfe4a9fe.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Next, Transform <em><strong>(Edit &gt; Transform &gt; Free Transform</strong>)</em> the <strong>Smart Object </strong>layer so that it appears to be in perspective. This will be the perspective we'll work in.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c0b45ea8bfc18810cf5905a27051832b.jpg" class="loaded" src="./123_files/71319_c0b45ea8bfc18810cf5905a27051832b.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p><strong>
+To create the inside face of the sign, </strong><strong>right-click</strong><strong> </strong>the <em>Metal Face</em> layer and select <strong>New Smart Object Via Copy</strong>. This allows us to create a separate Smart Object that is not linked to the original <em>Metal Face</em> Smart Object. Rename this new Smart Object <em>Inside Face</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_4122a5ccf84d16d39c1dff0ffffc3af8.jpg" class="loaded" src="./123_files/71319_4122a5ccf84d16d39c1dff0ffffc3af8.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Next, <strong>double-click</strong> the thumbnail of the <em>Inside Face</em> Smart Object to access the contents of that <strong>Smart Object</strong>. Use the <strong>Paint Bucket Tool</strong> to fill the canvas with a different color, such as <code class="inline">#51881a</code>. <strong>Save</strong> <em>(<strong>Control-S</strong>)</em> and close this document. The changes we just made will automatically update in our working document.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_fa590b24f91f2df0d292084a5b0f8d88.jpg" class="loaded" src="./123_files/71319_fa590b24f91f2df0d292084a5b0f8d88.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Transform <em>(<strong>Control-T</strong>)</em> the <em>Inside Face</em> <strong>Smart Object</strong> so that it appears slightly smaller than the <em>Metal Face</em> Smart Object. The result should be two different colored rectangles that appear to make a frame.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_bcfcc53eba9c595cc94585dff50daa93.jpg" class="loaded" src="./123_files/71319_bcfcc53eba9c595cc94585dff50daa93.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+To make the sides of the sign, select the <strong>Rectangle Tool</strong> and draw out a rectangle as shown. Make sure to set the <strong>Tool Mode</strong> to <strong>Shape </strong>and the <strong>Fill</strong> to <code class="inline">#444d6e</code>. Since the visible sides of our sign are going to be in the shadows, I have selected a dark-blue color.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8901e6e173fa3fd90ab308cd03c04544.jpg" class="loaded" src="./123_files/71319_8901e6e173fa3fd90ab308cd03c04544.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p><em><strong>
+</strong></em>Just as we did earlier,<strong> right-click</strong><em> </em>this layer and select <strong>Convert to Smart Object</strong><strong>.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2b0e096c0bc6256861ff7080e914d4a5.jpg" class="loaded" src="./123_files/71319_2b0e096c0bc6256861ff7080e914d4a5.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Transform (<strong>Control-T</strong>) this shape so that it makes up one of the sides of the sign. Name this layer <em>Side Edge</em>.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e850f7b01204c9b86c53cbbdcf0a7ff3.jpg" class="loaded" src="./123_files/71319_e850f7b01204c9b86c53cbbdcf0a7ff3.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Make a copy of this Smart Object <em>(</em><strong>Control-J</strong><em><strong>)</strong></em> and <strong>Transform </strong>it<strong> </strong><strong>(</strong><em><strong></strong></em><strong>Control-T</strong><strong></strong><strong>)</strong><strong> </strong>to make up the sign's bottom. Name this layer <em>Bottom Edge</em>. Remember, since we are using Smart Objects, we can manipulate the shapes without losing quality.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_72c0d98f9d89c165e24c41afc078e715.jpg" class="loaded" src="./123_files/71319_72c0d98f9d89c165e24c41afc078e715.jpg" data-was-processed="true">
+</figure>
+
+
+<h2 class="nolinks">
+<span class="sectionnum">2.</span> How to Add the Sign's Shadows</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Make a copy of the Bottom Edge Smart Object and <strong>Transform (Control-T)</strong> the layer so it appears to follow the shape of (what would be) the backside of the sign. Rename this layer <em>Base Shadow</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7f25b080c508c97bff86269ef22ed9ac.jpg" class="loaded" src="./123_files/71319_7f25b080c508c97bff86269ef22ed9ac.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+To create the illusion that this sign is sitting on a wall, add a <strong>Gaussian Blur (Filter &gt; Blur &gt; Gaussian Blur) </strong>with a <strong>Radius</strong> of <strong>11.4 px</strong>. Set this layer's <strong>Blending Mode</strong> to <strong>Multiply</strong> and the <strong>Opacity</strong> to <strong>70%.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6152da68605bac9d6529d1fb5e18e01d.jpg" class="loaded" src="./123_files/71319_6152da68605bac9d6529d1fb5e18e01d.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Copy this <em>Base Shadow</em> Smart Object<strong> (Control-J)</strong> and rename it<em> Ambient Shadow</em>. Notice that the <em>Ambient Shadow</em><strong> Smart Object retained the effects and smart filters. Double-click</strong> the <em>Gaussian Blur</em> smart filter that is listed under the <em>Ambient Shadow</em> Smart Object. This will allow us to change the settings. Set the <strong>Radius </strong>to <strong>175 px.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d450c999499a4b844d9df30a37fe6a57.jpg" class="loaded" src="./123_files/71319_d450c999499a4b844d9df30a37fe6a57.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Lastly, make another copy of the <em>Base Shadow</em> layer and change the<strong> Gaussian Blur</strong> to a <strong>Radius</strong> of<strong> 3 px</strong>. <strong> Transform (Control-T)</strong> this Smart Object so that it appears to be the shadow of the sign casted by the sun. Rename this layer <em>Casted Shadow</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2e98e809b9cdf5ba4365f0067b0f4076.jpg" class="loaded" src="./123_files/71319_2e98e809b9cdf5ba4365f0067b0f4076.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+To organize the layers panel, select the three shadow layers and press<strong> Control-G </strong>to group them. Name this group <em>Shadows</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5a5f90d7df13632897775bd789898a46.jpg" class="loaded" src="./123_files/71319_5a5f90d7df13632897775bd789898a46.jpg" data-was-processed="true">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">3.</span> Add the Envato Logo</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+<strong>Place </strong><em><strong>(File &gt; Place)</strong></em> the <em>envatok.png</em> file into our scene. This will automatically import the file as a<strong> Smart Object</strong> with the Transform handles active. Press<strong> Enter</strong> to commit the import. Rename this layer <em>Flat Logo</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_99a823b8adf4eb7966849ae588a33678.jpg" class="loaded" src="./123_files/71319_99a823b8adf4eb7966849ae588a33678.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+<strong>Transform (Control-T</strong><em><strong>)</strong></em><strong> </strong>this layer so that is appears to sit in the center of the sign</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f114142b020813eda7fa787572c1ecc3.jpg" class="loaded" src="./123_files/71319_f114142b020813eda7fa787572c1ecc3.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+ <strong>Double-click</strong> the <em>Flat Logo</em><strong> </strong>Smart Object to open the<strong> Layer Styles</strong> panel. Add the following layers styles to create the backing for the neon tubes:</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_63e3091ba2e018d8b360aa775c1eb585.jpg" class="loaded" src="./123_files/71319_63e3091ba2e018d8b360aa775c1eb585.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6185e6d1c760a5c4b402e60402bbd706.jpg" class="loaded" src="./123_files/71319_6185e6d1c760a5c4b402e60402bbd706.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_761d0b67dbe8586813179fe87af8e369.jpg" class="loaded" src="./123_files/71319_761d0b67dbe8586813179fe87af8e369.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_30cdae660adf238613c06ec9f92af2ca.jpg" class="loaded" src="./123_files/71319_30cdae660adf238613c06ec9f92af2ca.jpg" data-was-processed="true"></p>
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">4.</span> How to Create the Neon Tubes</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Since neon tube letters are generally created as one tube, creating a believable tube can be complicated. It helps to create a temporary sketch to help us decide how to bend the tubes. On a new layer, use the <strong>Paint Brush Tool</strong> and draw each letter as a single line the follows the center to the letter form. This line will be the template for our neon tubes.
+ </p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_258a05ebad93290812814e1fd34f47db.jpg" class="loaded" src="./123_files/71319_258a05ebad93290812814e1fd34f47db.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Keep in mind that each line should be continuous. On complicated letters like "n" and "t", consider how the neon tube will overlap itself, while staying in the perspective we've established.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0e4103851c67628cfb161c79c883b3ec.jpg" class="loaded" src="./123_files/71319_0e4103851c67628cfb161c79c883b3ec.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Complete each letter</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_422c340847c79bb829b6d53032f90b3b.jpg" class="loaded" src="./123_files/71319_422c340847c79bb829b6d53032f90b3b.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Use the <strong>Move Tool</strong> to move this layer up and to the left so that the sketching appears to be set off from the sign. Go back to the ends of each line and draw an additional piece that dies back into the face of the sign. Remember to keep perspective.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_af171984521d7b6d075cc6d836b6e2e8.jpg" class="loaded" src="./123_files/71319_af171984521d7b6d075cc6d836b6e2e8.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Now, use the <strong>Pen Tool</strong> to trace our sketching, making sure to set the <strong>Mode</strong> to <strong>Path</strong>. Remember that <strong>Control-clicking</strong> in open space will end a path</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d5c01ae8f7b85051e3d9f8f9af32bf84.jpg" class="loaded" src="./123_files/71319_d5c01ae8f7b85051e3d9f8f9af32bf84.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+In order to create the actual tubes, we will borrow the same technique used to create the spiral (spring) cord in my tutorial <a href="https://psd.tutsplus.com/tutorials/illustration/spiral-telephone-cord-photoshop/">Create a Spiral Telephone Cord From Scratch With Photoshop</a>. On a new layer, use the <strong>Ellipse Tool</strong> to draw a circle. This circle should be roughly the diameter we want the final neon tube to be. Fill this circle with a gradient.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e28022cbcebfdfb6252854bb85bdeb87.jpg" class="loaded" src="./123_files/71319_e28022cbcebfdfb6252854bb85bdeb87.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Place copies of the circle swatch at the beginning of each path. The location of these swatches is important as it will determine how the tubes overlap each other—this is particularly important on the letters 'n' and 't'.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_113bd779913debb30cd44da5cb1b397f.jpg" class="loaded" src="./123_files/71319_113bd779913debb30cd44da5cb1b397f.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Before completing the technique, we need to set up the <strong>Smudge Tool</strong>.  Select the <strong>Smudge Tool</strong> and adjust the settings as shown.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a07fe1de3fc8d9f3945a2ebd8290eea8.jpg" class="loaded" src="./123_files/71319_a07fe1de3fc8d9f3945a2ebd8290eea8.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Create a new layer and hide the template layer we drew. Next, go to the <strong>Paths</strong> Panel and <strong>right-click</strong> the path layer that contains all of our letter paths. Select <strong>Stroke Path</strong> and select the <strong>Smudge Tool</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_83e9733e49f90384e9ebd8f0b74954d6.jpg" class="loaded" src="./123_files/71319_83e9733e49f90384e9ebd8f0b74954d6.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Did it work? Chances are some of the neon tubes didn't show up correctly. This is because the technique works only if the paths "start" at the same place as the color swatches. Go ahead and delete the contents of this layer. To make sure all paths start at the same point as the color swatch, switch to the <strong>Pen Tool</strong> and click the end point of an unselected path. This will force the "direction" of the path to end on the last point clicked.  Do this for all necessary paths.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6ba9153a77863a0424e216ddacd13eed.jpg" class="loaded" src="./123_files/71319_6ba9153a77863a0424e216ddacd13eed.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Repeat the steps to<strong> Stroke Path</strong> with the <strong>Smudge Tool</strong>. The results should produce the effect of neon tubes.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a7dbc03ce466e3dd662a42c0c57762f5.jpg" class="loaded" src="./123_files/71319_a7dbc03ce466e3dd662a42c0c57762f5.jpg" data-was-processed="true">
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">5.</span> How to Create the Hardware</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Neon Signs typically have some sort of transition piece where the neon tube dies off into the sign. We will create these hardware pieces. Directly below the <em>Neon Tubes</em> layer, create a new layer group and name it <em>Neon Stoppers</em>. Inside this folder, create a new layer and use the <strong>Ellipse Tool</strong> to create a circle with the fill color as <code class="inline">#76746c</code>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_225051e798c61351dc5514f879c5d109.jpg" class="loaded" src="./123_files/71319_225051e798c61351dc5514f879c5d109.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+<strong>Right-click </strong>this layer and select <strong>Convert to Smart Object.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_347206a627b88cd11b5cab17a5c21da1.jpg" class="loaded" src="./123_files/71319_347206a627b88cd11b5cab17a5c21da1.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p><strong>
+Next, Transform (Control-T)</strong> the shape so that it appears to follow the perspective of the sign.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b51e3f927fa68ffead17d1c4c95062d7.jpg" class="loaded" src="./123_files/71319_b51e3f927fa68ffead17d1c4c95062d7.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Add the following<strong> Layers Styles.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_181c518cacf1fa995239a0f99d303009.jpg" class="loaded" src="./123_files/71319_181c518cacf1fa995239a0f99d303009.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0e277be627ae7a73ea6e344c4111e657.jpg" class="loaded" src="./123_files/71319_0e277be627ae7a73ea6e344c4111e657.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_559799938dfa8c868ba3b8a111ca6a04.jpg" class="loaded" src="./123_files/71319_559799938dfa8c868ba3b8a111ca6a04.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2e4416d67d4d99febd80c7f5581fe6e7.jpg" class="loaded" src="./123_files/71319_2e4416d67d4d99febd80c7f5581fe6e7.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3d5ae1705217a258b1278f7df1223043.jpg" class="loaded" src="./123_files/71319_3d5ae1705217a258b1278f7df1223043.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p><strong>
+</strong>Make a copy&nbsp;<strong>(Control-J)</strong> of this layer and replace the layer styles with the following</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_44533437af40c091d65263d1978e5639.jpg" class="loaded" src="./123_files/71319_44533437af40c091d65263d1978e5639.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_783a8a8d0c7149d334c537988e5df62a.jpg" class="loaded" src="./123_files/71319_783a8a8d0c7149d334c537988e5df62a.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c014dfe19ce11e77783a518dc6333d8f.jpg" class="loaded" src="./123_files/71319_c014dfe19ce11e77783a518dc6333d8f.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_1212c1b2036a37ba554ec4af5788bfbb.jpg" class="loaded" src="./123_files/71319_1212c1b2036a37ba554ec4af5788bfbb.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p><strong>
+Transform (Control-T) </strong>this layer so it sits completely inside of the other ellipse. The effect should be a type of stopper for our neon tubes.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_09d556e6d21e7c179da9e45a48ccf129.jpg" class="loaded" src="./123_files/71319_09d556e6d21e7c179da9e45a48ccf129.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Select both <em>Ellipse</em> <em>layers</em>, right-click, and select <strong>Covert to Smart Object.</strong> Rename to <em>Stopper</em>.<br>
+</p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b568447c9b086733bcea11de2b481ea3.jpg" class="loaded" src="./123_files/71319_b568447c9b086733bcea11de2b481ea3.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Position copies of the stoppers at the starting and ending points of each tube.<br>
+</p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2ef6eb84c236cffc572ff3c50ea7b0d3.jpg" class="loaded" src="./123_files/71319_2ef6eb84c236cffc572ff3c50ea7b0d3.jpg" data-was-processed="true">
+</figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">6.</span> How to Create the Holders</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Neon signs sometimes have additional hardware to help support the tubes. We will create these metal holders. Directly above the <em>Neon Stoppers</em> group, create a new <strong>Group</strong> called <em>Neon Holders</em>. On a new layer, use the <strong>Rectangle Tool</strong> to draw a small rectangle with a <strong>Fill </strong>color of <code class="inline">#76746c</code>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a99dacdfd052d164d6f8edb94a752698.jpg" class="loaded" src="./123_files/71319_a99dacdfd052d164d6f8edb94a752698.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+<strong>Right-click </strong>this layer and select <strong>Convert to Smart Object</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f06f016341bdb6ff711d9562615d1c17.jpg" class="loaded" src="./123_files/71319_f06f016341bdb6ff711d9562615d1c17.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Rename this layer <em>Base Plate</em> and<strong> Transform (Control-T)</strong> the shape so that it appears to follow the perspective of the sign.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5632512fc52bc7f679aab9150273a21b.jpg" class="loaded" src="./123_files/71319_5632512fc52bc7f679aab9150273a21b.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Add a <strong>Bevel and Emboss Layer Style</strong> to the shape.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_35a98f9cbdca57d0a987d47588342ef5.jpg" class="loaded" src="./123_files/71319_35a98f9cbdca57d0a987d47588342ef5.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_29b5f5e78b9aa286d0548b864764d40d.jpg" class="loaded" src="./123_files/71319_29b5f5e78b9aa286d0548b864764d40d.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Next, use the <strong>Polygon Tool</strong>, set to 5 sides, and draw a small pentagon using that same fill color as the rectangle. Name this layer <em>Bolt</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_612c551ec37ff61c9455de4a7417b993.jpg" class="loaded" src="./123_files/71319_612c551ec37ff61c9455de4a7417b993.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Convert this layer to a Smart Object and<strong> Transform (Control-T) </strong>it to follow the same perspective as the rectangle.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_03aa8a328129f03ae506ce8b8010c1d1.jpg" class="loaded" src="./123_files/71319_03aa8a328129f03ae506ce8b8010c1d1.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Add the following layer styles to give the bolt some depth. Remember this bolt as we will come back to it later.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7449c33c0791c6d6dab28cefae8b8f43.jpg" class="loaded" src="./123_files/71319_7449c33c0791c6d6dab28cefae8b8f43.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_1088e20ff95a90ede9540e400f798fb6.jpg" class="loaded" src="./123_files/71319_1088e20ff95a90ede9540e400f798fb6.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0321fab50324b655e12541abb19af80b.jpg" class="loaded" src="./123_files/71319_0321fab50324b655e12541abb19af80b.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3fec565a8b03912e72a2494cac6ef953.jpg" class="loaded" src="./123_files/71319_3fec565a8b03912e72a2494cac6ef953.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Next, we will create a cylinder piece. On a new layer, use the <strong>Ellipse Tool</strong> to draw a small circle.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5f15661615c3d0a7fb3a93bf4ff58def.jpg" class="loaded" src="./123_files/71319_5f15661615c3d0a7fb3a93bf4ff58def.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Convert this layer to a Smart Object and <strong>Transform (Control-T)</strong> it to follow the same perspective as the rectangle.<br>
+</p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8c6d4ea5cb3bebfbe8aa14edc02f5cba.jpg" class="loaded" src="./123_files/71319_8c6d4ea5cb3bebfbe8aa14edc02f5cba.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p><strong>
+</strong>Make a copy of the ellipse<strong> (Control-J)</strong> and position it just above the original, following the perspective of the scene.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_71429f42164990740a9f2087d88efc6e.jpg" class="loaded" src="./123_files/71319_71429f42164990740a9f2087d88efc6e.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+On a new layer in between the two shapes, use the <strong>Brush Tool</strong> set with the color <code class="inline">#76746c</code> to paint in the appearance of a complete cylinder.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_10e56ae7dd05ef7addf9c95cabc80d26.jpg" class="loaded" src="./123_files/71319_10e56ae7dd05ef7addf9c95cabc80d26.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 12</h3>
+<p>
+<strong>Merge (Control-E) </strong>the bottom ellipse with the new layer and add the<strong> Gradient</strong><em> </em><strong>Overlay</strong> layer style.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_df6590d05dd70614e91e96b3b56c3351.jpg" class="loaded" src="./123_files/71319_df6590d05dd70614e91e96b3b56c3351.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ff1f9c115dd19438ab5408494e1c8700.jpg" class="loaded" src="./123_files/71319_ff1f9c115dd19438ab5408494e1c8700.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 13</h3>
+<p>
+Next, add the following <strong>Layer Styles </strong>to the top cylinder.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_eaa88ea264dca833490b9a712c5db8b8.jpg" class="loaded" src="./123_files/71319_eaa88ea264dca833490b9a712c5db8b8.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_85eca1b56431b7d69d9347c6d1a7640f.jpg" class="loaded" src="./123_files/71319_85eca1b56431b7d69d9347c6d1a7640f.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b920dde98b040bbc43ae184b5acf74a4.jpg" class="loaded" src="./123_files/71319_b920dde98b040bbc43ae184b5acf74a4.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 14</h3>
+<p>
+Assemble the pieces as shown.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3c2353f15493987201d79846e2f8a6ad.jpg" class="loaded" src="./123_files/71319_3c2353f15493987201d79846e2f8a6ad.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 15</h3>
+<p>
+Use the <strong>Brush Tool</strong> to paint in a thin wire that follows the perspective of our scene. Use the color <code class="inline">#73757b</code>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7aa50c950b5089589b798d2ab4a7a278.jpg" class="loaded" src="./123_files/71319_7aa50c950b5089589b798d2ab4a7a278.jpg" data-was-processed="true"></figure>
+<h3 class="nolinks">Step 16</h3>
+<p>
+Create two new layers named <em>Shadow</em>. Place one below the two Ellipse layers and the other below the <em>Base Plate</em> layer. Use the <strong>Brush Tool</strong>, set to a <strong>Hardness</strong> of <strong>0%</strong>, to add some small shadows as shown. Use the color <code class="inline">#475073</code>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8d5c4a0dfdf7d0cfae7f83c298b7110d.jpg" class="loaded" src="./123_files/71319_8d5c4a0dfdf7d0cfae7f83c298b7110d.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 17</h3>
+<p>
+Select all the layers that make up the neon holders and <strong>Convert to Smart Object.</strong> Place copies of the holder at various intervals under each letter.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_db365e12d59b5f53d7bbc054f6e4b9ab.jpg" class="loaded" src="./123_files/71319_db365e12d59b5f53d7bbc054f6e4b9ab.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 18</h3>
+<p>
+Now that we have the sign holders in place, we can see that we are missing the wire pieces that wrap around the tubes. To finish these top parts of the sign holders, create a new layer directly above the <em>Neon Tubes</em> group. Use the <strong>Brush Tool</strong> set to a <strong>Size</strong> of <strong>1 px</strong> and draw a wire around the neon tube. Do this for every instance of a neon holder. Be sure to follow the contours of the tube.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_69d1ac3b2a4d499bed2885d76aade980.jpg" class="loaded" src="./123_files/71319_69d1ac3b2a4d499bed2885d76aade980.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 19</h3>
+<p>
+Lastly, add the <strong>Drop Shadow Layer Style</strong>. This will make the wire appears as if it is actually resting against the tube.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_337fe3be6be2a58eb87e2c90af5a25c4.jpg" class="loaded" src="./123_files/71319_337fe3be6be2a58eb87e2c90af5a25c4.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_bc8dec484ada57c65901cc04349a5d3a.jpg" class="loaded" src="./123_files/71319_bc8dec484ada57c65901cc04349a5d3a.jpg" data-was-processed="true"></p>
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">7.</span> How to Add Shadows to Neon Tubes.</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Looking back at the final image, we can see that our scene appears to be lit by direct sunlight. This requires the addition of hard shadows to the scene. Go back to the <em>Neon Tubes</em> layer and<strong> double-click </strong>to open the layer styles. Add the following<strong> Layer Styles</strong>. This will add some depth to the tubes.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7f5d7e4bd0a4238062e019eca6fcce22.jpg" class="loaded" src="./123_files/71319_7f5d7e4bd0a4238062e019eca6fcce22.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_bc53d999b130992d6c8e22eb2f1eab7a.jpg" class="loaded" src="./123_files/71319_bc53d999b130992d6c8e22eb2f1eab7a.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c32833eff37894508061b2707d415f16.jpg" class="loaded" src="./123_files/71319_c32833eff37894508061b2707d415f16.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_66e5840740945daf8b36aa23414e47a3.jpg" class="loaded" src="./123_files/71319_66e5840740945daf8b36aa23414e47a3.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e2e64fa76f85e8135e627ef549f20079.jpg" class="loaded" src="./123_files/71319_e2e64fa76f85e8135e627ef549f20079.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Next, we'll add a layer style to the <em>Neon Tubes</em> layer group. Add a <strong>Drop Shadow Layer Style </strong>to the group.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e0ff7905b75cf4794ec8bc20b8a1df17.jpg" class="loaded" src="./123_files/71319_e0ff7905b75cf4794ec8bc20b8a1df17.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c274ba4b481e7e7fa7404ed9ce17e196.jpg" class="loaded" src="./123_files/71319_c274ba4b481e7e7fa7404ed9ce17e196.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+It's obvious that the drop shadow effect is not an accurate shadow and needs some editing. To make the drop shadow effect into an editable layer, <strong>right-click</strong> the layer group and select<strong> Create Layer</strong>. This will extract the drop shadow effect to its own layer<br>
+</p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b3ba5d313ddfb10b8f113419bc1b03a1.jpg" class="loaded" src="./123_files/71319_b3ba5d313ddfb10b8f113419bc1b03a1.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Using the <strong>Brush Tool</strong> and the <strong>Eraser Tool</strong>, re-work the ends of the drop shadow so that they come off the neon tubes correctly.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_23742c913e80c453611e6e676e18fedf.jpg" class="loaded" src="./123_files/71319_23742c913e80c453611e6e676e18fedf.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Next, we'll create a harsher shadow on the neon tubes. Go back to the <em>Neon Tube</em><strong> </strong>group and add an<strong> Inner Shadow Layer Style.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6d4f267fefdd499d63d95b26b39379e4.jpg" class="loaded" src="./123_files/71319_6d4f267fefdd499d63d95b26b39379e4.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_861f1ed61dfbf3440a14785995d96fd6.jpg" class="loaded" src="./123_files/71319_861f1ed61dfbf3440a14785995d96fd6.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Just like we did with the <strong>Drop Shadow Layer Style</strong>, <strong>right-click</strong> and <strong>Create Layer</strong> to extract the <strong>Inner Shadow Layer Style.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c8270ca34a02a613768fa03ef690ea2a.jpg" class="loaded" src="./123_files/71319_c8270ca34a02a613768fa03ef690ea2a.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Looking close up at some of the letters, we can see that the <em>Inner Shadow</em> needs some touchup work. Use the <strong>Brush Tool</strong> and the <strong>Eraser Tool</strong> to clean up these shadows.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_06da4ff388ed7ef7f81f886587877a3e.jpg" class="loaded" src="./123_files/71319_06da4ff388ed7ef7f81f886587877a3e.jpg" data-was-processed="true">
+</figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">8.</span> How to Add Paneling to Sign</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Notice the green backing of our sign. As it's designed now, it appears to be one solid piece. If this sign existed in the real world, it would more likely be divided up into panels. To create the illusion of paneling, find the <em>Inside Face</em> layer and make a copy of it <strong>(Control-J)</strong><strong>. </strong>Apply the <strong>Color Overlay Layer Style.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_89bc87d03bd83018603d4f89b816cba6.jpg" class="loaded" src="./123_files/71319_89bc87d03bd83018603d4f89b816cba6.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a54a9bd3a9ec37b7369380752d8777fd.jpg" class="loaded" src="./123_files/71319_a54a9bd3a9ec37b7369380752d8777fd.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c10529bc0848679084cd1f653b49750e.jpg" class="loaded" src="./123_files/71319_c10529bc0848679084cd1f653b49750e.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+<strong>Alt-click </strong>the <strong>Add Layer Mask</strong> icon in the <strong>Layers</strong> Panel to add a reversed mask. This should hide the <em>Color Overlay</em> we just applied.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_50490ade0237e06cda289b7b28cf63de.jpg" class="loaded" src="./123_files/71319_50490ade0237e06cda289b7b28cf63de.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Click the mask's thumbnail to activate it and, with a small brush, draw straight lines down the face of the sign and regular intervals. It may help to create a temporary template to identify where you want to make these lines.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_53b9f07c299ec5ecf3a3d617b935d856.jpg" class="loaded" src="./123_files/71319_53b9f07c299ec5ecf3a3d617b935d856.jpg" data-was-processed="true">
+</figure>
+<hr>
+<h2 class="nolinks">
+<span class="sectionnum">9.</span> How to Add Detail to the Metal Frame.</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+The metal frame appears very plain. There are a few things we can do to add more detail. To add corner creases to the metal frame, first find the <em>Metal Face</em> layer and add a <strong>Layer Mask</strong>. Use the <strong>Brush Tool</strong> set to <strong>Size</strong> of <strong>1 px</strong>, and add a line at each of the four corners of the sign.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_699a477062ea1717094cd5e4bab4ae46.jpg" class="loaded" src="./123_files/71319_699a477062ea1717094cd5e4bab4ae46.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+To add some depth to the metal frame, we need to add some layers styles. Start with the <em>Metal Face</em> layer and add the following <strong>Layer Styles:</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b711cb07376675d13204bd5d50e69ae9.jpg" class="loaded" src="./123_files/71319_b711cb07376675d13204bd5d50e69ae9.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_fdb831186aedfa01fc7799b396a137b4.jpg" class="loaded" src="./123_files/71319_fdb831186aedfa01fc7799b396a137b4.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c2429a449cc6cce2b451f5ef893724fa.jpg" class="loaded" src="./123_files/71319_c2429a449cc6cce2b451f5ef893724fa.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Next, find the <em>Side Edge</em> layer and apply the following <strong>Layer Styles.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7f6181ab12179d4f1d8b4dc606581515.jpg" class="loaded" src="./123_files/71319_7f6181ab12179d4f1d8b4dc606581515.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3bb76b42680eef610facb4c1fd213019.jpg" class="loaded" src="./123_files/71319_3bb76b42680eef610facb4c1fd213019.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3de6efa550425fb43125e36c5795ca9a.jpg" class="loaded" src="./123_files/71319_3de6efa550425fb43125e36c5795ca9a.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_718469bcb3cb2fb33dad621e6c45fe3c.jpg" class="loaded" src="./123_files/71319_718469bcb3cb2fb33dad621e6c45fe3c.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_992fcc25d0fd969ecbafba930fa26162.jpg" class="loaded" src="./123_files/71319_992fcc25d0fd969ecbafba930fa26162.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Now, find the <em>Bottom Edge</em> layer and apply the following <strong>Layer Styles.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8e9f873d293842772e6ce7dbce9ba8e0.jpg" class="loaded" src="./123_files/71319_8e9f873d293842772e6ce7dbce9ba8e0.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_bbeb00495bb235609315041b967b3542.jpg" class="loaded" src="./123_files/71319_bbeb00495bb235609315041b967b3542.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_88c01ae14d1f5dc9c8e57d953fdf8412.jpg" class="loaded" src="./123_files/71319_88c01ae14d1f5dc9c8e57d953fdf8412.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_9d417be0f93eacd764ecd699e2262903.jpg" class="loaded" src="./123_files/71319_9d417be0f93eacd764ecd699e2262903.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6d040bfcfdb6a398a322cce3b107a0fc.jpg" class="loaded" src="./123_files/71319_6d040bfcfdb6a398a322cce3b107a0fc.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Take a look at the top, right edge of our sign. Currently, it appears as a perfect edge, which rarely exists in the real world. We will build out a lip from the top edge of our sign to resemble actual construction techniques. Start by transforming <strong>(Control-T)</strong> the <em>Side Edge</em> layer to bring down the top edge a small amount.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2b85ef92b3426256cfd8a1ec8cec1ab2.jpg" class="loaded" src="./123_files/71319_2b85ef92b3426256cfd8a1ec8cec1ab2.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3545d03671955bf7d219e0ecd0cd30d8.jpg" class="loaded" src="./123_files/71319_3545d03671955bf7d219e0ecd0cd30d8.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Next, make a copy of the <em>Side Edge</em> layer and move it behind the original <em>Side Edge</em> layer. <strong>Transform (Control-T) </strong>it so that it becomes the top edge of our sign.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3239f54339c3ed1c0a9fa7d1ce3ad527.jpg" class="loaded" src="./123_files/71319_3239f54339c3ed1c0a9fa7d1ce3ad527.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+To give this piece some depth, adjust the existing <strong>Layer Styles</strong> to the following.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7118da18b98f9b79ff231eb8a8de8ae0.jpg" class="loaded" src="./123_files/71319_7118da18b98f9b79ff231eb8a8de8ae0.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e134811ced7d6ef313cd8811bc6fefae.jpg" class="loaded" src="./123_files/71319_e134811ced7d6ef313cd8811bc6fefae.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7668f6b07e1ec03df452287dc7de3a3e.jpg" class="loaded" src="./123_files/71319_7668f6b07e1ec03df452287dc7de3a3e.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e8f96b95cefe44a9a1194fd2294380d9.jpg" class="loaded" src="./123_files/71319_e8f96b95cefe44a9a1194fd2294380d9.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d7a9bf6c59f89afd830c71bc46324f9e.jpg" class="loaded" src="./123_files/71319_d7a9bf6c59f89afd830c71bc46324f9e.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+You may notice that the edges of our sign still have perfect, sharp points. To round these out, go through each of the metal frame layers and add a layer mask to hide these sharp corners.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d47e8eb67f921103433819fe31ba8655.jpg" class="loaded" src="./123_files/71319_d47e8eb67f921103433819fe31ba8655.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+To give the metal framework some additional depth, make a copy of the <em>Inside Face</em> layer and reduce the <strong>Opacity</strong> to<strong> 0%.</strong> Next, add<strong> </strong>the<strong> </strong><strong>Inner Shadow</strong><strong> layer style.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_52dd0623ea9bfba308e3a19380545b6d.jpg" class="loaded" src="./123_files/71319_52dd0623ea9bfba308e3a19380545b6d.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_de64575633a15db16c9ad8ff9404f7cd.jpg" class="loaded" src="./123_files/71319_de64575633a15db16c9ad8ff9404f7cd.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0229bb7501eabf469a4a92911280db14.jpg" class="loaded" src="./123_files/71319_0229bb7501eabf469a4a92911280db14.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Now, remember those bolts that we created for the sign holders in Section 6? We are going to use those bolts around the metal frame of our sign. In order to extract them, find the <em>Neon Tube Holder</em> Smart Object and <strong>double-click</strong> to open.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_35f3ee948cb4ce8768e531698b1e98f2.jpg" class="loaded" src="./123_files/71319_35f3ee948cb4ce8768e531698b1e98f2.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Click and drag the <em>Bolt</em> Smart Object to our working document</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7745ceb2556f9accc1d030790c06f3b2.jpg" class="loaded" src="./123_files/71319_7745ceb2556f9accc1d030790c06f3b2.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 12</h3>
+<p>
+Place copies of the bolt around the sides of the metal frame. It may be necessary to <strong>Transform (Control-T)</strong> or adjust the <em>Drop Shadow</em> layer style to make them follow the perspective.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a9b0f4f4e0579f3649af612804e0a460.jpg" class="loaded" src="./123_files/71319_a9b0f4f4e0579f3649af612804e0a460.jpg" data-was-processed="true">
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">10.</span> How to Add Basic Weathering Effects</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+It's now time to start weathering the sign. Add a <strong>Hue/Saturation Adjustment Layer</strong> as a clipping layer to the <em>Inside Face</em> layer. The goal is to neutralize the colors a little.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ae41637eb52ac6f2435cf9a6640a318f.jpg" class="loaded" src="./123_files/71319_ae41637eb52ac6f2435cf9a6640a318f.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+The next part of this step requires us to create a custom brush. Start with the <strong>Chalk 60 px</strong> brush and make the following adjustment in the <strong>Brush</strong> Panel. Save this brush.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3ea1fac513e1e7e520598919a59cd976.jpg" class="loaded" src="./123_files/71319_3ea1fac513e1e7e520598919a59cd976.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_89043de812b60c74a9f0748f9e50134a.jpg" class="loaded" src="./123_files/71319_89043de812b60c74a9f0748f9e50134a.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Create a new layer named <em>Wear</em> and add the<strong> Inner Shadow Layer Style.</strong> This will add some dimensions to the chipped paint effect that we are about to add.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_efc99c1d6cf19f7516a2e6326aa5689b.jpg" class="loaded" src="./123_files/71319_efc99c1d6cf19f7516a2e6326aa5689b.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_fc59710e14969bf902e02e153cf5c168.jpg" class="loaded" src="./123_files/71319_fc59710e14969bf902e02e153cf5c168.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Before we paint, it may help to add a new layer mask to the <em>Wear</em> layer. To do this, find the layers that make up the general shape of the sign and<em><strong> </strong></em><strong>Control-click </strong>the layer's thumbnail to make a selection. Moving to another layer, <strong>Control-Shift-Click </strong>the layer's thumbnail to add to the selection. Do this for the remaining sign layers until the selection encompasses the entire sign. Use this selection when adding a layer mask.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_9f3ecee8404bbc732867e8409be85be4.jpg" class="loaded" src="./123_files/71319_9f3ecee8404bbc732867e8409be85be4.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_25de74fd9cb8d4fdd7b1c4fb03a41f7a.jpg" class="loaded" src="./123_files/71319_25de74fd9cb8d4fdd7b1c4fb03a41f7a.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Now, with the new brush we just created, paints spots of white around the edges of each letter, up and down each panel separation, and around the corners of the sign. The effect should resemble areas of chipped paint.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8544db08c69a6b41f3a31f651643c4e4.jpg" class="loaded" src="./123_files/71319_8544db08c69a6b41f3a31f651643c4e4.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+On a new layer named <em>Water Damage</em>, use the same custom brush, set to a smaller size, and paint in streaks of water damage down from each letter.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_eef4424833f988f45eb39c5f101d5327.jpg" class="loaded" src="./123_files/71319_eef4424833f988f45eb39c5f101d5327.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Set the <strong>Blend Mode</strong> to <strong>Screen</strong> and the <strong>Opacity</strong> to 20%.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_59217d19903a7ba22be358ba41e5b188.jpg" class="loaded" src="./123_files/71319_59217d19903a7ba22be358ba41e5b188.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+On a new layer positioned directly below the <em>Neon Stoppers</em>, with the same custom brush, paint in streaks of rust using the color <code class="inline">#714c34</code>. Reduce the <strong>Opacity</strong> to<strong> 72%</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_efbb13a4bf6b332f5a0caf2409a9e426.jpg" class="loaded" src="./123_files/71319_efbb13a4bf6b332f5a0caf2409a9e426.jpg" data-was-processed="true">
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">11.</span> How to Edit  the Smart Object</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+The rest of the step will be devoted to building up texture on our sign. We will start of the green sign face. Currently, it's a smooth green color. Our goal is to roughen up this texture. Find the <em>Inside Face</em> layer and <strong>double-click</strong> the thumbnail to edit the Smart Object.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ed5d5240c407185f05f2fe7e39f12154.jpg" class="loaded" src="./123_files/71319_ed5d5240c407185f05f2fe7e39f12154.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_057f01b384b80b30b70edc704173222f.jpg" class="loaded" src="./123_files/71319_057f01b384b80b30b70edc704173222f.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Add a <strong>Hue/Saturation Adjustment Layer</strong> to tone back the color.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_4f3c1f504b2535af87f64fbd2bf85781.jpg" class="loaded" src="./123_files/71319_4f3c1f504b2535af87f64fbd2bf85781.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Next, we will add some custom texture through a series of steps. Create a new layer and use the <strong>Paint Bucket Tool</strong> to fill with white. Next, make sure your Foreground and Background Colors  are set to black and white, then add the <em>Clouds</em><strong> filter (Filter &gt; Render &gt; Clouds) </strong>and the<strong> Noise filter (Filter &gt; Noise &gt; Add Noise)</strong>. The amount doesn't matter, just as long as we get a really noisy cloud pattern.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_61a1d17e5b2d24f2a6f7437bc6aab999.jpg" class="loaded" src="./123_files/71319_61a1d17e5b2d24f2a6f7437bc6aab999.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_1fc337208022f7f472d3732c674334b4.jpg" class="loaded" src="./123_files/71319_1fc337208022f7f472d3732c674334b4.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Now, add a <strong>Motion Blur (Filter &gt; Blur &gt; Motion Blur)</strong> with a <strong>Radius</strong> of<strong> 90 degrees</strong> and a <strong>Distance</strong> of <strong>1000px. Scale </strong><em><strong>(</strong></em><strong>Control-T)</strong> the layer up at least <strong>250%.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5e1f438d0d999fa949fdb7a61a48438d.jpg" class="loaded" src="./123_files/71319_5e1f438d0d999fa949fdb7a61a48438d.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p><strong>
+Add a Gaussian Blur filter (Filter &gt; Blur &gt; Gaussian Blur) </strong>to soften everything up. Change this <strong>Blending Mode</strong> to<strong> Overlay </strong>and the <strong>Opacity</strong> to<strong> 75%</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_a0c4635f2c5ab7b0c3485dcbabccadaa.jpg" class="loaded" src="./123_files/71319_a0c4635f2c5ab7b0c3485dcbabccadaa.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+As an optional step, you can add another layer with a black-to-white gradient. To add some additional texture to the gradient, apply the<strong> Noise</strong> filter and the <strong>Gaussian Blur</strong> filter. Set the <strong>Blending Mode</strong> to <strong>Multiply </strong>and the <strong>Opacity</strong> to <strong>18%</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_80f9ae650d9f802cea19548bb95e91d0.jpg" class="loaded" src="./123_files/71319_80f9ae650d9f802cea19548bb95e91d0.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_4f3859d60fead4023410ad5b36a812e2.jpg" class="loaded" src="./123_files/71319_4f3859d60fead4023410ad5b36a812e2.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Finally, <strong>Save </strong><strong>(Control-S)</strong> the Smart Object and close the document. When you return to the working document, you should see that the <em>Inside Face</em> layer has updated to reflect the changes.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f0d215efab01331e9f7736a6430476c2.jpg" class="loaded" src="./123_files/71319_f0d215efab01331e9f7736a6430476c2.jpg" data-was-processed="true">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">12.</span> How to Add Texture to the Sign Face</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Now that we've built up some texture on the Smart Object, we can start to add more texture to the sign's face. Working on a new layer group below the <em>Wear</em> and <em>Water Damage</em> texturing effects, create a new layer filled with <strong>50% Gray.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b24b3488ff7c953deca0f2977cc6af0a.jpg" class="loaded" src="./123_files/71319_b24b3488ff7c953deca0f2977cc6af0a.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Add the <strong>Noise </strong>filter<strong> (Filter &gt; Noise &gt; Add Noise) </strong>with an <strong>Amount</strong> of <strong>17%.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8e6c8991debaecdce4423a39654587d5.jpg" class="loaded" src="./123_files/71319_8e6c8991debaecdce4423a39654587d5.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Add <strong>Motion Blur (Filter &gt; Blur &gt; Motion Blur) with a Radius</strong> of<strong> 90 degrees </strong>and a <strong>Distance</strong> of <strong>40px.</strong></p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c9fd8b85fa24080e118ab6dcdb6ee99e.jpg" class="loaded" src="./123_files/71319_c9fd8b85fa24080e118ab6dcdb6ee99e.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Lastly, add the<strong> Emboss </strong>filter<strong> (Filter &gt; Stylize &gt; Emboss) </strong>with an <strong>Angle</strong> of <strong>35 degrees</strong>, a <strong>Height</strong> of<strong> 2 px </strong>and an <strong>Amount</strong> of <strong>35%.</strong></p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_adce6454bc0a992f39d8696db22af980.jpg" class="loaded" src="./123_files/71319_adce6454bc0a992f39d8696db22af980.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+<strong>Transform </strong><em><strong>(</strong></em><strong>Control-T)</strong> this layer so the grain follows the perspective of the sign. Set the <strong>Blending Mode</strong> to <strong>Overlay.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0406da5380064aa48ab6658d0a03e4c0.jpg" class="loaded" src="./123_files/71319_0406da5380064aa48ab6658d0a03e4c0.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_bf2783340d8aed37f37f55a69dc1e895.jpg" class="loaded" src="./123_files/71319_bf2783340d8aed37f37f55a69dc1e895.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Create a new layer, and with the Foreground and Background colors set to Black and White, add the <strong>Clouds</strong> filter <strong>(Filter &gt; Render &gt; Clouds).</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e9cbd3b11b9b20ef2cbfa617df94dd57.jpg" class="loaded" src="./123_files/71319_e9cbd3b11b9b20ef2cbfa617df94dd57.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p><strong>
+</strong>Add the<strong> Noise </strong>filter <strong>(Filter &gt; Noise &gt; Add Noise)</strong> with an <strong>Amount</strong> of <strong>26%</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_91d45b585f3a6280cd1ca2f88c227e9d.jpg" class="loaded" src="./123_files/71319_91d45b585f3a6280cd1ca2f88c227e9d.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Add <strong>Motion Blur (Filter &gt; Blur &gt; Motion Blur) </strong>with a <strong>Radius</strong> of <strong>6 degrees </strong>and a <strong>Distance</strong> of <strong>750px.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_4542d1673a161b0540bf073f1f253e88.jpg" class="loaded" src="./123_files/71319_4542d1673a161b0540bf073f1f253e88.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Next, add a <strong>Gaussian Blur </strong>filter<strong> (Filter &gt; Blur &gt; Gaussian Blur) </strong>with a <strong>Radius</strong> of <strong>2 px</strong> to soften everything.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5befb49e06a1d8ce94727eb1ba5d2d77.jpg" class="loaded" src="./123_files/71319_5befb49e06a1d8ce94727eb1ba5d2d77.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Next, <strong>double-click</strong> this layer to access the <strong>Layer Styles</strong>. Adjust the <strong>Blend If</strong> sliders so both textures interact with each other. Below are the settings I used—this will vary on your file.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2a7354e78ce3bb78125ce8e6bc585946.jpg" class="loaded" src="./123_files/71319_2a7354e78ce3bb78125ce8e6bc585946.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6527f0b03c77d81d0042809d1fabb464.jpg" class="loaded" src="./123_files/71319_6527f0b03c77d81d0042809d1fabb464.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Add one more layer and fill with a rusty color, such as <code class="inline">#43260c</code>. Make this layer a clipping layer to the one directly below. The resulting effect should make our sign appear more weathered.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f053ebe7235024e5ef2cf187c938d960.jpg" class="loaded" src="./123_files/71319_f053ebe7235024e5ef2cf187c938d960.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 12</h3>
+<p>
+The last thing we need to do is add a layer mask so only the green sign is affected by the weathering effects. Find the <em>Inside Face</em> layer and <strong>Control-click</strong> the thumbnail to make a selection. With the selection active, go back and select the <em>Sign Texture</em> group. Click the <strong>Add Layer Mask</strong> icon in the Layers panel to create a new layer mask using the selection.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_619fae2fc8e226905ce35df5a0fc861c.jpg" class="loaded" src="./123_files/71319_619fae2fc8e226905ce35df5a0fc861c.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_836ec5b8c535e1f8149db0c786eb211c.jpg" class="loaded" src="./123_files/71319_836ec5b8c535e1f8149db0c786eb211c.jpg" data-was-processed="true"></p>
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">13.</span> How to Add Rust Chipping</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+To give our sign additional weathering effects, we can included areas of rust and cracking. To create spots of rust, we must first create some organic shapes in another document. Create a <strong>New Document (File &gt; New) </strong>at<strong> 4300 px by 3000 px </strong>and add the <strong>Clouds</strong> filter<strong> (Filter &gt; Render &gt; Clouds).</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d841102aa9d3d920f8e49420f084329c.jpg"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_9c35b7149ed72f8c822aef514e12f2c6.jpg"></p>
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Go to <em><strong>Image &gt; Adjustments &gt; Threshold </strong></em>and adjust the <strong>Threshold Level</strong> to around <strong>80</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d9910e98797b3a76a7ee374438b48c4f.jpg">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Next, go to the <strong>Channels</strong> Panel and <strong>Control-click</strong> the <strong>RGB channel's</strong> thumbnail. This will select everything white.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_134fb63d7ff251ffb2d9571c092af225.jpg">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Since we want only the black areas to be selected go to <strong>Select &gt; Inverse.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0543414972283bc34d714288890a87f2.jpg">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Next, create a new layer and use the <strong>Paint Bucket Tool</strong> to fill the selection with <strong>50% gray.</strong></p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f60372ba71eda3ba761deac562ad48bb.jpg">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Hide the <em>Background</em> layer so we can see the organic shapes on a transparent background.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7249790a4929610576093e09512116a7.jpg" class="loaded" src="./123_files/71319_7249790a4929610576093e09512116a7.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Use the <strong>Lasso Tool</strong> to select a shape and <strong>Copy (Control-C)</strong><em><strong> </strong></em>and <strong>Paste (Control-V)</strong> the shape into our working document. Make sure to place this layer somewhere below the <em>Inside Face copy</em> layer (the one with the <em>Inner Shadow</em> layer style) and move the shape so that it sits under one of the letters</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2cea541da30882ad836f8fbdfc376ba4.jpg" class="loaded" src="./123_files/71319_2cea541da30882ad836f8fbdfc376ba4.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_52bb43cba8e49a93991b92a69f9e6c4c.jpg" class="loaded" src="./123_files/71319_52bb43cba8e49a93991b92a69f9e6c4c.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Now, place this layer inside a new layer group called <em>Rust</em>. Apply the following <strong>Layer Styles</strong> to the group.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7b5e073fb8e1f8858bab419240f20b73.jpg" class="loaded" src="./123_files/71319_7b5e073fb8e1f8858bab419240f20b73.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f9860a9e31e4b8cb93c878d42feb03f8.jpg" class="loaded" src="./123_files/71319_f9860a9e31e4b8cb93c878d42feb03f8.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_0d50d9003fab48a230a50b41debe6257.jpg" class="loaded" src="./123_files/71319_0d50d9003fab48a230a50b41debe6257.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e1f46f5f1fadb0121772498722a21203.jpg" class="loaded" src="./123_files/71319_e1f46f5f1fadb0121772498722a21203.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_28b71c0331987a6b3ced95e39248f62b.jpg" class="loaded" src="./123_files/71319_28b71c0331987a6b3ced95e39248f62b.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ba47b6d644403cd3d89b08e24e706d1d.jpg" class="loaded" src="./123_files/71319_ba47b6d644403cd3d89b08e24e706d1d.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Continue to go back to our rust shapes document and <strong>Copy</strong> and<strong> Paste </strong>random shapes into our working scene, placing them inside the <em>Rust</em> layer group folder. Additionally, it helps to add a layer mask to the Rust group using the <em>Inside Face</em> layer.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_42699db61b4169276919ab6ea5e93103.jpg" class="loaded" src="./123_files/71319_42699db61b4169276919ab6ea5e93103.jpg" data-was-processed="true">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">14.</span> How to Add Cracking to the Rust</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Typically, you will find cracking and chipping around the edges of rust spots. To create this effect, we must first create a new layer below our Rust group (for organization sake, I am placing this layer inside a layer group).</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_43a556b45be082679c5bceef72bbfe97.jpg" class="loaded" src="./123_files/71319_43a556b45be082679c5bceef72bbfe97.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Fill this layer with any color, then add a <strong>Pattern Overlay Layer Style</strong> with the following settings. Make sure to select the<strong> </strong><strong>Blistered Paint</strong><strong> Pattern.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_b548de91aa2b3ae6a5b1b5ae3acf6dce.jpg" class="loaded" src="./123_files/71319_b548de91aa2b3ae6a5b1b5ae3acf6dce.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_73ae1fd91aa4eab97777fd1799bfa28e.jpg" class="loaded" src="./123_files/71319_73ae1fd91aa4eab97777fd1799bfa28e.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+<strong>Right-click </strong>this layer and select<strong> Rasterize Layer Style.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6520390e2f2f2ecdabea100f7709c800.jpg" class="loaded" src="./123_files/71319_6520390e2f2f2ecdabea100f7709c800.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Next, go to <strong>Image &gt; Adjustments &gt; Invert </strong>to invert the colors.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3eb34e97648293aa9f9417f28cc50006.jpg" class="loaded" src="./123_files/71319_3eb34e97648293aa9f9417f28cc50006.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p><strong>
+Go to Image &gt; Adjustments &gt; Levels </strong>and adjust the <strong>Levels</strong> to sharpen up the lines</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_749a10260eb6ddb20b0603f396078a37.jpg" class="loaded" src="./123_files/71319_749a10260eb6ddb20b0603f396078a37.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Now, before we complete the next step, we are going to move this layer. Go ahead and move this layer to the top of the layer stack.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_cd7cbc4fe0fd3700abdd54c7308990df.jpg" class="loaded" src="./123_files/71319_cd7cbc4fe0fd3700abdd54c7308990df.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p><strong>
+</strong>Next, go to the <strong>Channels</strong> Panel and<strong> Control-click</strong> the <strong>RGB</strong><strong> channel's</strong> thumbnail. This will select the white lines.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_f5bfc81599518a394f4273a312f84857.jpg" class="loaded" src="./123_files/71319_f5bfc81599518a394f4273a312f84857.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Delete this layer and create a new layer in the <em>Cracking</em> layer group we created earlier. Use the <strong>Pain Bucket Tool</strong> to fill the selection with a dark brown color, such as <code class="inline">#261808</code>. Hide the other layer. Make sure to <strong>Deselect (Control-D) </strong>the cracks to see the results.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_c1ba5a271435996e01b9d172720b50f3.jpg" class="loaded" src="./123_files/71319_c1ba5a271435996e01b9d172720b50f3.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Set the <strong>Blend Mode</strong> to <strong>Multiply</strong> and the <strong>Opacity</strong> to 57%.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6662232a4bc6b207d02d66035378aeb2.jpg">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Select the <em>Cracking</em> layer group and hold down <strong>Alt</strong> while clicking the <strong>Add Layer Mask</strong> icon. This will create a new mask pre-filled with black which will hide the cracking.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7afb97e2d12f4e3546c0d0ae188523bc.jpg">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Go throughout the scene and, using white, paint in areas around the rust patches to reveal the cracking. I've also added some cracking to the paneling lines.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2728b35602b9d855c14cf8d003d008f4.jpg">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">15.</span> How to Texture the Metal Frame</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+We will now focus on adding some textures to the metal frame. Find the <em>Metal Frame</em><strong> </strong>group and add the <strong>Levels Adjustment Layer </strong>as a clipping layer to darken the frame slightly.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3b0534777ffeb05b28171d100dd48340.jpg">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Next, find the <em>Metal Face</em> layer and <strong>double-click</strong> the thumbnail to edit the Smart Object.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6f8a56841d186e821e70f82cee29e187.jpg">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Use the <strong>Gradient Tool</strong> to add a<strong> Linear Gradient </strong>with the colors <code class="inline">#cfd1b8</code> to <code class="inline">#989a99</code></p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_2032d307968ef29316ccd35baca7b4b8.jpg" class="loaded" src="./123_files/71319_2032d307968ef29316ccd35baca7b4b8.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Add the<em><strong> </strong></em><strong>Noise </strong>filter<strong> (Filter &gt; Noise &gt; Add Noise)</strong><em> </em>with an<em><strong> </strong></em><strong>Amount</strong> of <strong>4%.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_59a39359bd5ea67f6eadfc06a2161138.jpg" class="loaded" src="./123_files/71319_59a39359bd5ea67f6eadfc06a2161138.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Go to <strong>Filter &gt; Blur &gt; Blur More</strong> to soften the noise.</p>
+<p></p><figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ad8e09b19c0373ce12c9401592293941.jpg" class="loaded" src="./123_files/71319_ad8e09b19c0373ce12c9401592293941.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+<strong>Save (Control-S) </strong>the Smart Object and return to the working document to see the changes.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_90583ba210ade3bf2511d11638a950f8.jpg" class="loaded" src="./123_files/71319_90583ba210ade3bf2511d11638a950f8.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+Next, select the <em>Side Edge, Top Edge</em> and <em>Bottom Edge</em> layers and group them <strong>(Control-G).</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6d521da18e6a9f0689c5ffbb0081c14e.jpg" class="loaded" src="./123_files/71319_6d521da18e6a9f0689c5ffbb0081c14e.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+Create a new <strong>Clipping Layer</strong> to this group and fill with black. Name this layer <em>Noise</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5540ed2debf4b3b91b578846c04c760c.jpg" class="loaded" src="./123_files/71319_5540ed2debf4b3b91b578846c04c760c.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 9</h3>
+<p>
+Add the <strong>Noise</strong> filter<strong> (Filter &gt; Noise &gt; Add Noise)</strong> with an <strong>Amount</strong> of <strong>26%</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_3df9b2a9320ab40e0b10e393c6787237.jpg" class="loaded" src="./123_files/71319_3df9b2a9320ab40e0b10e393c6787237.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 10</h3>
+<p>
+Add the<strong> Gaussian Blur </strong>filter <strong>(Filter &gt; Blur &gt; Gaussian Blur)</strong> with a <strong>Radius</strong> of <strong>0.7 px</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ced1cd2dcb405df20e18ef7a2bbb2fd0.jpg" class="loaded" src="./123_files/71319_ced1cd2dcb405df20e18ef7a2bbb2fd0.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 11</h3>
+<p>
+Set the <strong>Blend Mode</strong> to <strong>Darker Color</strong> and the <strong>Opacity</strong> to <strong>12%.</strong></p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_75047b8e2f96707649e4d7dc5656ccb0.jpg" class="loaded" src="./123_files/71319_75047b8e2f96707649e4d7dc5656ccb0.jpg" data-was-processed="true">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">16.</span> How to Roughen Up the Metal Frame</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+Create a new layer called Dents anywhere above the <em>Metal Frame</em> group. Set the <strong>Blend Mode</strong> to <strong>Dissolve</strong> and the <strong>Fill</strong> to <strong>0%</strong>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_48168457221583811ae3bb30033c4e39.jpg" class="loaded" src="./123_files/71319_48168457221583811ae3bb30033c4e39.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Add the<strong> Bevel and Emboss Layer Style.</strong></p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_ebb7e6456ea06f6eeafee4efedb06f42.jpg" class="loaded" src="./123_files/71319_ebb7e6456ea06f6eeafee4efedb06f42.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_7af338038d9722dfb0499f2be359298a.jpg" class="loaded" src="./123_files/71319_7af338038d9722dfb0499f2be359298a.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+So far nothing has happened since there is no content on this layer. Use the same custom brush we created for the rust and set it to a small size. Paint around the metal frame to see small dents instantly appear.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_dbc1568f271e9bedae9804d2eda80426.jpg" class="loaded" src="./123_files/71319_dbc1568f271e9bedae9804d2eda80426.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+Continue to add dents around the metal frame. You may notice that some of the dents show up outside the frame. We'll fix this next.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_e1283a2197730f1d7b58939fe8242404.jpg" class="loaded" src="./123_files/71319_e1283a2197730f1d7b58939fe8242404.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+To constrain the dents to the metal frame only, use the <em>Metal Face, Side Edge, Top Edge</em> and <em>Bottom Edge</em> layers to help make a selection. <strong>Control-Click</strong> one of the thumbnails to make an initial selection, then<strong> Control-Shift-Click </strong>the other thumbnails to add to the selection. The result should be a selection around the entire sign.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_588e7064236c4887c331add2bbeab74e.jpg" class="loaded" src="./123_files/71319_588e7064236c4887c331add2bbeab74e.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 6</h3>
+<p>
+Next, <strong>Control-Alt-Click</strong> the <em>Inside Face</em> layer to deselect the interior of the sign. The result should be a selection around the metal frame only, excluding the <em>Inside Face</em>.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_44d86121089e7c51c3b838722c79cdd1.jpg" class="loaded" src="./123_files/71319_44d86121089e7c51c3b838722c79cdd1.jpg" data-was-processed="true"></figure>
+<h3 class="nolinks">Step 7</h3>
+<p>
+With the <em>Dents</em> layer selected, click the <strong>Add Layer Mask</strong> icon in the<strong> Layers</strong> Panel to create a new layer mask from the selection.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_d099bef57ad5bf9228d8f36ca76af035.jpg" class="loaded" src="./123_files/71319_d099bef57ad5bf9228d8f36ca76af035.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 8</h3>
+<p>
+As an optional step, you can add a second layer of larger dents. Experiment with the <strong>Opacity</strong> and different brush sizes.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_9435ef1e822290150999047e9e8b676f.jpg" class="loaded" src="./123_files/71319_9435ef1e822290150999047e9e8b676f.jpg" data-was-processed="true">
+</figure>
+
+<h2 class="nolinks">
+<span class="sectionnum">17.</span> How to Finish Texturing the Sign</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+The next thing to do is to go back through our scene and paint in some additional rust using the same techniques we used in Section 10. Use the custom brush to add streaks of rust coming off the rust patches</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_5ab3a443e816db17301f7f5d86a5cb57.jpg" class="loaded" src="./123_files/71319_5ab3a443e816db17301f7f5d86a5cb57.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Next, adds some rust around the bolts and edges of the metal frame.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_1bf062ff66ccf7b46ccee5b7f72e26b9.jpg" class="loaded" src="./123_files/71319_1bf062ff66ccf7b46ccee5b7f72e26b9.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Add another layer of rust streaks. This time, use a much larger brush set to a much lower <strong>Opacity</strong>. Consider where the water might build up; under existing rust spots, under each letter, down each panel separation, etc. The effect should be subtle.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_89f759160c7ee238ef975f46bc2ed961.jpg" class="loaded" src="./123_files/71319_89f759160c7ee238ef975f46bc2ed961.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p>
+On a layer above the <em>Flat Logo</em> layer, paint in larger, subtle rust streaks coming off each stopper and sign holder.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_9871197b242d35d5802cd5598b77a26a.jpg" class="loaded" src="./123_files/71319_9871197b242d35d5802cd5598b77a26a.jpg" data-was-processed="true">
+</figure>
+<h2 class="nolinks">
+<span class="sectionnum">18.</span> How to Add Reflections to the Metal Frame.</h2>
+<h3 class="nolinks">Step 1</h3>
+<p>
+The last thing we can do to our scene is to add some bounce light on the metal frame.  Start by creating a new layer placed above all of the texturing effects. Use the <strong>Brush Tool</strong>—set to a large size and a <strong>0%</strong> <strong>Hardness</strong>—to paint in random dots over the side edge of the metal frame.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_8d733e65591f3062ae40e30001af305e.jpg" class="loaded" src="./123_files/71319_8d733e65591f3062ae40e30001af305e.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 2</h3>
+<p>
+Since we started with the side of the metal frame, find the corresponding layer, <em>Side Edge</em>, and <strong>Control-click</strong> its thumbnail to make a selection.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_37e4b62e6fb3778fd1fc7220861fd1fb.jpg" class="loaded" src="./123_files/71319_37e4b62e6fb3778fd1fc7220861fd1fb.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 3</h3>
+<p>
+Navigate back to the <em>Side reflection</em> layer and click the <strong>Apply layer Mask</strong> icon on the layers panel.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_01f805e3e849c6018b72a5ea3fbc77a9.jpg" class="loaded" src="./123_files/71319_01f805e3e849c6018b72a5ea3fbc77a9.jpg" data-was-processed="true">
+</figure>
+<h3 class="nolinks">Step 4</h3>
+<p><strong>
+</strong>Next, <strong>double-click </strong>this layer to open the layer styles. Adjust the<strong> Blend If</strong> sliders until the highlight appears to become more specular. Your settings may vary.</p>
+<figure>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_75369c8b95905ae35562a5ed0b7cab53.jpg" class="loaded" src="./123_files/71319_75369c8b95905ae35562a5ed0b7cab53.jpg" data-was-processed="true"></p>
+<p><img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_38d758f44d92cb7ef2a712bdbfa0e9a1.jpg" class="loaded" src="./123_files/71319_38d758f44d92cb7ef2a712bdbfa0e9a1.jpg" data-was-processed="true"></p>
+</figure>
+<h3 class="nolinks">Step 5</h3>
+<p>
+Repeat this effect to the bottom edge of our frame.</p>
+<figure class="post_image">
+          <img alt="" data-src="https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/71319/images/71319_6b32ff62d900785d718b2426410bf046.jpg" class="loaded" src="./123_files/71319_6b32ff62d900785d718b2426410bf046.jpg" data-was-processed="true">
+</figure>
+<hr>
+<h2 class="nolinks">Conclusion</h2>
+<p>This tutorial has been an elaborate demonstration of several advanced techniques to create a realistic scene that doesn’t exist in real-life. We've learned how to effectively use Smart Object to retain quality, use and extract Layer Styles to add custom edits as well create custom brushes and elaborate textures, all within the confines of Photoshop. As you can see, you don't have to use photographs or be a talented digital painter to produce realistic artwork. The final image should resemble the following.</p><figure class="post_image"><img alt="Create a Retro Sign in Photoshop" data-src="https://cms-assets.tutsplus.com/uploads/users/346/posts/17470/image/retrosignfinal.jpg" class="loaded" src="./123_files/retrosignfinal(1).jpg" data-was-processed="true"></figure></div></div></div></div></article></main></div><footer class="page-footer view view--loaded"></footer><script type="text/javascript">
+/* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="./123_files/f(1).txt">
+</script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
+<div data-tether-id="1" style="top: 0px; left: 0px; position: absolute;"></div><div class="sticky-ad tether-element tether-enabled tether-out-of-bounds tether-element-attached-left tether-target-attached-left tether-out-of-bounds-left tether-abutted tether-abutted-top tether-element-attached-top tether-target-attached-top tether-abutted-left tether-out-of-bounds-top" style="top: 0px; left: 0px; position: fixed; transform: translateX(0px) translateY(0px) translateZ(0px);"><div class="avert fuse-ad"><div class="avert__wrapper"><div class="avert__content"><div data-fuse="21764355525"></div></div><div class="avert__label">Advertisement</div></div></div><div class="free-trial-highlight orange"><img data-src="https://static.tutsplus.com/assets/tuts_logo-cf1e6fd0e5ca6cc573eb3cd0c94e16d7.svg" alt="envato-tuts+" class="free-trial-highlight__logo" src="https://design.tutsplus.com/tutorials/create-a-retro-sign-from-scratch-using-advanced-techniques-in-photoshop--psd-23903"><div class="free-trial-highlight__header"><div class="free-trial-highlight__line-one"><span class="free-trial-highlight__text">Watch</span> <span class="free-trial-highlight__highlight-text">any</span></div><div class="free-trial-highlight__line-two"><span class="free-trial-highlight__text">course now</span> </div></div><a href="https://tutsplus.com/subscription_sign_up/monthly?ec_unit=sidebar-sticky"><div class="free-trial-highlight__action"><div class="free-trial-highlight__action-text">Subscribe to Access</div><div class="free-trial-highlight__action-button"><span class="fa fa-angle-right"></span></div></div></a></div></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./123_files/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe style="display: none;" src="./123_files/saved_resource.html"></iframe></body></html>
