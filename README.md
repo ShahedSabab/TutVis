@@ -13,7 +13,7 @@
 >incldues all the scripts to generate tutorial's features (i.e., feature engineering) that have been used to train the model.
 
 #Classification 
->includes the scripts to train_test using random forest, grid search for hyper parameter optimazation and feature importance visualization.
+>includes the scripts to train_test using random forest, grid search for hyperparameter optimazation and feature importance visualization.
 
 #Calculation of topic coherence and perplexity 
 >includes scripts to calculate the coherence and perplexity of the topic model.
