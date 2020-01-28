@@ -1,1 +1,0 @@
-![](tutVis.png)
