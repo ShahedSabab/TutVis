@@ -1,9 +1,9 @@
 # tutVis
-A photoshop tutorial browsing system where each tutorial is annotated with the tutorial’s difficulty (advanced/ beginner), topics, length, text difficulty, and commands usage. The information presented on the browsing interface is automatically calculated using different machine learning algorithms. 
-• The browsing interface is developed using angular js, node js, d3 js, chart js, and bootstrap.
-• The features are generated using the topic modeling algorithm LDA, readability formulas and heuristic calculations. 
-• The machine learning part has been developed using python (scikit-learn, gensim). 
-• For the classification of the tutorial’s difficulty Random Forest algorithm is used.
+A photoshop tutorial browsing system where each tutorial is annotated with the tutorial’s difficulty (advanced/ beginner), topics, length, text difficulty, and commands usage. The information presented on the browsing interface is automatically calculated using different machine learning algorithms.<br/>
+• The browsing interface is developed using angular js, node js, d3 js, chart js, and bootstrap.<br/>
+• The features are generated using the topic modeling algorithm LDA, readability formulas and heuristic calculations. <br/>
+• The machine learning part has been developed using python (scikit-learn, gensim). <br/>
+• For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
 
 # UI folder
 contains the web interface of the prototype which visualizes the auto generated features from the machine learning model.
