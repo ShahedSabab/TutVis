@@ -5,9 +5,8 @@ A photoshop tutorial browsing system where each tutorial is annotated with the t
 • The machine learning part has been developed using python (scikit-learn, gensim). <br/>
 • For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
 
-<p>
-    <img src="UI/images/tutVis.PNG" width="1024" height="720" />
-</p>
+
+![](UI/images/interface.PNG)
 
 # UI folder
 contains the web interface of the prototype which visualizes the auto generated features from the machine learning model.
