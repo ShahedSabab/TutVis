@@ -4,8 +4,7 @@ A photoshop tutorial browsing system where each tutorial is annotated with the t
 • The features are generated using the topic modeling algorithm LDA, readability formulas and heuristic calculations. <br/>
 • The machine learning part has been developed using python (scikit-learn, gensim). <br/>
 • For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
-
-
+# Interface
 ![](UI/images/interface.PNG)
 
 # UI folder
