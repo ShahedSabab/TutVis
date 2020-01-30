@@ -1,7 +1,7 @@
 # tutVis
 ![](UI/images/interface.PNG?raw=true)
 
-A photoshop tutorial browsing system where each tutorial is annotated with the tutorial’s difficulty (advanced/ beginner), topics, length, text difficulty, and commands usage. The information presented on the browsing interface is automatically calculated using different machine learning algorithms.<br/>
+A photoshop tutorial browsing system where each tutorial is annotated with the tutorial’s difficulty (advanced/ beginner), topics, length, text complexity, and commands usage. The information presented on the browsing interface is automatically calculated using different machine learning algorithms.<br/>
 • The browsing interface is developed using angular js, node js, d3 js, chart js, and bootstrap.<br/>
 • The features are generated using the topic modeling algorithm LDA, readability formulas and heuristic calculations. <br/>
 • The machine learning part has been developed using python (scikit-learn, gensim). <br/>
