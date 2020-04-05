@@ -4,6 +4,9 @@
 ## Document Distribution Per Topic
 ![](document_distribution_per_topic.PNG?raw=true)
 
+## Topic analysis using pyLDAVis
+![](malletLDA_30topics_V1.png?raw=true)
+
 ## Random Forest Feature Importance
 ![](feature_importance.PNG?raw=true)
 
