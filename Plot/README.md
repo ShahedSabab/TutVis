@@ -4,6 +4,9 @@
 ## Document Distribution Per Topic
 ![](document_distribution_per_topic.PNG?raw=true)
 
+## Document Distribution (dominant topic) across Topics 
+![](dominant_topic_document_distribution.PNG?raw=true)
+
 ## Topic analysis using pyLDAVis
 ![](malletLDA_30topics_V1.PNG?raw=true)
 
