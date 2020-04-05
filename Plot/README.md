@@ -1,1 +1,1 @@
-![](document topic distribution.PNG?raw=true)
+![](document_topic_distribution.PNG?raw=true)
