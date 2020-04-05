@@ -6,3 +6,6 @@
 
 ## Random Forest Feature Importance
 ![](feature_importance.PNG?raw=true)
+
+## Random Forest ROC/AUC
+![](random_forest_roc.png?raw=true)
