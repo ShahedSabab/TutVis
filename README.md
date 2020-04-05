@@ -11,7 +11,7 @@ A photoshop tutorial browsing system where each tutorial is annotated with the t
 contains the web interface of the prototype which visualizes the auto generated features from the machine learning model.
 
 # Plot directory
-contatins scripts to visualize different aspects of the model.
+contatins scripts to visualize different aspects and exploratory data analysis of the model.
 
 # LearningCurve directory
 contatins script to build a learning curve for this model.
