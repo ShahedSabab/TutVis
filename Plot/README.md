@@ -7,6 +7,8 @@
 ## Topic analysis using pyLDAVis
 ![](malletLDA_30topics_V1.PNG?raw=true)
 
+NB: For interactive viz check malletLDA_30topics_V1.html
+
 ## Random Forest Feature Importance
 ![](feature_importance.PNG?raw=true)
 
