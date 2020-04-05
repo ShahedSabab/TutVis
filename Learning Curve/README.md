@@ -1,1 +1,1 @@
-![](learning_curve.PNG?raw=true)
+![](learning_curve.png?raw=true)
