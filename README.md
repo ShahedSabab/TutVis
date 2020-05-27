@@ -8,19 +8,19 @@ A photoshop tutorial browsing system where each tutorial is annotated with the t
 • For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
 
 # UI directory
-contains the web interface of the prototype which visualizes the auto generated features from the machine learning model.
+This directory contains the project for the web interface of the prototype which visualizes the auto generated features from the machine learning model.
 
 # Plot directory
-contatins scripts to visualize different aspects and exploratory data analysis of the model.
+This directory contatins scripts to visualize different aspects and exploratory data analysis of the model.
 
 # LearningCurve directory
-contatins script to build a learning curve for this model.
+This directory contatins a script to build the learning curve for this model.
 
 # Feature Generation directory
-incldues all the scripts to generate tutorial's features (i.e., feature engineering) that have been used to train the model.
+This directory incldues all the scripts to generate tutorial's features (i.e., feature engineering) that have been used to train the model.
 
 # Classification directory
-includes the scripts to train_test using random forest, grid search for hyperparameter optimazation and feature importance visualization.
+This directory includes the scripts to train_test using random forest, grid search for hyperparameter optimazation and feature importance visualization.
 
 # Calculation of topic coherence and perplexity directory
-includes scripts to calculate the coherence and perplexity of the topic model.
+This directory includes scripts to calculate the coherence and perplexity of the topic model.
