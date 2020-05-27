@@ -1,13 +1,13 @@
 # TutVis
 ![](UI/images/interface.PNG?raw=true)
 
-Online text and video tutorails are among the most popular and heavily used resources for learning feature-rich software applications (e.g., Photoshop, Weka, AutoCAD, Fusion 360). However, when searching, users can find it difficult to assess whether a tutorials is designed for their level of expertise. TutVis stands for tutorial visualization, which is a Photoshop tutorial browsing system that provides information to assist users in tutorial selection and searching. The provided information are as follows: difficulty level (advanced/beginner), topics covered, length, text complexity, command usage ratio. These information are automatically calculated using different supervervised and unsupervised machine learning algorithms.
+Online text and video tutorials are among the most popular and heavily used resources for learning feature-rich software applications (e.g., Photoshop, Weka, AutoCAD, Fusion 360). However, when searching, users can find it difficult to assess whether a tutorial is designed for their level of expertise. TutVis stands for tutorial visualization, which is a Photoshop tutorial browsing system that provides information to assist users in the tutorial selection and searching. The provided information is as follows: difficulty level (advanced/beginner), topics covered, length, text complexity, command usage ratio. This information is automatically calculated using different supervised and unsupervised machine learning algorithms.
 
 • The browsing interface is developed using angular js, node js, d3 js, chart js, and bootstrap.<br/>
 • The training data (1300 text and video tutorials of Photoshop and Fusion 360) is collected from 13 different sources. <br>
-• The information/features are generated (feature engineering) using the topic modeling algorithm (LDA), readability formulas and heuristic calculations. <br/>
+• The information/features are generated (feature engineering) using the topic modeling algorithm (LDA), readability formulas, and heuristic calculations. <br/>
 • For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
-• The calssificaiton model can classify a tutorial's difficulty (advacned/beginner) with 85% accuracy.
+• The classification model can classify a tutorial's difficulty (advanced/beginner) with 85% accuracy.
 
 # UI directory
 This directory contains the project for the web interface of the prototype which visualizes the auto generated features from the machine learning model.
