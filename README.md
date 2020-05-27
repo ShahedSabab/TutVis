@@ -13,10 +13,10 @@ This directory contains the project for the web interface of the prototype which
 # Plot directory
 This directory contatins scripts to visualize different aspects and exploratory data analysis of the model.
 
-# LearningCurve directory
+# Learning Curve directory
 This directory contatins a script to build the learning curve for this model.
 
-# Feature Generation directory
+# Feature generation directory
 This directory incldues all the scripts to generate tutorial's features (i.e., feature engineering) that have been used to train the model.
 
 # Classification directory
