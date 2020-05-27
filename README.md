@@ -1,7 +1,7 @@
 # TutVis
 ![](UI/images/interface.PNG?raw=true)
 
-Online text and video tutorails are among the most popular and heavily used resources for learning feature-rich software applications (e.g., Photoshop, Weka, AutoCAD, Fusion 360). However, when searching, users can find it difficult to assess whether a tutorials is designed for their level of expertise. TutVis stands for tutorial visualization, which is a tutorial browsing system that provides information to assist users in tutorial selection and searhcing. The provided information are as follows: difficulty level (advanced/beginner), topics covered, length, text complexity, command usage ratio. Theese information are automatically calculated using different supervervised and unsupervised machine learning algorithms.
+Online text and video tutorails are among the most popular and heavily used resources for learning feature-rich software applications (e.g., Photoshop, Weka, AutoCAD, Fusion 360). However, when searching, users can find it difficult to assess whether a tutorials is designed for their level of expertise. TutVis stands for tutorial visualization, which is a tutorial browsing system that provides information to assist users in tutorial selection and searhcing. The provided information are as follows: difficulty level (advanced/beginner), topics covered, length, text complexity, command usage ratio. These information are automatically calculated using different supervervised and unsupervised machine learning algorithms.
 
 • The browsing interface is developed using angular js, node js, d3 js, chart js, and bootstrap.<br/>
 • The information/features are generated using the topic modeling algorithm (LDA), readability formulas and heuristic calculations. <br/>
