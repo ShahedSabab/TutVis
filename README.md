@@ -9,6 +9,8 @@ Online text and video tutorials are among the most popular and heavily used reso
 • For the classification of the tutorial’s difficulty Random Forest algorithm is used.<br/>
 • The classification model can classify a tutorial's difficulty (advanced/beginner) with 85% accuracy.
 
+Publication Source: [Check the publication](https://ieeexplore.ieee.org/abstract/document/9127271)
+
 # UI directory
 This directory contains the project for the web interface of the prototype which visualizes the auto generated features from the machine learning model.
 
